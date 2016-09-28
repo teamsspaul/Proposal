@@ -1,0 +1,15 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Project Goals}{3}{0}{1}
+\beamer@sectionintoc {2}{Background}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{New MCNP6 Features}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{CGMF and FREYA}{6}{0}{2}
+\beamer@subsectionintoc {2}{3}{DRiFT}{7}{0}{2}
+\beamer@subsectionintoc {2}{4}{DANCE and NEUANCE}{8}{0}{2}
+\beamer@subsectionintoc {2}{5}{Stilbene Detector}{12}{0}{2}
+\beamer@sectionintoc {3}{MCNP6 Settings}{14}{0}{3}
+\beamer@subsectionintoc {3}{1}{GEB Parameters}{16}{0}{3}
+\beamer@subsectionintoc {3}{2}{DE and DF Cards}{23}{0}{3}
+\beamer@sectionintoc {4}{DRiFT}{25}{0}{4}
+\beamer@sectionintoc {5}{Future Work}{29}{0}{5}
+\beamer@sectionintoc {6}{Questions?}{31}{1}{6}

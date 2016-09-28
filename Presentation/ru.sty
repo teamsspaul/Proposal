@@ -55,16 +55,14 @@
 %%%
 
 % Background
-% \pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{zia_symbol}
-% \setbeamertemplate{background}{\pgfuseimage{bg}}
+%\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{NM}
+%\setbeamertemplate{background}{\pgfuseimage{bg}}
 
 % Colors
 % Set accent/theme color
-% \usecolortheme[RGB={37,29,124}]{structure}
-\usecolortheme[RGB={216,90,26}]{structure}
+\usecolortheme[RGB={80,0,0}]{structure}
 % Set background color
-% \definecolor{myback}{RGB}{18,14,62}
-\definecolor{myback}{RGB}{55,55,55}
+\definecolor{myback}{RGB}{0,0,0,}
 
 \setbeamercolor{section in head/foot}{bg=myback}
 \setbeamercolor{frametitle}{parent=subsection in head/foot}
@@ -91,24 +89,44 @@
   \begin{beamercolorbox}[wd=.25\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
     \usebeamerfont{author in head/foot}\insertshortdate
   \end{beamercolorbox}%
-  \begin{beamercolorbox}[wd=.416667\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+  \begin{beamercolorbox}[wd=.417\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
     \usebeamerfont{title in head/foot}\insertshorttitle
   \end{beamercolorbox}%
-   \begin{beamercolorbox}[wd=0.083333\paperwidth,ht=2.25ex,dp=1ex,right]{title in head/foot}%
+  \hspace{-3px}
+   \begin{beamercolorbox}[wd=0.089\paperwidth,ht=2.25ex,dp=1ex,right]{title in head/foot}%
     \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
   \end{beamercolorbox}}%
   \vskip0pt%
 }
 
+%%% RIGHT-HAND SIDE LOGO
 \defbeamertemplate*{headline}{ru theme}{%
   \leavevmode%
   \@tempdimb=2.4375ex%
     \multiply\@tempdimb by\beamer@sectionmax%
-  \pgfdeclareimage[height=\@tempdimb]{logo}{los-alamos-lab-logo-white}%
-  \logo{\pgfuseimage{logo}}%
+  %\pgfdeclareimage[height=\@tempdimb]{logo}{TEES_NSSPI_Acronym_logo_WHT}%
+  %\logo{\pgfuseimage{logo}}%
   \ifdim\@tempdimb>0pt%
     \advance\@tempdimb by 1.125ex%
     \begin{beamercolorbox}[wd=.5\paperwidth,ht=\@tempdimb,right]{section in head/foot}%
+      \vbox to\@tempdimb{\vfil\insertsectionnavigation{.5\paperwidth}\vfil}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=\@tempdimb,center]{subsection in head/foot}%
+      \vbox to\@tempdimb{\vfil\vfil\insertlogo\vfil\vfil}%
+    \end{beamercolorbox}%
+  \fi%
+}
+
+%%% LEFT-HAND SIDE LOGO
+\defbeamertemplate*{headline-left}{ru theme}{%
+  \leavevmode%
+  \@tempdimb=2.4375ex%
+    \multiply\@tempdimb by\beamer@sectionmax%
+  \pgfdeclareimage[height=\@tempdimb]{logo}{ksulogo}%
+  \logo{\pgfuseimage{logo}}%
+  \ifdim\@tempdimb>0pt%
+    \advance\@tempdimb by 1.125ex%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=\@tempdimb,left]{section in head/foot}%
       \vbox to\@tempdimb{\vfil\insertsectionnavigation{.5\paperwidth}\vfil}%
     \end{beamercolorbox}%
     \begin{beamercolorbox}[wd=.5\paperwidth,ht=\@tempdimb,center]{subsection in head/foot}%
@@ -141,8 +159,8 @@
           \vbox{}%
           \end{minipage}}%
       \beamer@tempdim=\ht\beamer@tempbox%
-      \advance\beamer@tempdim by 2pt%
-      \begin{pgfpicture}{0.1mm}{0pt}{1.01\paperwidth}{\beamer@tempdim}
+      \advance\beamer@tempdim by 0pt%
+      \begin{pgfpicture}{0.0mm}{0pt}{1.01\paperwidth}{\beamer@tempdim}
         \usebeamercolor{frametitle right}
         \pgfpathrectangle{\pgfpointorigin}{\pgfpoint{\paperwidth}{\beamer@tempdim}}
         \pgfusepath{clip}
