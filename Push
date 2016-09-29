@@ -8,6 +8,7 @@ proc = subprocess.Popen(["git status"], stdout=subprocess.PIPE, shell=True)
 out=out.decode("utf-8")
 out=out.split("\n")
 for item in out:
+    item=item.replace("#","")
     if "modified:" in item:
         item=item.replace("modified:","")
         item=item.replace(" ","")
