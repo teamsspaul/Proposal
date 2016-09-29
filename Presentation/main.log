@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.30)  28 SEP 2016 16:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.30)  29 SEP 2016 12:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1358,31 +1358,146 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@thisruleclass=\count175
 \@lastruleclass=\count176
 \@thisrulewidth=\dimen280
+)
+(/home/paul/texmf/tex/latex/pxfonts/pxfonts.sty
+Package: pxfonts 2008/01/22 v1.1.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/pxr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/pxr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/pxr/m/n --> OT1/pxr/bx/n on input line 22.
+\symitalic=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/pxr/m/it --> OT1/pxr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/pxr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/pxr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/pxr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/pxr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/pxr/m/it --> OT1/pxr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/pxss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/pxss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/pxss/m/n --> OT1/pxss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/pxtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/pxtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/pxtt/m/n --> OT1/pxtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/pxmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/pxmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/pxmi/m/it --> OML/pxmi/bx/it on input line 59.
+\symlettersA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/pxmia/m/it --> U/pxmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/pxsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/pxsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/pxsy/m/n --> OMS/pxsy/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/pxsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/pxsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/pxsya/m/n --> U/pxsya/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/pxsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/pxsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/pxsyb/m/n --> U/pxsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/pxsyc/m/n --> U/pxsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/pxex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/pxex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/pxex/m/n --> OMX/pxex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/pxexa/m/n --> U/pxexa/bx/n on input line 129.
+LaTeX Info: Redefining \not on input line 997.
+LaTeX Info: Redefining \textsquare on input line 1017.
+LaTeX Info: Redefining \openbox on input line 1018.
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 49.
+LaTeX Font Info:    Checking defaults for OML/pxmi/m/it on input line 55.
+LaTeX Font Info:    Try loading font information for OML+pxmi on input line 55.
+
+
+(/home/paul/texmf/tex/latex/pxfonts/omlpxmi.fd
+File: omlpxmi.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/pxsy/m/n on input line 55.
+LaTeX Font Info:    Try loading font information for OMS+pxsy on input line 55.
+
+
+(/home/paul/texmf/tex/latex/pxfonts/omspxsy.fd
+File: omspxsy.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/pxex/m/n on input line 55.
+LaTeX Font Info:    Try loading font information for OMX+pxex on input line 55.
+
+
+(/home/paul/texmf/tex/latex/pxfonts/omxpxex.fd
+File: omxpxex.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/pxexa/m/n on input line 55.
+LaTeX Font Info:    Try loading font information for U+pxexa on input line 55.
+
+(/home/paul/texmf/tex/latex/pxfonts/upxexa.fd
+File: upxexa.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Try loading font information for OT1+pxss on input line 55.
 
+
+(/home/paul/texmf/tex/latex/pxfonts/ot1pxss.fd
+File: ot1pxss.fd 2000/12/14 v1.0
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1447,7 +1562,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring OFF on input line 49.
+Package hyperref Info: Link coloring OFF on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1457,56 +1572,56 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count183
 )
-LaTeX Info: Redefining \ref on input line 49.
-LaTeX Info: Redefining \pageref on input line 49.
-LaTeX Info: Redefining \nameref on input line 49.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 49.
+(Font)                  OT1/pxr/m/n --> OT1/cmss/m/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 49.
-\symnumbers=\mathgroup6
-\sympureletters=\mathgroup7
+(Font)                  OT1/pxr/bx/n --> OT1/cmss/bx/n on input line 55.
+\symnumbers=\mathgroup10
+\sympureletters=\mathgroup11
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 49.
+(Font)                  OT1/cmss/m/n --> OT1/pxr/m/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 49.
+(Font)                  OT1/pxr/bx/n --> OT1/pxss/bx/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 49.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 49.
+(Font)                  OT1/pxr/bx/n --> OT1/pxss/bx/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 49.
+(Font)                  OT1/pxss/m/n --> OT1/pxss/m/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 49.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 49.
+(Font)                  OT1/pxss/b/n --> OT1/pxss/m/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 49.
+(Font)                  OT1/pxr/m/it --> OT1/pxss/m/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 49.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 49.
+(Font)                  OT1/pxr/bx/it --> OT1/pxss/m/it on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 49.
+(Font)                  OT1/pxtt/m/n --> OT1/pxtt/m/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 49.
+(Font)                  OT1/pxtt/b/n --> OT1/pxtt/m/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 49.
+(Font)                  OT1/pxss/m/n --> OT1/pxss/bx/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 49.
+(Font)                  OT1/pxss/m/it --> OT1/pxss/bx/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 49.
+(Font)                  OT1/cmss/bx/n --> OT1/pxr/bx/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 49.
+(Font)                  OT1/pxss/bx/n --> OT1/pxss/bx/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 49.
+(Font)                  OT1/pxss/m/n --> OT1/pxss/bx/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 49.
+(Font)                  OT1/pxss/m/it --> OT1/pxss/bx/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 49.
+(Font)                  OT1/pxtt/m/n --> OT1/pxtt/bx/n on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
 ic-dictionary/translator-basic-dictionary-English.dict
@@ -1532,792 +1647,87 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 49.
+LaTeX Info: Redefining \includegraphics on input line 55.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 49.
+LaTeX Info: Redefining \selectfont on input line 55.
  (./main.nav)
-Overfull \hbox (1.30325pt too wide) in paragraph at lines 49--49
+Overfull \hbox (0.84622pt too wide) in paragraph at lines 55--55
 [][]  
  []
 
-<tamu_system_proposed_seal_042915.JPG, id=77, 401.5pt x 397.485pt>
+<tamu_system_proposed_seal_042915.JPG, id=21, 401.5pt x 397.485pt>
 File: tamu_system_proposed_seal_042915.JPG Graphic file (type jpg)
 
 <use tamu_system_proposed_seal_042915.JPG>
 Package pdftex.def Info: tamu_system_proposed_seal_042915.JPG used on input lin
-e 62.
+e 68.
 (pdftex.def)             Requested size: 227.62204pt x 225.3497pt.
 
-<tees_logo_primary_maroon.png, id=78, 290.2845pt x 36.8577pt>
+<tees_logo_primary_maroon.png, id=22, 290.2845pt x 36.8577pt>
 File: tees_logo_primary_maroon.png Graphic file (type png)
 
 <use tees_logo_primary_maroon.png>
-Package pdftex.def Info: tees_logo_primary_maroon.png used on input line 62.
+Package pdftex.def Info: tees_logo_primary_maroon.png used on input line 68.
 (pdftex.def)             Requested size: 142.26378pt x 18.06323pt.
 
-<TEES_NSSPI_logo_HMaroon.png, id=80, 224.7597pt x 26.7399pt>
+<TEES_NSSPI_logo_HMaroon.png, id=24, 224.7597pt x 26.7399pt>
 File: TEES_NSSPI_logo_HMaroon.png Graphic file (type png)
 
 <use TEES_NSSPI_logo_HMaroon.png>
-Package pdftex.def Info: TEES_NSSPI_logo_HMaroon.png used on input line 62.
+Package pdftex.def Info: TEES_NSSPI_logo_HMaroon.png used on input line 68.
 (pdftex.def)             Requested size: 142.26378pt x 16.92578pt.
 
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 62.
-
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
+Overfull \hbox (0.84622pt too wide) has occurred while \output is active
 [][] 
  []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[1{/home/paul/.texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./tamu_system_proposed_seal_042915.JPG> <./tees_logo_primary_maroon.png> <./T
 EES_NSSPI_logo_HMaroon.png>] (./main.toc)
-<TEES_NSSPI_Acronym_logo_WHT.png, id=118, 225.4824pt x 80.2197pt>
+<TEES_NSSPI_Acronym_logo_WHT.png, id=60, 225.4824pt x 80.2197pt>
 File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
 
 <use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 77.
+Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 83.
 
 (pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
 
-<imageedit_2_7317234434.jpg, id=119, 90.3375pt x 90.3375pt>
+<imageedit_2_7317234434.jpg, id=61, 90.3375pt x 90.3375pt>
 File: imageedit_2_7317234434.jpg Graphic file (type jpg)
 
 <use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 77.
+Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 83.
 (pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
 
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
+Overfull \hbox (0.84622pt too wide) has occurred while \output is active
 [][] 
  []
 
 [2
 
  <./imageedit_2_7317234434.jpg> <./TEES_NSSPI_Acronym_logo_WHT.png>]
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
-
-<use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 87.
-
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
- <use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 87.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[3
-
-]
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
- <use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 93.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[4
-
-]
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 107
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
- <use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 107.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[5
-
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 139.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 139.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
-
-<use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 139
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-
-Overfull \vbox (6.14662pt too high) detected at line 139
- []
-
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
-<use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 139.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[6
-
-]
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 150
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
- <use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 150.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[7
-
-] <dance.png, id=204, 275.5896pt x 245.2362pt>
-File: dance.png Graphic file (type png)
- <use dance.png>
-Package pdftex.def Info: dance.png used on input line 165.
-(pdftex.def)             Requested size: 151.57474pt x 134.88033pt.
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
-
-<use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 165
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
- <use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 165.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[8
-
- <./dance.png>] <dance1.jpg, id=217, 803.0pt x 656.4525pt>
-File: dance1.jpg Graphic file (type jpg)
- <use dance1.jpg>
-Package pdftex.def Info: dance1.jpg used on input line 170.
-(pdftex.def)             Requested size: 240.90186pt x 196.93727pt.
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
-
-<use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 170
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-
-Overfull \vbox (7.8947pt too high) detected at line 170
- []
-
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
-<use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 170.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[9
-
- <./dance1.jpg>] <dance2.jpg, id=229, 385.44pt x 513.92pt>
-File: dance2.jpg Graphic file (type jpg)
- <use dance2.jpg>
-Package pdftex.def Info: dance2.jpg used on input line 175.
-(pdftex.def)             Requested size: 154.17326pt x 205.56435pt.
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
-
-<use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 175
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-
-Overfull \vbox (16.52177pt too high) detected at line 175
- []
-
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
-<use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 175.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[10
-
- <./dance2.jpg>] <NeuancePicture.png, id=241, 464.73625pt x 462.72874pt>
-File: NeuancePicture.png Graphic file (type png)
-
-<use NeuancePicture.png>
-Package pdftex.def Info: NeuancePicture.png used on input line 192.
-(pdftex.def)             Requested size: 116.18378pt x 115.6819pt.
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 192
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
-
-<use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 192.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[11
-
- <./NeuancePicture.png>]
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 205
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
-
-<use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 205.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[12
-
-] <interactionCoeff.pdf, id=264, 578.16pt x 433.62pt>
-File: interactionCoeff.pdf Graphic file (type pdf)
-
-<use interactionCoeff.pdf>
-Package pdftex.def Info: interactionCoeff.pdf used on input line 211.
-(pdftex.def)             Requested size: 260.16959pt x 195.1272pt.
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 211
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
-
-<use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 211.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[13
-
- <./interactionCoeff.pdf>]
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
- <use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 217.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[14
-
-]
-
-Package natbib Warning: Citation `Hansen' on page 15 undefined on input line 23
-3.
-
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
-<use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 233
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
- <use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 233.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[15
-
-]
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 258
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-
-Overfull \vbox (13.8276pt too high) detected at line 258
- []
-
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
-<use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 258.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[16
-
-] <1stCalibration.pdf, id=361, 719.08652pt x 513.11702pt>
-File: 1stCalibration.pdf Graphic file (type pdf)
-
-<use 1stCalibration.pdf>
-Package pdftex.def Info: 1stCalibration.pdf used on input line 271.
-(pdftex.def)             Requested size: 201.34285pt x 143.67178pt.
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 271
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-
-Overfull \vbox (8.36693pt too high) detected at line 271
- []
-
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
-<use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 271.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[17
-
- <./1stCalibration.pdf>]
-
-Package natbib Warning: Citation `Kim' on page 18 undefined on input line 298.
-
-<GaussPeakFit.png, id=408, 578.16pt x 433.62pt>
-File: GaussPeakFit.png Graphic file (type png)
- <use GaussPeakFit.png>
-Package pdftex.def Info: GaussPeakFit.png used on input line 298.
-(pdftex.def)             Requested size: 173.44933pt x 130.087pt.
-
-Overfull \hbox (19.8044pt too wide) in paragraph at lines 298--298
- [] 
- []
-
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
-<use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 298
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
- <use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 298.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[18
-
- <./GaussPeakFit.png>] <FWHM_values1.pdf, id=424, 578.16pt x 433.62pt>
-File: FWHM_values1.pdf Graphic file (type pdf)
-
-<use FWHM_values1.pdf>
-Package pdftex.def Info: FWHM_values1.pdf used on input line 329.
-(pdftex.def)             Requested size: 173.44933pt x 130.087pt.
-
-Overfull \hbox (19.8044pt too wide) in paragraph at lines 329--329
- [] 
- []
-
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
-<use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 329
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-
-Overfull \vbox (8.12085pt too high) detected at line 329
- []
-
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
-<use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 329.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[19
-
- <./FWHM_values1.pdf>]
-<MCNP_Comparison_1cal.pdf, id=465, 719.08652pt x 513.11702pt>
-File: MCNP_Comparison_1cal.pdf Graphic file (type pdf)
-
-<use MCNP_Comparison_1cal.pdf>
-Package pdftex.def Info: MCNP_Comparison_1cal.pdf used on input line 340.
-(pdftex.def)             Requested size: 251.68405pt x 179.59364pt.
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 340
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-
-Overfull \vbox (13.60143pt too high) detected at line 340
- []
-
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
-<use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 340.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[20
-
- <./MCNP_Comparison_1cal.pdf>]
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 375.
-
-
-Overfull \hbox (25.18762pt too wide) detected at line 375
-[]
- []
-
-<FWHM_values2.pdf, id=516, 578.16pt x 433.62pt>
-File: FWHM_values2.pdf Graphic file (type pdf)
- <use FWHM_values2.pdf>
-Package pdftex.def Info: FWHM_values2.pdf used on input line 375.
-(pdftex.def)             Requested size: 173.44933pt x 130.087pt.
-
-Overfull \hbox (19.8044pt too wide) in paragraph at lines 375--375
- [] 
- []
-
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
-<use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 375
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
- <use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 375.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[21
-
- <./FWHM_values2.pdf>]
-<MCNP_Comparison_2cal.pdf, id=569, 719.08652pt x 513.11702pt>
-File: MCNP_Comparison_2cal.pdf Graphic file (type pdf)
-
-<use MCNP_Comparison_2cal.pdf>
-Package pdftex.def Info: MCNP_Comparison_2cal.pdf used on input line 387.
-(pdftex.def)             Requested size: 251.68405pt x 179.59364pt.
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 387
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-
-Overfull \vbox (13.60143pt too high) detected at line 387
- []
-
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
-<use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 387.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[22
-
- <./MCNP_Comparison_2cal.pdf>]
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 410
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
-
-<use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 410.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[23
-
-] <Cf252.png, id=631, 578.16pt x 433.62pt>
-File: Cf252.png Graphic file (type png)
- <use Cf252.png>
-Package pdftex.def Info: Cf252.png used on input line 421.
-(pdftex.def)             Requested size: 237.04713pt x 177.78534pt.
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
-
-<use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 421
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-
-Overfull \vbox (7.58093pt too high) detected at line 421
- []
-
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
-<use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 421.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[24
-
- <./Cf252.png>]
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
- <use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 426.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[25
-
-] <Emission_Spectrum.JPG, id=657, 596.2275pt x 556.32843pt>
-File: Emission_Spectrum.JPG Graphic file (type jpg)
-
-<use Emission_Spectrum.JPG>
-Package pdftex.def Info: Emission_Spectrum.JPG used on input line 451.
-(pdftex.def)             Requested size: 95.39835pt x 89.01436pt.
- <Stilbene_PSD.pdf, id=658, 578.16pt x 433.62pt>
-File: Stilbene_PSD.pdf Graphic file (type pdf)
-
-<use Stilbene_PSD.pdf>
-Package pdftex.def Info: Stilbene_PSD.pdf used on input line 451.
-(pdftex.def)             Requested size: 138.76123pt x 104.07092pt.
-
-<Hamamatsu_R87_series.JPG, id=659, 606.76688pt x 677.53125pt>
-File: Hamamatsu_R87_series.JPG Graphic file (type jpg)
-
-<use Hamamatsu_R87_series.JPG>
-Package pdftex.def Info: Hamamatsu_R87_series.JPG used on input line 451.
-(pdftex.def)             Requested size: 109.21332pt x 121.95036pt.
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 451
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
-
-<use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 451.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[26
-
- <./Emission_Spectrum.JPG> <./Stilbene_PSD.pdf> <./Hamamatsu_R87_series.JPG>] <
-DRiFT_Comparison.pdf, id=712, 719.08652pt x 513.11702pt>
-File: DRiFT_Comparison.pdf Graphic file (type pdf)
-
-<use DRiFT_Comparison.pdf>
-Package pdftex.def Info: DRiFT_Comparison.pdf used on input line 462.
-(pdftex.def)             Requested size: 273.2557pt x 194.9865pt.
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 462
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-
-Overfull \vbox (24.7261pt too high) detected at line 462
- []
-
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
-<use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 462.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[27
-
- <./DRiFT_Comparison.pdf>]
-<drift_neutrons.pdf, id=766, 578.16pt x 433.62pt>
-File: drift_neutrons.pdf Graphic file (type pdf)
- <use drift_neutrons.pdf>
-Package pdftex.def Info: drift_neutrons.pdf used on input line 473.
-(pdftex.def)             Requested size: 260.16959pt x 195.1272pt.
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
-
-<use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 473
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-
-Overfull \vbox (24.8668pt too high) detected at line 473
- []
-
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
-<use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 473.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[28
-
- <./drift_neutrons.pdf>]
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
- <use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 478.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[29
-
-]
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 496
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
- <use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 496.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[30
-
-]
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
- <use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 502.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[31
-
-] (./main.bbl)
-File: TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: TEES_NSSPI_Acronym_logo_WHT.png used on input line 509
-.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: imageedit_2_7317234434.jpg Graphic file (type jpg)
-
-<use imageedit_2_7317234434.jpg>
-Package pdftex.def Info: imageedit_2_7317234434.jpg used on input line 509.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[32
-
-]
-\tf@nav=\write6
-\openout6 = `main.nav'.
-
-\tf@toc=\write7
-\openout7 = `main.toc'.
-
-\tf@snm=\write8
-\openout8 = `main.snm'.
-
-
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 511.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 511.
-(./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 511.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 511.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 91D28AB2D85CE23AF93FB0B3E0717FD2;773.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.0pt have occurred.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 511.
- ) 
+! Undefined control sequence.
+\beamer@doifinframe ... \item {Indian \coAsterisk 
+                                                  Pressureized Heavy Water R...
+l.114 \end{frame}
+                 
+? 
+! Emergency stop.
+\beamer@doifinframe ... \item {Indian \coAsterisk 
+                                                  Pressureized Heavy Water R...
+l.114 \end{frame}
+                 
+End of file on the terminal!
+
+ 
 Here is how much of TeX's memory you used:
- 22125 strings out of 494953
- 425357 string characters out of 6180977
- 595535 words of memory out of 5000000
- 24773 multiletter control sequences out of 15000+600000
- 18033 words of font info for 67 fonts, out of 8000000 for 9000
+ 22043 strings out of 494953
+ 420958 string characters out of 6180977
+ 588967 words of memory out of 5000000
+ 24779 multiletter control sequences out of 15000+600000
+ 12450 words of font info for 28 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 48i,19n,57p,384b,1059s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
-b>
-Output written on main.pdf (32 pages, 1869730 bytes).
-PDF statistics:
- 916 PDF objects out of 1000 (max. 8388607)
- 530 compressed objects within 6 object streams
- 83 named destinations out of 1000 (max. 500000)
- 307 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 48i,19n,57p,384b,815s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

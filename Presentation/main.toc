@@ -1,6 +1,6 @@
 \beamer@endinputifotherversion {3.36pt}
 \select@language {english}
-\beamer@sectionintoc {1}{Project Goals}{3}{0}{1}
+\beamer@sectionintoc {1}{Motivation}{3}{0}{1}
 \beamer@sectionintoc {2}{Background}{4}{0}{2}
 \beamer@subsectionintoc {2}{1}{New MCNP6 Features}{5}{0}{2}
 \beamer@subsectionintoc {2}{2}{CGMF and FREYA}{6}{0}{2}

@@ -38,7 +38,13 @@
 \usepackage[percent]{overpic}
 \usepackage{textcomp}
 \usepackage{booktabs}
+\usepackage{pxfonts}
+%\setbeameroption{show notes}
+%\setbeamertemplate{note page}[plain]
 
+%Change Bullets in latex list
+%\renewcommand\labelitemi{$\blacktriangleright$}
+%\renewcommand\labelitemii{$\coAsterisk$}
 
 %\setbeamertemplate{background}{\tikz[overlay, remember picture]\node[xshift=-2.3cm, yshift=1.50cm, opacity=0.4]at (current page.south east){\includegraphics[width=4cm]{images}};}
 
@@ -76,13 +82,34 @@
 \tableofcontents
 \end{frame}
 
-\section{Project Goals}
-\begin{frame}{Project Goals}
+\section{Motivation}
+\begin{frame}{Motivation}
 \begin{itemize}
-\item Study and benchmark code predictions against experimental data
-\item Determine parameters to match MCNP-simulated detector response functions to experimental stilbene measurements
-\item Add stilbene processing capabilities to DRiFT
-\item Improve NEUANCE detector array modeling and analysis using new MCNP6 and DRiFT features
+\item{Pu isotopes produced in irradiated fuel can vary depending on}
+  \begin{itemize}
+  \item{Burnup (irradiation history)}
+  \item{Reactor neutron spectrum (core design)}
+  \end{itemize}
+\item{Weapons-grade Pu can be extracted from reactor discharged fuel
+  with a burnup of about 1 (GWD/tU)}
+\item{Two examples of non-safeguarded reactors which can intentionally
+  discharge low burned fuel for extracting weapon-grade Pu are:}
+  \begin{itemize}
+  \item{Indian Prototype Fast Breeder Reactor (PFBR-500MWe)}
+    \note[item]{Madras Atomic Power Station Kalpakkam, India}
+    \note[item]{Expected criticality in Jan 2017}
+    \note[item]{Cost from 450 million euros to 750 euros}
+    \note[item]{Sodium-cooled reactor design - U238 for breeding}
+    \note[item]{100 GWd/t for core, 40 year life, 1750 tonnes of sodium
+      about 75\% of olympic sized swimming pool.}
+    \note[item]{liquid sodium has a density a little less than water}
+    \note[item]{MOX fuel (UO2 and PuO2) fuel}
+    \note[item]{Fuel discharged at 100GWd/t, but I just mentioned
+      that we are worried about 1GWd/t, mistake?}
+  \item{Indian \coAsterisk Pressureized Heavy Water Reactor (PHWR-CANDU type 220 MWe)}
+  \end{itemize}
+\item{In accord with the Indo-US 123 agreement, thesereactors were not
+      required to be kept under IAEA safeguards}
 \end{itemize}
 \end{frame}
 
