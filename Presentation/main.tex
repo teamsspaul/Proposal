@@ -38,13 +38,29 @@
 \usepackage[percent]{overpic}
 \usepackage{textcomp}
 \usepackage{booktabs}
-\usepackage{pxfonts}
+\usepackage{mathabx}
+\usepackage{pifont}
+\usepackage{bbding}
+\usepackage{fontenc}
+%\let\Sun\undefined   %to undefine something
+%\usepackage{marvosym}
+%\usepackage{scalerel}
+
+\setbeamerfont{caption}{size=\tiny}
+
 %\setbeameroption{show notes}
 %\setbeamertemplate{note page}[plain]
-
+\newcommand{\tss}{\textsuperscript}
+\newcommand{\tsbs}{\textsubscript}
 %Change Bullets in latex list
-%\renewcommand\labelitemi{$\blacktriangleright$}
-%\renewcommand\labelitemii{$\coAsterisk$}
+\setbeamertemplate{itemize item}{\scriptsize\raise1.25pt\hbox{\donotcoloroutermaths\ding{118}}}
+\setbeamertemplate{itemize subitem}{\scriptsize\raise1.25pt\hbox{\ding{226}}}
+\setbeamertemplate{itemize subsubitem}{\tiny\raise1.25pt\hbox{\ding{169}}}
+\setbeamertemplate{enumerate item}{\insertenumlabel.}
+
+
+%%To select specific font
+%{\fontsize{2.5}{4}\selectfont tobesize}
 
 %\setbeamertemplate{background}{\tikz[overlay, remember picture]\node[xshift=-2.3cm, yshift=1.50cm, opacity=0.4]at (current page.south east){\includegraphics[width=4cm]{images}};}
 
@@ -64,6 +80,14 @@
   \begin{tikzpicture}[remember picture, overlay]
   \node [xshift = -3cm, yshift=1.2cm] at (current page.south east){\includegraphics[width=5cm]{TEES_NSSPI_logo_HMaroon}};
   \end{tikzpicture}
+  %% Upper logo right
+    \begin{tikzpicture}[remember picture,overlay]
+    \node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=0.8cm]{cyclologo}};
+    \end{tikzpicture}
+    \begin{tikzpicture}[remember picture,overlay]
+    \node[anchor=north west,yshift=2pt] at (current page.north west) {\includegraphics[height=0.8cm]{NUENlogo}};
+    \end{tikzpicture}
+  
   \titlepage
 \end{frame}
 
@@ -83,7 +107,7 @@
 \end{frame}
 
 \section{Motivation}
-\begin{frame}{Motivation}
+\begin{frame}{Big Picture}
 \begin{itemize}
 \item{Pu isotopes produced in irradiated fuel can vary depending on}
   \begin{itemize}
@@ -106,11 +130,37 @@
     \note[item]{MOX fuel (UO2 and PuO2) fuel}
     \note[item]{Fuel discharged at 100GWd/t, but I just mentioned
       that we are worried about 1GWd/t, mistake?}
-  \item{Indian \coAsterisk Pressureized Heavy Water Reactor (PHWR-CANDU type 220 MWe)}
+  \item{Indian Pressureized Heavy Water Reactor (PHWR-CANDU type 220 MWe)}
   \end{itemize}
-\item{In accord with the Indo-US 123 agreement, thesereactors were not
+\item{In accord with the Indo-US 123 agreement, these reactors were not
       required to be kept under IAEA safeguards}
 \end{itemize}
+\end{frame}
+
+\begin{frame}{Smaller Picture}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \vspace{-3mm}
+      \begin{itemize}
+      \item{Attribution for unpurified Pu has been previously studied
+        \tss{\cite{chirayath2015trace,scott2005nuclear,glaser2009isotopic}}}
+      \item{Intercepted Pu would likely have been processed via PUREX}
+      \item{Due to a lack of literature on decontamination factors and
+        distribution coefficients for useful forensic elements (Cs, Sb,
+        Eu, Rb, Sr, Nd, Pm, and Sm) this research was pursued.} 
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}[H]
+        \vspace*{-0.3cm}
+        \begin{center}
+	   \includegraphics[scale = 0.4]{Stoller}
+           \caption{\tiny{Effect of nitric acid concentration on
+               distribution coefficients \tss{\cite{stoller1961reactor}}}}
+	\end{center}
+      \end{figure}
+    \end{column}
+  \end{columns}  
 \end{frame}
 
 
@@ -119,148 +169,191 @@
 \sectionpage
 \end{frame}
 
-\subsection{New MCNP6 Features}
-\begin{frame}{New MCNP6 Features}
-\begin{itemize}
-\item New MCNP6 features will include two new event generators
-\begin{itemize}
-\item Cascading Gamma-Ray Multiplicity with Fission (CGMF)
-\item Fission Reaction Event Yield Algorithm (FREYA)
-\end{itemize}
-\item CGMF and FREYA perform event-by-event Monte Carlo simulations of fission reactions
-\item Both code packages improve correlated fission and multiplicity models including angular correlations of emitted neutrons
-\item Project will attempt to benchmark code simulations to differential experimental measurements of fissionable materials
-\end{itemize}
+\subsection{The PUREX Process}
+\begin{frame}{What is PUREX - A type of laundry detergent?}
+  \vspace{0.5cm}
+  \begin{itemize}
+  \item Plutonium Uranium Redox EXtraction 
+    \begin{itemize}
+    \item Liquid-liquid solvent extraction
+    \item Many stages:
+      \begin{enumerate}
+      \item{Preparation for Dissolution}
+      \item{Dissolution}
+      \item{Preparation of Dissolved Feed}
+      \item{Primary Decontamination - Extraction to
+        organic\textsuperscript{\tiny{\AsteriskThin}}}
+      \item{Scrubbing}
+      \item{Plutonium Partition - Back-Extraction to
+        aqueous\textsuperscript{\tiny{\AsteriskThin}}}
+      \item{Plutonium Purification}
+      \end{enumerate}
+    \end{itemize}
+  \end{itemize}
+  \vspace{1.5cm}
+  \textsuperscript{\tiny{\AsteriskThin\hspace{1mm}- Discussing Next}}
 \end{frame}
 
-\subsection{CGMF and FREYA}
-\begin{frame}{CGMF and FREYA}
-\begin{columns}
-  \begin{column}{0.5\textwidth}
-    \begin{block}{CGMF}
-    \begin{itemize}
-    \item Uses MC Hauser-Feshbach approach
-    \item Fission fragments are sampled from a joint probability distribution function of: Mass (A), Charge (Z), Total kinetic energy (TKE)
-    \item Neutron/gamma ray competition treated throughout de-excitation process
-    \end{itemize}
-	\end{block}
-  \end{column}
-  \begin{column}{0.5\textwidth}
-  \vspace*{-0.2cm}
-    \begin{block}{FREYA}
-    \begin{itemize}
-    \item Fission event generator for LLNL Fission Package
+
+\begin{frame}{Extraction}
+  \begin{figure}[H]
+    \vspace*{0.1cm}
+    \begin{center}
+      \includegraphics[scale = 0.5]{Extraction}
+      \vspace{-0.7cm}
+      \caption{\tiny{Extraction graphic}}
+    \end{center}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Back-Extraction}
+  \begin{figure}[H]
+    \vspace*{0.1cm}
+    \begin{center}
+      \includegraphics[scale = 0.5]{Back_Extraction}
+      \vspace{-0.7cm}
+      \caption{\tiny{Back-extraction graphic}}
+    \end{center}
+  \end{figure}
+\end{frame}
+
+
+\begin{frame}{Extraction and Back-extraction}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \vspace{-3mm}
       \begin{itemize}
-      \item Includes tabulated and fitted data for major and minor actinides
+      \item{Extraction}
+        \\
+        \scalebox{0.5}{$UO_2^{2+}(aq)+2NO^{-}_{3}(aq)+2TBP(o)
+          \leftrightarrow UO_2(NO_3)_2\cdot2TBP(o)$\tss{\cite{benedict1982nuclear}}}
+        \scalebox{0.5}{$Pu^{4+}(aq)+4NO^{-}_3(aq)+2TBP(o)
+          \leftrightarrow Pu(NO_3)_4\cdot 2TBP(o)$}\\
+        {\fontsize{2.5}{4}\selectfont Most of the fission products are
+          left in the aqueous solution
+        at valence III and V states\tss{\cite{kok2009nuclear}}}
+      \item{Back-extraction}
+        \begin{itemize}
+          \scalebox{0.5}{$Pu(NO_3)_4(TBP)_{2_o}+Fe^{2+}_{aq}
+            \leftrightarrow Pu^{3+}_{aq}+4NO^{-}_{3_{aq}}+2TBP_o$
+            \tss{\cite{konings2006chemistry}}}
+          \note[item]{The fission products that contribute mostly
+            to the radioactive contamination of product in PUREX
+            are zirconium, niobium, and ruthenium - with multiple
+            oxidation states.}
+        \end{itemize}
       \end{itemize}
-    \item Uses MC Weisskopf approach
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}[H]
+        \vspace*{-1cm}
+        \begin{center}
+	   \includegraphics[scale = 0.75]{TBP2}
+           \caption{\tiny{TBP and HNO$_3$}}
+	\end{center}
+      \end{figure}
+    \end{column}
+  \end{columns}  
+\end{frame}
+
+\subsection{Distribution Coefficients}
+\begin{frame}{Distribution Coefficients - The Missing link}
+  \begin{itemize}
+  \item{Distribution Coefficient (DC): The ratio between the organic
+  and aqueous phases}
+    \begin{equation*}
+      DR=\frac{c_{o}}{c_{aq}}
+    \end{equation*}
+    \note[item]{Distribution coefficients can be reported
+      in terms of volume basis (weight per unit volume), or a
+      mass basis (mass of solute per unit mass of solute free
+      solvent)- usually reported on volume basis}
+  \item{Specific element to element}
+  \item{Vary widely with:\tss{\cite{stoller1961reactor}}}
     \begin{itemize}
-    \item Neutrons are sampled from Weisskopf spectrum
-    \item Gamma rays are emitted from residual energy
+    \item{Concentrations of solutions}
+    \item{Saturation of U and Pu in the system}
+    \item{Temperature of the solvents}
     \end{itemize}
-    \item More computationally efficient
-    \end{itemize}
-	\end{block}
-  \end{column}
-\end{columns}
+  \item{The fraction of mass, $f_o$ deposited in the organic
+    phase, assuming a volume ratio between
+    the aqueous and organic phases, $V_R$, is:}
+    \begin{equation*}
+      f_o=(1+DC^{-1}V^{-1}_R)^{-1}
+    \end{equation*}
+    \note[item]{Note not a function of density, even though
+      the two solutions have different densities, when solving for
+      this value it cancels out}
+    \note[item]{Solved this way to show, volume matters, and to give
+      me a more intuitive sense of where things are going}
+  \end{itemize}
 \end{frame}
 
-\subsection{DRiFT}
-\begin{frame}{DRiFT}
-\begin{itemize}
-\item \textbf{D}etector \textbf{R}esponse \textbf{F}unction \textbf{T}oolkit for MCNP output
-\item Generates realistic detector response functions for scintillators
-\item Post-processes MCNP PTRAC files into light output
-\item User can specify PMT type, quenching data specific to detector material, and trigger threshold
-\item Future improvements include the addition semiconductor and gas detector response functions
-\end{itemize}
+\subsection{Decontamination Factors}
+\begin{frame}{Decontamination Factors - The Pot of gold}
+  \begin{itemize}
+  \item{After several cycles of Pu extraction/scrubbing/back-extraction
+    are completed, the effectiveness of a PUREX cycle is described
+    by the decontamination factor (DF):}
+    \begin{equation*}
+      DF_j=\frac{\left|\frac{c_j}{c_{Pu}}\right|_{initial}}
+      {\left|\frac{c_j}{c_{Pu}}\right|_{final}}
+    \end{equation*}
+  \item{DFs are characteristic of different process cycles}
+  \item{Larger values (10\tss{7}) for industrial scale PUREX (compared
+  to benchtop)\tss{\cite{stoller1961reactor,benedict1982nuclear}}}
+  \end{itemize}
 \end{frame}
 
-\subsection{DANCE and NEUANCE}
-\begin{frame}{DANCE}
-\vskip-1.5cm
-\begin{itemize}
-\item Detector for Advanced Neutron Capture Experiments
-\item $\gamma$-ray calorimeter located at LANSCE
-\item 160 BaF$_2$ crystals covering 3.6$\pi$ solid angle
-\item Very high efficiency detector array used to measure prompt fission and capture gamma rays 
-\item Inner cavity: 17 cm diameter sphere
-\end{itemize}
-\begin{tikzpicture}[remember picture, overlay]
-\node [xshift = -2.7cm, yshift=2.50cm] at (current page.south east){\includegraphics[scale=0.55]{dance}};
-\end{tikzpicture}
+\begin{frame}{Complexity of reprocessing schemes}
+  Worry about dependancies of of DC
+  Worry about non equilibrium
+  flow rates, blah blah blah.
+  Show mixer settler columns, show batch.
+  What I want to do, get some distribution coefficients
+  develop a reasonable process for isolating a large
+  fraction of Pu, then, based on process, calculate what
+  the decontamination factor should be, and then actually measure it
 \end{frame}
 
-\begin{frame}{DANCE}
-\centering
-\includegraphics[scale=0.3]{dance1}
+\subsection{Experiment}
+\begin{frame}{Irradiation}
+  \begin{itemize}
+  \item{12.9 $\pm$}
+  \end{itemize}
 \end{frame}
 
-\begin{frame}{DANCE}
-\centering
-\includegraphics[scale=0.4]{dance2}
-\end{frame}
-
-\begin{frame}{NEUANCE}
-\begin{columns}
-  \begin{column}{0.65\textwidth}
+\begin{frame}{Experiments}
+  \begin{itemize}
+  \item{Experiment 1}
     \begin{itemize}
-    \item \textbf{NEU}tron detector \textbf{A}rray at DA\textbf{NCE}
-    \item Designed to fit inside DANCE
-    \item Will study capture cross section of isomeric states of actinides
-    \item EJ-309 and stilbene were tested in earlier prototypes
-    \item Stilbene was chosen due to higher light-output and better PSD performance
+    \item{Purpose: quantify product recovery and DF values
+      for single stage extraction and back extraction}
+    \item{Conditions:}
+      Latex Table
     \end{itemize}
-  \end{column}
-  \begin{column}{0.40\textwidth}
-	\includegraphics[scale = 0.25]{NeuancePicture}
-  \end{column}
-\end{columns}
+  \item{Experiment 2}
+    \begin{itemize}
+    \item{Purpose: recover a large fraction of Pu (4 extractions,
+      3 back extractions}
+    \item{Conditions}
+      Latex Table
+    \end{itemize}
+  \end{itemize}
 \end{frame}
 
-
-\subsection{Stilbene Detector}
-\begin{frame}{Stilbene Detector}
-\begin{itemize}
-\item Organic scintillator
-\item Higher light output and better PSD performance than EJ-309
-\item NEUANCE detector array will incorporate 21 stilbene crystals
-\item Approximate size: 2.3 cm x 2.3 cm x 10 cm
-\item Each crystal will be coupled to a compact photomultiplier tube
-\item Current efforts include improving modeling accuracy of a single stilbene crystal
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Photon Interactions in Stilbene}
-\centering
-\vskip -0.25cm
-\includegraphics[scale=0.45]{interactionCoeff}
-\end{frame}
-
-
-\section{MCNP6 Settings}
+\section{Completed Work}
 \begin{frame}
 \sectionpage
 \end{frame}
 
-\begin{frame}{MCNP6 Settings}
-\begin{itemize}
-\item Gaussian Energy Broadening (GEB)
-  \begin{itemize}
-  \item Virtual peak-broadening technique
-  \item Converts gamma pulse height tally to approximate detector response function
-  \item No parameters available for stilbene
-  \end{itemize}
-\item DE/DF
-  \begin{itemize}
-  \item Converts energy deposited by recoiled protons to electron equivalent energy
-  \item Equation found in (Hansen, 2002)\cite{Hansen}
-  \end{itemize}
-\end{itemize}
+\subsection{Recovery of Pu and U}
+\begin{frame}{Previous Experiment Results}
+Show the first table here
 \end{frame}
 
-\subsection{GEB Parameters}
-\begin{frame}{GEB Parameters - Iterative Method [Kim, 2015]}
+\subsection{Experimental Decontamination Factors}
+\begin{frame}{Previous Experiment Results}
   \begin{itemize}
   \item Calculate Compton edge for each peak
   \end{itemize}
@@ -284,219 +377,8 @@
   \end{block}
 \end{frame}
 
-\begin{frame}{GEB Parameter - Iterative Method [Baramsai, 2015]}
-\begin{itemize}
-\item Calibrate spectra using Compton edge as Compton maximum
-\end{itemize}
-\begin{figure}
-\vspace*{-0.3cm}
-\begin{center}
-\includegraphics[scale = 0.28]{1stCalibration}
-\caption{\scriptsize{First Calibration, Assumption: Compton Edge = Compton Maximum}}
-\end{center}
-\end{figure}
-\end{frame}
-
-
-\begin{frame}{GEB Parameters - Iterative Method [Kim, 2015]}
-  \begin{columns}
-      \begin{column}{0.5\textwidth}
-		\begin{itemize}
-        \item Fit Gaussian function to experimental data using equation \ref{peak_fit}. \cite{Kim}
-        \end{itemize}
-        \begin{equation} \label{peak_fit}
-          f(E) = C e^{-\frac{2\sqrt{\ln{2}}(E - E_0)}{FWHM}^2}
-        \end{equation}
-        \begin{itemize}
-        \item Set $E_0$ = Compton maxima 
-		\item Fit function to obtain constant (C) and FWHM
-		\end{itemize}
-	\end{column}
-	\begin{column}{0.5\textwidth}
-	   \begin{figure}[H]
-       \vspace*{-1cm}
-       \begin{center}
-	   \includegraphics[scale = 0.3]{GaussPeakFit}
-       \caption{\scriptsize{$^{22}$Na Gaussian Peak Fit}}
-	   \end{center}
-      \end{figure}
-	\end{column}
-  \end{columns}
-\end{frame}
-
-\begin{frame}{GEB Parameters - Iterative Method [Kim, 2015]}
-  \begin{itemize}
-  \item Use FWHM from Eq. \ref{peak_fit} to find fitting parameters (a, b, c)
-  \end{itemize}
-  \begin{equation} \label{FWHM}
-  FWHM(E_o) = a + b \sqrt{E_o + c E_o^2}
-  \end{equation}
-\vspace{-0.5cm}
-  \begin{columns}
-    \begin{column}{0.3\textwidth}
-      \begin{block}{After 1$^{st}$ iteration:}
-      \begin{itemize}
-      \item a = -0.049702
-      \item b =  0.267462
-      \item c = -0.526174
-      \end{itemize}
-      \end{block}
-	\end{column}
-	\begin{column}{0.5\textwidth}
-      \begin{figure}
-      \begin{center}
-      \vspace{-0.5cm}
-      \includegraphics[scale=0.3]{FWHM_values1}
-      \vspace{-0.5cm}
-      \caption{\scriptsize{FWHM Curve for Stilbene}}
-      \end{center}
-      \end{figure}
-	\end{column}
-  \end{columns}
-\end{frame}
-
-\begin{frame}{GEB Parameters - Iterative Method}
-\begin{figure}
-\vspace{-0.25cm}
-\begin{center}
-\includegraphics[scale = 0.35]{MCNP_Comparison_1cal}
-\vspace{-0.4cm}
-\caption{\scriptsize{1$^{st}$ MCNP Iteration}}
-\end{center}
-\end{figure}
-\end{frame}
-
-\begin{frame}{GEB Parameters - Iterative Method [Kim, 2015]}
-  \begin{itemize}
-  \item Re-calibrate spectra using Compton maxima from MCNP
-  \item Fit Gaussian functions to each peak
-  \end{itemize}
-\vspace*{-0.5cm}
-  \begin{columns}
-    \begin{column}{0.4\textwidth}
-    \vspace*{-0.2cm}
-	\begin{itemize}
-    \item Fit parameters:
-    \end{itemize}
-    \vspace*{0.3cm}
- 	\[\small{FWHM(E_o) = a + b \sqrt{E_o + c E_o^2}}\]
-      \begin{block}{After 2$^{nd}$ iteration:}
-  	  \begin{itemize}
-      \item a = -0.057192
-      \item b =  0.249732
-      \item c = -0.432120
-      \end{itemize}
-	\end{block} 
-	\end{column}
-	\begin{column}{0.5\textwidth}
-      \begin{figure}
-      \begin{center}
-      \vspace{-0.5cm}
-      \includegraphics[scale=0.3]{FWHM_values2}
-      \vspace{-0.5cm}
-      \caption{\scriptsize{FWHM Curves for Stilbene}}
-      \end{center}
-      \end{figure}
-	\end{column}
-  \end{columns}
-\end{frame}
-
-
-\begin{frame}{GEB Parameters - Iterative Method}
-\begin{figure}
-\vspace{-0.25cm}
-\begin{center}
-\includegraphics[scale = 0.35]{MCNP_Comparison_2cal}
-\vspace{-0.4cm}
-\caption{\scriptsize{2$^{nd}$ MCNP Iteration}}
-\end{center}
-\end{figure}
-\end{frame}
-
-\subsection{DE and DF Cards}
-\begin{frame}{DE and DF Cards [Hansen, 2002]}
-\vspace*{-0.3cm}
-\begin{itemize}
-\item Non-linear light output function for stilbene:
-\end{itemize}
-  \begin{equation} \label{Light_output}
-  L = aE_p - b[1-exp(-cE_p^d)]
-  \end{equation}
- \vspace*{-0.3cm}
-\begin{itemize}
-\item Converts recoil proton energy ($E_p$), to light output due to energy deposited by the effective electron equivalent energy ($L$)
-\end{itemize}
-\begin{block}{Optimization constants found in [Hansen, 2002]:}
-\begin{itemize}
-\item a=0.693
-\item b=3.0
-\item c= 0.2
-\item d=0.965
-\end{itemize}
-\end{block}
-\end{frame}
-
-\begin{frame}{Simulation Results: \textsuperscript{252}Cf}
-\vspace*{-0.4cm}
-\begin{figure}
-\begin{center}
-\includegraphics[scale = 0.41]{Cf252}
-\vspace*{-0.4cm}
-\caption{\scriptsize{MCNP6 vs Experimental measurements using the DE/DF tally treatment}}
-\end{center}
-\end{figure}
-\end{frame}
-
-\section{DRiFT}
-\begin{frame}
-\sectionpage
-\end{frame}
-
-\begin{frame}{DRiFT}
-\vskip-2.2cm
-\begin{itemize}
-\item Stilbene processing capabilities have been added to DRiFT
-  \begin{itemize}
-  \item Light output function (Equation \ref{Light_output})
-  \item Light emission spectrum (Left)
-  \item Neutron and gamma pulse shapes - in progress (Center)
-  \item PMT Quantum Efficiency(Right)
-  \end{itemize}
-\end{itemize}
-%%% Left
-\begin{tikzpicture}[remember picture, overlay]
-\node [xshift = -10.7cm, yshift=2.4cm] at (current page.south east){\includegraphics[scale=0.16]{Emission_Spectrum}};
-\end{tikzpicture}
-%%% Center
-\begin{tikzpicture}[remember picture, overlay]
-\node [xshift = -6.3cm, yshift=2.5cm] at (current page.south east){\includegraphics[scale=0.24]{Stilbene_PSD}};
-\end{tikzpicture}
-%%% Right
-\begin{tikzpicture}[remember picture, overlay]
-\node [xshift = -2.1cm, yshift=2.5cm] at (current page.south east){\includegraphics[scale=0.18]{Hamamatsu_R87_series}};
-\end{tikzpicture}
-\end{frame}
-
-\begin{frame}{Preliminary DRiFT Results: Gamma Rays}
-\vspace*{-0.3cm}
-\begin{figure}
-\begin{center}
-\includegraphics[scale = 0.38]{DRiFT_Comparison}
-\vspace*{-0.5cm}
-\caption{\scriptsize{DRiFT vs Experimental gamma-ray measurements}}
-\end{center}
-\end{figure}
-\end{frame}
-
-\begin{frame}{Preliminary DRiFT Results - Neutrons}
-\vspace*{-0.3cm}
-\begin{figure}
-\begin{center}
-\includegraphics[scale = 0.45]{drift_neutrons}
-\vspace*{-0.5cm}
-\caption{\scriptsize{DRiFT vs Experimental \textsuperscript{252}Cf measurements}}
-\end{center}
-\end{figure}
+\begin{frame}{Previous Experiment Results}
+Show pretty plot
 \end{frame}
 
 \section{Future Work}
