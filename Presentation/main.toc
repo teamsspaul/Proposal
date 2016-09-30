@@ -5,9 +5,9 @@
 \beamer@subsectionintoc {2}{1}{The PUREX Process}{6}{0}{2}
 \beamer@subsectionintoc {2}{2}{Distribution Coefficients}{10}{0}{2}
 \beamer@subsectionintoc {2}{3}{Decontamination Factors}{11}{0}{2}
-\beamer@subsectionintoc {2}{4}{Experiment}{13}{0}{2}
-\beamer@sectionintoc {3}{Completed Work}{15}{0}{3}
-\beamer@subsectionintoc {3}{1}{Recovery of Pu and U}{16}{0}{3}
-\beamer@subsectionintoc {3}{2}{Experimental Decontamination Factors}{17}{0}{3}
-\beamer@sectionintoc {4}{Future Work}{19}{0}{4}
-\beamer@sectionintoc {5}{Questions?}{21}{1}{5}
+\beamer@subsectionintoc {2}{4}{Experiment}{16}{0}{2}
+\beamer@sectionintoc {3}{Completed Work}{18}{0}{3}
+\beamer@subsectionintoc {3}{1}{Recovery of Pu and U}{19}{0}{3}
+\beamer@subsectionintoc {3}{2}{Experimental Decontamination Factors}{20}{0}{3}
+\beamer@sectionintoc {4}{Future Work}{23}{0}{4}
+\beamer@sectionintoc {5}{Questions?}{25}{1}{5}
