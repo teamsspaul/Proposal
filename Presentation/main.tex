@@ -45,7 +45,10 @@
 %\let\Sun\undefined   %to undefine something
 %\usepackage{marvosym}
 %\usepackage{scalerel}
-
+%% \usepackage[
+%%   style=numeric,
+%%   citestyle=authoryeartitle
+%% ]{biblatex}
 \setbeamerfont{caption}{size=\tiny}
 
 %\setbeameroption{show notes}
@@ -65,28 +68,30 @@
 %\setbeamertemplate{background}{\tikz[overlay, remember picture]\node[xshift=-2.3cm, yshift=1.50cm, opacity=0.4]at (current page.south east){\includegraphics[width=4cm]{images}};}
 
 \title[Decontamination Factors for Nuclear Forensics]{Characterizaiton of Pu Separation by PUREX}
-\author{Paul Mendoza}
+\author{Paul Mendoza\\~\\Presented at All Hands Meeting}
 \date{September 28, 2016}
 
 \begin{document}
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
 \begin{frame}
 	%% background
   \tikz[overlay, remember picture]\node[xshift=-3.5cm, yshift=3cm, opacity=0.1]at (current page.south east){\includegraphics[width=8cm]{tamu_system_proposed_seal_042915}};
 	%% Left-hand logo
-  \begin{tikzpicture}[remember picture, overlay]
-  \node [xshift = 3 cm, yshift=1.2cm] at (current page.south west){\includegraphics[width=5cm]{tees_logo_primary_maroon}};
-  \end{tikzpicture}
+  %% \begin{tikzpicture}[remember picture, overlay]
+  %% \node [xshift = 3 cm, yshift=1.2cm] at (current page.south west){\includegraphics[width=5cm]{tees_logo_primary_maroon}};
+  %% \end{tikzpicture}
     %% Right-hand logo
   \begin{tikzpicture}[remember picture, overlay]
   \node [xshift = -3cm, yshift=1.2cm] at (current page.south east){\includegraphics[width=5cm]{TEES_NSSPI_logo_HMaroon}};
   \end{tikzpicture}
   %% Upper logo right
     \begin{tikzpicture}[remember picture,overlay]
-    \node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=0.8cm]{cyclologo}};
+    \node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=0.8cm]{NUENlogo}};
     \end{tikzpicture}
-    \begin{tikzpicture}[remember picture,overlay]
-    \node[anchor=north west,yshift=2pt] at (current page.north west) {\includegraphics[height=0.8cm]{NUENlogo}};
-    \end{tikzpicture}
+  %% Upper logo left
+    %% \begin{tikzpicture}[remember picture,overlay]
+    %% \node[anchor=north west,yshift=2pt] at (current page.north west) {\includegraphics[height=0.8cm]{NUENlogo}};
+    %% \end{tikzpicture}
   
   \titlepage
 \end{frame}
@@ -108,18 +113,19 @@
 
 \section{Motivation}
 \begin{frame}{Big Picture}
-\begin{itemize}
-\item{Pu isotopes produced in irradiated fuel can vary depending on}
+  %\vspace{-1cm}
   \begin{itemize}
-  \item{Burnup (irradiation history)}
-  \item{Reactor neutron spectrum (core design)}
-  \end{itemize}
-\item{Weapons-grade Pu can be extracted from reactor discharged fuel
-  with a burnup of about 1 (GWD/tU)}
-\item{Two examples of non-safeguarded reactors which can intentionally
+  \item{Weapons-grade Pu can be extracted from reactor discharged fuel
+    with a burnup of about 1 (GWD/tU)}
+  \item{Pu isotopes produced in irradiated fuel can vary} %depending on}
+    %% \begin{itemize}
+    %% \item{Burnup (irradiation history)}
+    %% \item{Reactor neutron spectrum (core design)}
+    %% \end{itemize}
+  \item{Two examples of reactors which can intentionally
   discharge low burned fuel for extracting weapon-grade Pu are:}
   \begin{itemize}
-  \item{Indian Prototype Fast Breeder Reactor (PFBR-500MWe)}
+  \item{Fast Breeder Reactor}
     \note[item]{Madras Atomic Power Station Kalpakkam, India}
     \note[item]{Expected criticality in Jan 2017}
     \note[item]{Cost from 450 million euros to 750 euros}
@@ -130,33 +136,41 @@
     \note[item]{MOX fuel (UO2 and PuO2) fuel}
     \note[item]{Fuel discharged at 100GWd/t, but I just mentioned
       that we are worried about 1GWd/t, mistake?}
-  \item{Indian Pressureized Heavy Water Reactor (PHWR-CANDU type 220 MWe)}
+  \item{CANDU Reactor
+          \begin{figure}[H]
+        \begin{flushright}
+	   \includegraphics[scale = 0.2]{nuclear-weapons-free-zone}
+	\end{flushright}
+      \end{figure}}
   \end{itemize}
-\item{In accord with the Indo-US 123 agreement, these reactors were not
-      required to be kept under IAEA safeguards}
-\end{itemize}
+%\item{In accord with the Indo-US 123 agreement, these reactors were not
+%      required to be kept under IAEA safeguards}
+  \end{itemize}
+  %% \begin{tikzpicture}[remember picture, overlay]
+  %%   \node [xshift = -3cm, yshift=1.2cm] at (current page.south east){\includegraphics[width=5cm]{nuclear-weapons-free-zone}};
+  %% \end{tikzpicture}
 \end{frame}
 
 \begin{frame}{Smaller Picture}
   \begin{columns}
     \begin{column}{0.5\textwidth}
-      \vspace{-3mm}
+      \vspace{-10mm}
       \begin{itemize}
       \item{Attribution for unpurified Pu has been previously studied
         \tss{\cite{chirayath2015trace,scott2005nuclear,glaser2009isotopic}}}
-      \item{Intercepted Pu would likely have been processed via PUREX}
-      \item{Due to a lack of literature on decontamination factors and
+      \item{Interdicted Pu would likely have been processed}
+      \item{Lack of literature on decontamination factors and
         distribution coefficients for useful forensic elements (Cs, Sb,
-        Eu, Rb, Sr, Nd, Pm, and Sm) this research was pursued.} 
+        Eu, Rb, Sr, Nd, Pm, and Sm)} 
       \end{itemize}
     \end{column}
     \begin{column}{0.5\textwidth}
       \begin{figure}[H]
-        \vspace*{-0.3cm}
+        \vspace*{-1cm}
         \begin{center}
-	   \includegraphics[scale = 0.4]{Stoller}
-           \caption{\tiny{Effect of nitric acid concentration on
-               distribution coefficients \tss{\cite{stoller1961reactor}}}}
+	  \includegraphics[scale = 0.5]{Stoller}
+          \vspace{-0.5cm}
+           \caption{\tiny{Adapted from Stoller\tss{\cite{stoller1961reactor}}}}
 	\end{center}
       \end{figure}
     \end{column}
@@ -196,73 +210,64 @@
 
 
 \begin{frame}{Extraction}
+  $UO_{2(aq)}^{2+}+2NO^{-}_{3(aq)}+2TBP_{(o)}
+  \leftrightarrow UO_2(NO_3)_2\cdot2TBP_{(o)}$\tss{\cite{benedict1982nuclear}}
+  $Pu^{4+}_{(aq)}+4NO^{-}_{3(aq)}+2TBP_{(o)}
+  \leftrightarrow Pu(NO_3)_4\cdot 2TBP_{(o)}$
+  \note[item]{Most of the fission products are
+    left in the aqueous solution
+    at valence III and V states\tss{\cite{kok2009nuclear}}}
+  \vspace{-3mm}
   \begin{figure}[H]
     \vspace*{0.1cm}
     \begin{center}
       \includegraphics[scale = 0.5]{Extraction}
-      \vspace{-0.7cm}
-      \caption{\tiny{Extraction graphic}}
     \end{center}
   \end{figure}
 \end{frame}
 
 \begin{frame}{Back-Extraction}
+  $Pu(NO_3)_4(TBP)_{2(o)}+Fe^{2+}_{(aq)}\leftrightarrow Pu^{3+}_{(aq)}+4NO^{-}_{3(aq)}+2TBP_{(o)}$\tss{\cite{konings2006chemistry}}
+  \note[item]{The fission products that contribute mostly
+    to the radioactive contamination of product in PUREX
+    are zirconium, niobium, and ruthenium - with multiple
+    oxidation states.}
   \begin{figure}[H]
     \vspace*{0.1cm}
     \begin{center}
       \includegraphics[scale = 0.5]{Back_Extraction}
-      \vspace{-0.7cm}
-      \caption{\tiny{Back-extraction graphic}}
     \end{center}
   \end{figure}
 \end{frame}
 
 
-\begin{frame}{Extraction and Back-extraction}
-  \begin{columns}
-    \begin{column}{0.5\textwidth}
-      \vspace{-3mm}
-      \begin{itemize}
-      \item{Extraction}
-        \\
-        \scalebox{0.5}{$UO_2^{2+}(aq)+2NO^{-}_{3}(aq)+2TBP(o)
-          \leftrightarrow UO_2(NO_3)_2\cdot2TBP(o)$\tss{\cite{benedict1982nuclear}}}
-        \scalebox{0.5}{$Pu^{4+}(aq)+4NO^{-}_3(aq)+2TBP(o)
-          \leftrightarrow Pu(NO_3)_4\cdot 2TBP(o)$}\\
-        {\fontsize{2.5}{4}\selectfont Most of the fission products are
-          left in the aqueous solution
-        at valence III and V states\tss{\cite{kok2009nuclear}}}
-      \item{Back-extraction}
-        \begin{itemize}
-          \scalebox{0.5}{$Pu(NO_3)_4(TBP)_{2_o}+Fe^{2+}_{aq}
-            \leftrightarrow Pu^{3+}_{aq}+4NO^{-}_{3_{aq}}+2TBP_o$
-            \tss{\cite{konings2006chemistry}}}
-          \note[item]{The fission products that contribute mostly
-            to the radioactive contamination of product in PUREX
-            are zirconium, niobium, and ruthenium - with multiple
-            oxidation states.}
-        \end{itemize}
-      \end{itemize}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-      \begin{figure}[H]
-        \vspace*{-1cm}
-        \begin{center}
-	   \includegraphics[scale = 0.75]{TBP2}
-           \caption{\tiny{TBP and HNO$_3$}}
-	\end{center}
-      \end{figure}
-    \end{column}
-  \end{columns}  
-\end{frame}
+%% \begin{frame}{Extraction and Back-extraction}
+%%   \begin{columns}
+%%     \begin{column}{0.5\textwidth}
+%%       \vspace{-3mm}
+%%       \begin{itemize}
+%%       \item{Extraction}
+
+%%       \item{Back-extraction}
+%%         \begin{itemize}
+%%           \item{An item}
+
+%%         \end{itemize}
+%%       \end{itemize}
+%%     \end{column}
+%%     \begin{column}{0.5\textwidth}
+
+%%     \end{column}
+%%   \end{columns}  
+%% \end{frame}
 
 \subsection{Distribution Coefficients}
 \begin{frame}{Distribution Coefficients - The Missing link}
   \begin{itemize}
-  \item{Distribution Coefficient (DC): The ratio between the organic
-  and aqueous phases}
+  \item{Distribution Coefficient (D): The ratio between the organic
+  and aqueous phases (aka: D-values)}
     \begin{equation*}
-      DR=\frac{c_{o}}{c_{aq}}
+      D=\frac{c_{o}}{c_{aq}}
     \end{equation*}
     \note[item]{Distribution coefficients can be reported
       in terms of volume basis (weight per unit volume), or a
@@ -271,15 +276,15 @@
   \item{Specific element to element}
   \item{Vary widely with:\tss{\cite{stoller1961reactor}}}
     \begin{itemize}
-    \item{Concentrations of solutions}
-    \item{Saturation of U and Pu in the system}
-    \item{Temperature of the solvents}
+    \item{Composition of phases}
+    \item{Solution saturation}
+    \item{Temperature of the solvent}
     \end{itemize}
   \item{The fraction of mass, $f_o$ deposited in the organic
     phase, assuming a volume ratio between
     the aqueous and organic phases, $V_R$, is:}
     \begin{equation*}
-      f_o=(1+DC^{-1}V^{-1}_R)^{-1}
+      f_o=(1+D^{-1}V^{-1}_R)^{-1}
     \end{equation*}
     \note[item]{Note not a function of density, even though
       the two solutions have different densities, when solving for
@@ -305,56 +310,61 @@
   \end{itemize}
 \end{frame}
 
-\begin{frame}{Complexity of reprocessing schemes}
-  \begin{figure}[H]
-    \vspace*{-1cm}
-    \begin{center}
-      \includegraphics[scale = 0.4]{PUREX_Process}
-      \caption{\tiny{Principal steps in PUREX\tss{\cite{benedict1982nuclear}}}}
-    \end{center}
-  \end{figure}
-  \note[item]{Worry about dependancies of of DC
-  Worry about non equilibrium
-  flow rates, blah blah blah.
-  Show mixer settler columns, show batch.
-  What I want to do, get some distribution coefficients
-  develop a reasonable process for isolating a large
-  fraction of Pu, then, based on process, calculate what
-  the decontamination factor should be, and then actually measure it}
-\end{frame}
+%% \begin{frame}{Complexity of reprocessing schemes}
+%%   \begin{figure}[H]
+%%     \vspace*{-1cm}
+%%     \begin{center}
+%%       \includegraphics[scale = 0.4]{PUREX_Process}
+%%       \caption{\tiny{Principal steps in PUREX\tss{\cite{benedict1982nuclear}}}}
+%%     \end{center}
+%%   \end{figure}
+%%   \note[item]{Worry about dependancies of of DC
+%%   Worry about non equilibrium
+%%   flow rates, blah blah blah.
+%%   Show mixer settler columns, show batch.
+%%   What I want to do, get some distribution coefficients
+%%   develop a reasonable process for isolating a large
+%%   fraction of Pu, then, based on process, calculate what
+%%   the decontamination factor should be, and then actually measure it}
+%% \end{frame}
 
 
-\begin{frame}{Complexity of reprocessing schemes}
-  \begin{figure}[H]
-    \vspace*{-1cm}
-    \begin{center}
-      \includegraphics[scale = 0.4]{mixer}
-      \caption{\tiny{Mixer-Settler Diagram}}
-    \end{center}
-  \end{figure}
-\end{frame}
+%% \begin{frame}{Complexity of reprocessing schemes}
+%%   \begin{figure}[H]
+%%     \vspace*{-1cm}
+%%     \begin{center}
+%%       \includegraphics[scale = 0.4]{mixer}
+%%       \caption{\tiny{Mixer-Settler Diagram}}
+%%     \end{center}
+%%   \end{figure}
+%% \end{frame}
 
 
-\begin{frame}{Complexity of reprocessing schemes}
-  \begin{figure}[H]
-    \vspace*{-1cm}
-    \begin{center}
-      \includegraphics[scale = 0.35]{stage}
-      \caption{\tiny{Multistage countercurrent solvent extraction.
-          M, mixer; S, settler.\tss{\cite{benedict1982nuclear}}}}
-    \end{center}
-  \end{figure}
-\end{frame}
+%% \begin{frame}{Complexity of reprocessing schemes}
+%%   \begin{figure}[H]
+%%     \vspace*{-1cm}
+%%     \begin{center}
+%%       \includegraphics[scale = 0.35]{stage}
+%%       \caption{\tiny{Multistage countercurrent solvent extraction.
+%%           M, mixer; S, settler.\tss{\cite{benedict1982nuclear}}}}
+%%     \end{center}
+%%   \end{figure}
+%% \end{frame}
 
 
-\begin{frame}{Complexity of reprocessing schemes}
-  \begin{figure}[H]
-    \vspace*{-1cm}
-    \begin{center}
-      \includegraphics[scale = 0.4]{column}
-      \caption{\tiny{Pulsed Column Diagram}}
-    \end{center}
-  \end{figure}
+%% \begin{frame}{Complexity of reprocessing schemes}
+%%   \begin{figure}[H]
+%%     \vspace*{-1cm}
+%%     \begin{center}
+%%       \includegraphics[scale = 0.4]{column}
+%%       \caption{\tiny{Pulsed Column Diagram}}
+%%     \end{center}
+%%   \end{figure}
+%% \end{frame}
+
+\section{Previous Work}
+\begin{frame}
+\sectionpage
 \end{frame}
 
 \subsection{Experiment}
@@ -363,12 +373,11 @@
     \begin{column}{0.5\textwidth}
       \vspace{-1cm}
       \begin{itemize}
-      \item{12.9 $\pm$ 0.1 mg of DUO\tsbs{2} was irradiated over
-        the course of three months}
+      \item{12.9 $\pm$ 0.1 mg of DUO\tsbs{2} was irradiated}
         \begin{itemize}
         \item{High Flux Isotope Reactor at Oak Ridge National Laboratory}
         \end{itemize}
-      \item{The final burnup was 4.43 $\pm$ 0.31 GWd/tHM\tss{\cite{swinney2015experimental}}}
+      \item{Burnup was 4.43 $\pm$ 0.31 GWd/tHM\tss{\cite{swinney2015experimental}}}
       \item{0.196 $\pm$ mg of total Pu was produced as measured by ICP-MS}
       \end{itemize}
     \end{column}
@@ -377,19 +386,36 @@
         \vspace*{-1cm}
         \begin{center}
 	   \includegraphics[scale = 0.4]{irradiated}
-           \caption{\tiny{Picture of irradiated sample}}
+           %\caption{\tiny{Picture of irradiated sample}}
 	\end{center}
       \end{figure}
     \end{column}
   \end{columns}  
-  
+  \end{frame}
+
+\begin{frame}{Dissolution of the spent fuel pellet}
+      \begin{figure}[H]
+        \vspace*{-1cm}
+        \begin{center}
+	   \includegraphics[scale = 0.65]{dissolution}
+	\end{center}
+      \end{figure}
+\end{frame}
+
+\begin{frame}{Glovebox}
+      \begin{figure}[H]
+        \vspace*{-1cm}
+        \begin{center}
+	   \includegraphics[scale = 0.5]{glovebox}
+	\end{center}
+      \end{figure}
 \end{frame}
 
 \begin{frame}{Experiments}
   \begin{itemize}
-  \item{Experiment 1}
+  \item{Single stage extraction and back-extraction}
     \begin{itemize}
-    \item{Purpose: quantify product recovery and DF values
+    \item{Purpose: quantify product recovery, D-values and DF values
       for single stage extraction and back extraction}
     \item{Conditions:}
     \end{itemize}
@@ -405,9 +431,9 @@
       }
   \end{center}
   \begin{itemize}
-  \item{Experiment 2}
+  \item{Multi-contact extraction and back-extraction}
     \begin{itemize}
-    \item{Purpose: recover a large fraction of Pu (4 extractions,
+    \item{Purpose: Maximize recovery of Pu with 4 extractions,
       3 back extractions}
     \item{Conditions:}
     \end{itemize}
@@ -424,11 +450,6 @@
   \end{center}
 \end{frame}
 
-\section{Completed Work}
-\begin{frame}
-\sectionpage
-\end{frame}
-
 \subsection{Recovery of Pu and U}
 \begin{frame}{Previous Experiment Results}
   \begin{block}{Recoveries of U and Pu}
@@ -437,9 +458,9 @@
    %{\fontsize{2.5}{4}\selectfont
   \begin{tabular}{l  c  c}\toprule
                 & Pu Recovery & U Recovery \\ \midrule \vspace{0.1cm}
-   Experiment 1         & (83.4$\pm$9.5)\% & (11.2$\pm$1.3)\% \\
-   Experiment 2 Cycle 1 & (99.7$\pm$4.2)\% & (6.8$\pm$0.3)\% \\
-   Experiment 2 Cycle 2 & (93.0$\pm$4.6)\% & (6.6$\pm$0.3)\% \\
+   Single stage         & (83.4$\pm$9.5)\% & (11.2$\pm$1.3)\% \\
+   Multi-contact Cycle 1 & (99.7$\pm$4.2)\% & (6.8$\pm$0.3)\% \\
+   Multi-contact Cycle 2 & (93.0$\pm$4.6)\% & (6.6$\pm$0.3)\% \\
    Overall Experiment 2 & (92.7$\pm$6.0)\% & (0.45$\pm$0.03)\% \\ \bottomrule
   \end{tabular}
   %}
@@ -455,7 +476,7 @@
       \vskip -0.2cm
   {\fontsize{7}{11.2}\selectfont
   \begin{tabular}{l  c  c c c c}\toprule
-   Element (Z)  & Exp.1 & Error & Exp.2 Cycle 1 & Error & Isotopes Used\\ \midrule 
+   Element (Z)  & SS & Error & MC Cycle 1 & Error & Isotopes Used\\ \midrule 
    Rb(37) & 39.0 & 5.9 & 11.8 & 0.8 & $^{85}$Rb \\
    Sr(38) & 283  & 43  & 84.6 & 5.9 & $^{90}$Sr \\
    Mo(42) & 5.7  & 0.8 & 1.9  & 0.2 & $^{97,98,100}$Mo \\
@@ -475,6 +496,50 @@
   \end{block}
 \end{frame}
 
+\begin{frame}{Conclusions}
+  \begin{itemize}
+  \item{Two PUREX experiments were conducted}
+    \begin{itemize}
+    \item{Single stage: Determined DC values for Pu, U and several FP}
+    \item{Multi-contact: Utilized Experiment 1 to recover over 92\%
+      of Pu while leaving less than 1\% of the U}
+    \end{itemize}
+  \item{DF values were measured for 12 FP elements}
+  \item{DF values were lower than those typically found in industrial
+    scale PUREX plants due to multiple extraction and back-extraction
+    steps without an intermittent scrubbing step.}
+  \item{This work provide DF data that will be built upon for
+        nuclear forensic investigations of interdicted Pu.}
+  \end{itemize}
+\end{frame}
+
+
+\section{Future Work}
+\begin{frame}
+\sectionpage
+\end{frame}
+
+\begin{frame}{Future Work}
+  \begin{itemize}
+  \item{Modify Multi-contact extraction, to recover a larger
+    fraction of Pu}
+  \item{Investigation of how D-values for (Cs, Sb,
+    Eu, Rb, Sr, Nd, Pm, and Sm) change as a function of
+    nitric acid concentration}
+  \item{Determine statistical uncertainty of D and DF values.}
+    \begin{itemize}
+    \item{Repeat above experiments 3-5 times}
+    \end{itemize}
+  \item{Connect D-values with process information to DF values}
+\end{itemize}
+\end{frame}
+
+\appendix
+\section{Questions?}
+\begin{frame}
+\sectionpage
+\end{frame}
+
 \begin{frame}{Previous Experiment Results}
   \begin{figure}[H]
     \vspace*{-.1cm}
@@ -486,51 +551,20 @@
   \end{figure}
 \end{frame}
 
-\begin{frame}{Conclusions}
-  \begin{itemize}
-  \item{Two PUREX experiments were conducted}
-    \begin{itemize}
-    \item{Experiment 1: Determined DC values for Pu, U and several FP}
-    \item{Experiment 2: Utilized Experiment 1 to recover over 92\%
-      of Pu while leaving less than 1\% of the U}
-    \end{itemize}
-  \item{DF values were measured for 12 FP elements}
-  \item{DF values were lower than those typically found in industrial
-    scale PUREX plants due to multiple extraction and back-extraction
-    steps without an intermittent scrubbing step.}
-  \item{This work provide critical DF data that will be needed for
-    potential nuclear forensic investigations of interdicted Pu.
-    Such a sample might have already been purified, so accurate
-    DF data will alow for estimation of the original amounts of forensic
-    isotopes. Regardless, additional research is needed to study the
-    effects of additional scrubbing and stripping steps on individual DFs.}
-  \end{itemize}
-\end{frame}
-
-
-\section{Future Work}
-\begin{frame}
-\sectionpage
-\end{frame}
-
-\begin{frame}{Future Work}
-\begin{itemize}
-\item{More experiments, varying concentrations}
-\item{Look into solution based iterative process determining algorithms}
-\end{itemize}
-\end{frame}
-
-\appendix
-\section{Questions?}
-\begin{frame}
-\sectionpage
-\end{frame}
-
 \begin{frame}[allowframebreaks]{References}
 \def\newblock{}
 \nocite{*}
 \scriptsize{\bibliographystyle{plain}}
 \bibliography{references}
+\end{frame}
+
+\begin{frame}{Mass Spec}
+  \begin{figure}[H]
+    \vspace*{-1cm}
+    \begin{center}
+      \includegraphics[scale = 0.75]{instrument_response}
+    \end{center}
+  \end{figure}
 \end{frame}
 
 \end{document}
