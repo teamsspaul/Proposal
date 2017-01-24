@@ -1,0 +1,30 @@
+\documentclass{article}
+
+\usepackage{tikz}
+
+\usetikzlibrary{shapes,arrows,chains}
+\usetikzlibrary[calc]
+
+\begin{document}
+
+\tikzstyle{block} = [rectangle, draw, text width=6em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{line} = [draw, -latex']
+
+\begin{tikzpicture}[node distance=1cm, auto]
+  \node (init) {};
+  \node [block] (A) {A};
+  \node [block, right= of A] (B) {B};
+
+  \path [line] (A) -- node [text width=2.5cm,midway,above=3em,align=center ] {My very looooooong text which is wider than the arrow below} (B);
+\end{tikzpicture}
+
+
+\begin{tikzpicture}[node distance=1cm, auto]
+  \node (init) {};
+  \node [block] (A) {A};
+  \node [block, right=3cm of A] (B) {B};
+
+  \path [line] (A) -- node [text width=2.5cm,midway,above,align=center ] {My very looooooong text which is wider than the arrow below} (B);
+\end{tikzpicture}
+
+\end{document}
