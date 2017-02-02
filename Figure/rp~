@@ -1,0 +1,4 @@
+#!/bin/bash
+pdflatex marketing-distribution-channel.tex
+firefox marketing-distribution-channel.pdf &
+

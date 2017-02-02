@@ -1,0 +1,126 @@
+%% Depiction of a marketing distribution channel or supply chain. 
+%% Author: Ashutosh Prasad
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning} 
+
+%%%<
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{5pt}%
+%%%>
+\usetikzlibrary{arrows, decorations.markings}
+
+\tikzstyle{vecArrow} = [thick, decoration={markings,mark=at position
+    1 with {\arrow[semithick]{open triangle 60}}},
+  double distance=1.4pt, shorten >= 5.5pt,
+  preaction={decorate}]
+  %preaction = {decorate},
+  %postaction = {draw,line width=1.4pt, white,shorten >= 4.5pt}]
+\tikzstyle{innerWhite} = [semithick, white,line width=1.4pt, shorten >= 4.5pt]
+\newcommand{\tss}{\textsuperscript}
+\newcommand{\tsbs}{\textsubscript}
+
+
+\tikzstyle{block} = [rectangle, draw, text width=6em, text centered, rounded corners, minimum height=4em]
+%\tikzstyle{line} = [draw, -latex']
+
+%\tikzstyle{line} = [draw, -latex',thick,shorten >= 1pt,postaction={draw,line width=1pt}]
+\tikzstyle{line} = [draw, -latex',thick,shorten >= 1pt]
+
+
+\begin{comment}
+:TItle: PUREX
+
+\end{comment}
+
+\begin{document}
+
+\begin{figure}
+\centering
+%% \begin{tikzpicture}[node distance=1cm, auto]  
+%% %% \tikzset{
+%% %%     mynode/.style={rectangle,rounded corners,draw=black, top color=white, bottom color=yellow!50,very thick, inner sep=1em, minimum size=3em, text centered},
+%% %%     myarrow/.style={->, >=latex', shorten >=1pt, thick},
+%% %%     mylabel/.style={text width=7em, text centered} 
+%% %% }
+%% \tikzset{
+%%     mynode/.style={rectangle,rounded corners,draw=black, top color=white, bottom color=white,very thick, inner sep=1em, minimum size=3em, text centered},
+%%     myarrow/.style={->, >=latex', shorten >=0.5pt, thick,
+%%     postaction={draw,line width=2pt}},
+%%     mylabel/.style={text width=7em, text centered} 
+%% }
+%% \node[mynode] (Composition1) {Initial Composition};  
+%% \node[right=1cm of Composition1] (dummy) {};
+%% %\node[mynode, right=of Composition] () {RETAILER 1};  
+%% \node[mynode, right=of dummy] (Composition2) {Final Composition};
+%% \node[mylabel, above=of dummy] (label1) {PUREX};  
+%% %\node[mylabel, below right=of manufacturer] (label2) {Participation rate $\theta_2$};
+%% % The text width of 7em forces the text to break into two lines. 
+
+%% %\draw[myarrow] (Composition1.east) to  (Composition2.west);
+
+%% \draw[myarrow] (Composition1.east) -- node [text width=2.5cm,midway,above] {PUREX} to (Composition2.west);
+
+%% \end{tikzpicture}
+
+
+
+\begin{tikzpicture}[node distance=1cm, auto]
+  \node (init) {};
+
+%% \tikzset{
+%%     mynode/.style={rectangle,rounded corners,draw=black, top color=white, bottom color=yellow!50,very thick, inner sep=1em, minimum size=3em, text centered},
+%%     myarrow/.style={->, >=latex', shorten >=1pt, thick},
+%%     mylabel/.style={text width=7em, text centered} 
+%% }
+  \tikzset{
+    mynode/.style={rectangle,rounded corners,draw=black, top color=white, bottom color=white,very thick, inner sep=1em, minimum size=3em, text centered},
+    myarrow/.style={->, >=latex', shorten >=0.5pt, thick,
+      postaction={draw,line width=2pt}},
+    mylabel/.style={text width=7em, text centered}
+    
+  }
+  %\node[mynode] (Composition1) {Initial Composition};
+  \node[mynode,label={\small Attribution Analysis\tss{\textbf{*}}}]
+    (Composition1) {Initial Pu};
+
+
+  %\node [label={[label distance=1cm]30:label}] {Initial Composition};
+  %\node[label={\small 1/16}] (a) at (0,0) {a};
+  
+  \node[right=1cm of Composition1] (dummy) {};
+  %\node[mynode, right=of Composition] () {RETAILER 1};  
+  \node[mynode, right=of dummy] (Composition2) {Final Pu};
+
+  
+  %\node [block] (A) {A};
+  %\node [block, right=3cm of A] (B) {B};
+
+  %\path [line] (A) -- node [text width=2.5cm,midway,above,align=center ] {PUREX} (B);
+  \path [line] (Composition1) -- node [text width=2.5cm,midway,above,align=center ] {PUREX} (Composition2);
+
+  \draw[<-, >=latex', shorten >=2pt, shorten <=2pt, bend right=45, thick, dashed]
+  (Composition1.south) to node[auto, swap]
+       {Decontamination Factors\tss{\textbf{*}}}(Composition2.south);
+
+  
+\end{tikzpicture}
+
+
+
+%\draw[vecArrow] (Composition1.east) to (Composition2.west);
+%\draw[myarrow] (manufacturer.south)  -- ++(.5,0) -- ++(0,-1) -|  (retailer2.north);
+% There is a slight overlap of the arrows with the (manufacturer) south edge
+% because creating the offset in another way didn't compile. 
+ 
+%\draw[<->, >=latex', shorten >=2pt, shorten <=2pt, bend right=45, thick, dashed] 
+%    (retailer1.south) to node[auto, swap] {Competition}(retailer2.south); 
+% The swap command corrects the placement of the text.
+
+\medskip
+\caption{Figure} 
+\end{figure}
+
+\end{document}
