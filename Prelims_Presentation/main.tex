@@ -63,24 +63,44 @@
 \setbeamertemplate{enumerate item}{\insertenumlabel.}
 
 
+
+
+
+%% \title{The Title}
+%% \subtitle{The Subtitle}
+%% \author{The Author}
+%% \supervisor{David Hilbert}
+%% \institute{The Institute}
+
+
+
 %%To select specific font
 %{\fontsize{2.5}{4}\selectfont tobesize}
 
 %\setbeamertemplate{background}{\tikz[overlay, remember picture]\node[xshift=-2.3cm, yshift=1.50cm, opacity=0.4]at (current page.south east){\includegraphics[width=4cm]{images}};}
 
-\title[Decontamination Factors for Nuclear Forensics]{Characterizaiton of Pu Separation by PUREX}
-\author{Paul Mendoza}
-\date{September 28, 2016}
+%\title[Decontamination Factors for Nuclear Forensics]{Experimental Characterization of Pu Separation by %PUREX Process on a Low-Burnup, Pseudo-Fast-Neutron Irradiated DUO\tsbs{2} for Product Decontamination Fa%ctors and Nuclear Forensics}
+%\author{Paul Mendoza}
+%
+
+\title[Your Short Title]{Your Presentation}
+\institute{Where You're From}
+\author{
+        Author:       Me \\[1ex]
+        Supervisors:  First                  Second
+}
+\date{02/27/2017}
 
 \begin{document}
+
 \setbeamertemplate{caption}{\raggedright\insertcaption\par}
 \begin{frame}
 	%% background
   \tikz[overlay, remember picture]\node[xshift=-3.5cm, yshift=3cm, opacity=0.1]at (current page.south east){\includegraphics[width=8cm]{tamu_system_proposed_seal_042915}};
 	%% Left-hand logo
-  %% \begin{tikzpicture}[remember picture, overlay]
-  %% \node [xshift = 3 cm, yshift=1.2cm] at (current page.south west){\includegraphics[width=5cm]{tees_logo_primary_maroon}};
-  %% \end{tikzpicture}
+  \begin{tikzpicture}[remember picture, overlay]
+  \node [xshift = 3 cm, yshift=1.2cm] at (current page.south west){\includegraphics[width=5cm]{tees_logo_primary_maroon}};
+  \end{tikzpicture}
     %% Right-hand logo
   \begin{tikzpicture}[remember picture, overlay]
   \node [xshift = -3cm, yshift=1.2cm] at (current page.south east){\includegraphics[width=5cm]{TEES_NSSPI_logo_HMaroon}};
@@ -106,9 +126,12 @@
 %Add NSSPI to upper right
 \addtobeamertemplate{frametitle}{}{%
   \begin{tikzpicture}[remember picture,overlay]
-    \node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=0.8cm]{TEES_NSSPI_Acronym_logo_WHT}};
-    \end{tikzpicture}}
-
+    \node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=0.8cm]{NUENlogo}};
+  \end{tikzpicture}
+    \begin{tikzpicture}[remember picture,overlay]
+      \node[anchor=north west,yshift=2pt] at (current page.north west) {\includegraphics[height=0.8cm]{TEES_NSSPI_Acronym_logo_WHT}};
+  \end{tikzpicture}
+}
 
 
 \begin{frame}{Outline}
