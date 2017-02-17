@@ -1,0 +1,9 @@
+﻿@book{RN113,
+   author = {Moody, Kenton J and Hutcheon, Ian D and Grant, Patrick M},
+   title = {Nuclear forensic analysis},
+   publisher = {CRC Press},
+   ISBN = {1439880611},
+   year = {2014},
+   type = {Book}
+}
+
