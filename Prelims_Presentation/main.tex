@@ -27,7 +27,22 @@
     \begin{beamercolorbox}[rounded=true,shadow=false,sep=4pt,center]{part title}
     \usebeamerfont{section title}\LARGE{\insertsection}\par
     \end{beamercolorbox}
-    \end{centering}}
+\end{centering}}
+
+%Modify Title page
+\setbeamertemplate{title page}{
+  \begin{centering}
+    \vspace{0.1cm}
+    \begin{beamercolorbox}[rounded=true,shadow=false,sep=4pt,center]{part title}
+      \usebeamerfont{title}\normalsize{\inserttitle}\par
+    \end{beamercolorbox}
+    \insertauthor\par
+    \insertdate\par
+  \end{centering}
+}
+
+
+
 \usepackage{ragged2e}
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
@@ -77,18 +92,13 @@
 %%To select specific font
 %{\fontsize{2.5}{4}\selectfont tobesize}
 
+%Biola seal
 %\setbeamertemplate{background}{\tikz[overlay, remember picture]\node[xshift=-2.3cm, yshift=1.50cm, opacity=0.4]at (current page.south east){\includegraphics[width=4cm]{images}};}
 
-%\title[Decontamination Factors for Nuclear Forensics]{Experimental Characterization of Pu Separation by %PUREX Process on a Low-Burnup, Pseudo-Fast-Neutron Irradiated DUO\tsbs{2} for Product Decontamination Fa%ctors and Nuclear Forensics}
-%\author{Paul Mendoza}
-%
 
-\title[Your Short Title]{Your Presentation}
-\institute{Where You're From}
-\author{
-        Author:       Me \\[1ex]
-        Supervisors:  First                  Second
-}
+\title[Decontamination Factors for Nuclear Forensics]{Experimental Characterization of Pu Separation by PUREX Process on a Low-Burnup, Pseudo-Fast-Neutron Irradiated DUO\tsbs{2} for Product Decontamination Factors and Nuclear Forensics}
+\institute{Ph.D. Preliminary Examination}
+\author{Paul Mendoza}
 \date{02/27/2017}
 
 \begin{document}
@@ -114,10 +124,10 @@
     %% \node[anchor=north west,yshift=2pt] at (current page.north west) {\includegraphics[height=0.8cm]{NUENlogo}};
     %% \end{tikzpicture}
     \titlepage
-    \vspace{-1.8cm}
-    \begin{center}
-      Presented at All Hands Meeting
-    \end{center}
+    %\vspace{-1.8cm}
+    %\begin{center}
+    %  Presented at All Hands Meeting
+    %\end{center}
 \end{frame}
 
 %Add Biola Seal
