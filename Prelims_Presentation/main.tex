@@ -105,18 +105,18 @@
 \setbeamertemplate{caption}{\raggedright\insertcaption\par}
 \begin{frame}
 	%% background
-  \tikz[overlay, remember picture]\node[xshift=-3.5cm, yshift=3cm, opacity=0.1]at (current page.south east){\includegraphics[width=8cm]{tamu_system_proposed_seal_042915}};
+  \tikz[overlay, remember picture]\node[xshift=-3.5cm, yshift=3cm, opacity=0.1]at (current page.south east){\includegraphics[width=8cm]{figures/tamu_system_proposed_seal_042915}};
 	%% Left-hand logo
   \begin{tikzpicture}[remember picture, overlay]
-  \node [xshift = 3 cm, yshift=1.2cm] at (current page.south west){\includegraphics[width=5cm]{tees_logo_primary_maroon}};
+  \node [xshift = 3 cm, yshift=1.2cm] at (current page.south west){\includegraphics[width=5cm]{figures/tees_logo_primary_maroon}};
   \end{tikzpicture}
     %% Right-hand logo
   \begin{tikzpicture}[remember picture, overlay]
-  \node [xshift = -3cm, yshift=1.2cm] at (current page.south east){\includegraphics[width=5cm]{TEES_NSSPI_logo_HMaroon}};
+  \node [xshift = -3cm, yshift=1.2cm] at (current page.south east){\includegraphics[width=5cm]{figures/TEES_NSSPI_logo_HMaroon}};
   \end{tikzpicture}
   %% Upper logo right
     \begin{tikzpicture}[remember picture,overlay]
-    \node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=0.8cm]{NUENlogo}};
+    \node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=0.8cm]{figures/NUENlogo}};
     \end{tikzpicture}
   %% Upper logo left
     %% \begin{tikzpicture}[remember picture,overlay]
@@ -131,15 +131,15 @@
 \end{frame}
 
 %Add Biola Seal
-\setbeamertemplate{background}{\tikz[overlay, remember picture]\node[xshift=-2.5cm, yshift=2.5cm, opacity=0.05]at (current page.south east){\includegraphics[width=6cm]{imageedit_2_7317234434}};}
+\setbeamertemplate{background}{\tikz[overlay, remember picture]\node[xshift=-2.5cm, yshift=2.5cm, opacity=0.05]at (current page.south east){\includegraphics[width=6cm]{figures/imageedit_2_7317234434}};}
 
 %Add NSSPI to upper right
 \addtobeamertemplate{frametitle}{}{%
   \begin{tikzpicture}[remember picture,overlay]
-    \node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=0.8cm]{NUENlogo}};
+    \node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=0.8cm]{figures/NUENlogo}};
   \end{tikzpicture}
     \begin{tikzpicture}[remember picture,overlay]
-      \node[anchor=north west,yshift=2pt] at (current page.north west) {\includegraphics[height=0.8cm]{TEES_NSSPI_Acronym_logo_WHT}};
+      \node[anchor=north west,yshift=2pt] at (current page.north west) {\includegraphics[height=0.8cm]{figures/TEES_NSSPI_Acronym_logo_WHT}};
   \end{tikzpicture}
 }
 
@@ -166,7 +166,7 @@
     \end{itemize}
   \item{Limited scope of IAEA safeguards}
   \item{``the awful arithmetic of the atomic bomb''}
-  \item{Need for improved forensic capabilities}
+  \item{Need for improved forensic capabilities\tss{\cite{RN103}}}
   \end{itemize}
 \end{frame}
 
@@ -207,7 +207,7 @@
   \item{CANDU Reactor
           \begin{figure}[H]
         \begin{flushright}
-	   \includegraphics[scale = 0.2]{nuclear-weapons-free-zone}
+	   \includegraphics[scale = 0.2]{figures/nuclear-weapons-free-zone}
 	\end{flushright}
       \end{figure}}
   \end{itemize}
@@ -236,7 +236,7 @@
       \begin{figure}[H]
         \vspace*{-1cm}
         \begin{center}
-	  \includegraphics[scale = 0.5]{Stoller}
+	  \includegraphics[scale = 0.5]{figures/Stoller}
           \vspace{-0.5cm}
            \caption{\tiny{Adapted from Stoller\tss{\cite{stoller1961reactor}}}}
 	\end{center}
@@ -289,7 +289,7 @@
   \begin{figure}[H]
     \vspace*{0.1cm}
     \begin{center}
-      \includegraphics[scale = 0.5]{Extraction}
+      \includegraphics[scale = 0.5]{figures/Extraction}
     \end{center}
   \end{figure}
 \end{frame}
@@ -303,7 +303,7 @@
   \begin{figure}[H]
     \vspace*{0.1cm}
     \begin{center}
-      \includegraphics[scale = 0.5]{Back_Extraction}
+      \includegraphics[scale = 0.5]{figures/Back_Extraction}
     \end{center}
   \end{figure}
 \end{frame}
@@ -382,7 +382,7 @@
 %%   \begin{figure}[H]
 %%     \vspace*{-1cm}
 %%     \begin{center}
-%%       \includegraphics[scale = 0.4]{PUREX_Process}
+%%       \includegraphics[scale = 0.4]{figures/PUREX_Process}
 %%       \caption{\tiny{Principal steps in PUREX\tss{\cite{benedict1982nuclear}}}}
 %%     \end{center}
 %%   \end{figure}
@@ -401,7 +401,7 @@
 %%   \begin{figure}[H]
 %%     \vspace*{-1cm}
 %%     \begin{center}
-%%       \includegraphics[scale = 0.4]{mixer}
+%%       \includegraphics[scale = 0.4]{figures/mixer}
 %%       \caption{\tiny{Mixer-Settler Diagram}}
 %%     \end{center}
 %%   \end{figure}
@@ -412,7 +412,7 @@
 %%   \begin{figure}[H]
 %%     \vspace*{-1cm}
 %%     \begin{center}
-%%       \includegraphics[scale = 0.35]{stage}
+%%       \includegraphics[scale = 0.35]{figures/stage}
 %%       \caption{\tiny{Multistage countercurrent solvent extraction.
 %%           M, mixer; S, settler.\tss{\cite{benedict1982nuclear}}}}
 %%     \end{center}
@@ -424,7 +424,7 @@
 %%   \begin{figure}[H]
 %%     \vspace*{-1cm}
 %%     \begin{center}
-%%       \includegraphics[scale = 0.4]{column}
+%%       \includegraphics[scale = 0.4]{figures/column}
 %%       \caption{\tiny{Pulsed Column Diagram}}
 %%     \end{center}
 %%   \end{figure}
@@ -453,7 +453,7 @@
       \begin{figure}[H]
         \vspace*{-1cm}
         \begin{center}
-	   \includegraphics[scale = 0.4]{irradiated}
+	   \includegraphics[scale = 0.4]{figures/irradiated}
            %\caption{\tiny{Picture of irradiated sample}}
 	\end{center}
       \end{figure}
@@ -465,7 +465,7 @@
       \begin{figure}[H]
         \vspace*{-1cm}
         \begin{center}
-	   \includegraphics[scale = 0.65]{dissolution}
+	   \includegraphics[scale = 0.65]{figures/dissolution}
 	\end{center}
       \end{figure}
 \end{frame}
@@ -474,7 +474,7 @@
       \begin{figure}[H]
         \vspace*{-1cm}
         \begin{center}
-	   \includegraphics[scale = 0.5]{glovebox}
+	   \includegraphics[scale = 0.5]{figures/glovebox}
 	\end{center}
       \end{figure}
 \end{frame}
@@ -612,7 +612,7 @@
   \begin{figure}[H]
     \vspace*{-.1cm}
     \begin{center}
-      \includegraphics[scale = 0.6]{df}
+      \includegraphics[scale = 0.6]{figures/df}
       \vspace{-0.5cm}
       \caption{\tiny{Decontamination Factors for multi-contact extraction.}}
     \end{center}
@@ -630,7 +630,7 @@
   \begin{figure}[H]
     \vspace*{-1cm}
     \begin{center}
-      \includegraphics[scale = 0.75]{instrument_response}
+      \includegraphics[scale = 0.75]{figures/instrument_response}
     \end{center}
   \end{figure}
 \end{frame}

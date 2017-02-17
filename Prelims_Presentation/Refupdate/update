@@ -1,3 +1,9 @@
 #!/bin/bash
+#Add New line to references
 sed -i -e '$a\' ../references.bib
+#Cat new reference to references file
 cat $1 >> ../references.bib
+#Remove control-M from copy?
+sed -i 's///g' ../references.bib
+#Remove the underscore that is magically created
+sed -i 's/.@/@/g' ../references.bib
