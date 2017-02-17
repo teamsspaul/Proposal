@@ -6,6 +6,21 @@
 %\pgfpagesuselayout{4 on 1}[letterpaper, landscape, border shrink=5mm]
 %%% ------------------------------------------------------------------
 
+\usepackage{ragged2e}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{appendixnumberbeamer}
+\usepackage{natbib}
+\usepackage{textpos}
+\usepackage{lipsum}
+\usepackage{tikz}
+\usepackage[percent]{overpic}
+\usepackage{textcomp}
+\usepackage{booktabs}
+\usepackage{mathabx}
+\usepackage{pifont}
+\usepackage{bbding}
+\usepackage{fontenc}
 
 \mode<presentation>
   \usepackage{ru}
@@ -30,34 +45,34 @@
 \end{centering}}
 
 %Modify Title page
+\title[Decontamination Factors for Nuclear Forensics]{Experimental Characterization of Pu Separation by PUREX Process on a Low-Burnup, Pseudo-Fast-Neutron Irradiated DUO\tsbs{2} for Product Decontamination Factors and Nuclear Forensics}
+\institute{Ph.D. Preliminary Examination}
+\author{Paul Mendoza}
+\date{02/27/2017}
+
 \setbeamertemplate{title page}{
   \begin{centering}
-    \vspace{0.1cm}
+    \vspace{-0.7cm}
     \begin{beamercolorbox}[rounded=true,shadow=false,sep=4pt,center]{part title}
       \usebeamerfont{title}\normalsize{\inserttitle}\par
     \end{beamercolorbox}
-    \insertauthor\par
-    \insertdate\par
+    \vspace{0.6cm}
+    \begin{tabular}{rl}
+    A PhD. Prelims Defense by:      & Paul Mendoza \\[1ex]
+    Chair: & Dr. Sunil Chirayath\\[1ex]
+    Committee Members: & Dr. Sean McDeavitt\\
+    & Dr. Craig Marianno\\
+    & Dr. Cody Folden III.
+    \end{tabular}
+    \begin{center}
+      Monday, February 27, 2017, 10:00 am\\
+      AIEN 304
+    \end{center}
   \end{centering}
 }
 
 
 
-\usepackage{ragged2e}
-\usepackage[english]{babel}
-\usepackage[utf8]{inputenc}
-\usepackage{appendixnumberbeamer}
-\usepackage{natbib}
-\usepackage{textpos}
-\usepackage{lipsum}
-\usepackage{tikz}
-\usepackage[percent]{overpic}
-\usepackage{textcomp}
-\usepackage{booktabs}
-\usepackage{mathabx}
-\usepackage{pifont}
-\usepackage{bbding}
-\usepackage{fontenc}
 %\let\Sun\undefined   %to undefine something
 %\usepackage{marvosym}
 %\usepackage{scalerel}
@@ -67,10 +82,11 @@
 %% ]{biblatex}
 \setbeamerfont{caption}{size=\tiny}
 
-%\setbeameroption{show notes}
-%\setbeamertemplate{note page}[plain]
+\setbeameroption{show notes}
+\setbeamertemplate{note page}[plain]
 \newcommand{\tss}{\textsuperscript}
 \newcommand{\tsbs}{\textsubscript}
+
 %Change Bullets in latex list
 \setbeamertemplate{itemize item}{\scriptsize\raise1.25pt\hbox{\donotcoloroutermaths\ding{118}}}
 \setbeamertemplate{itemize subitem}{\scriptsize\raise1.25pt\hbox{\ding{226}}}
@@ -78,28 +94,11 @@
 \setbeamertemplate{enumerate item}{\insertenumlabel.}
 
 
+%%TO SELECT SPECIFIC FONT
+%{\FONTSIZE{2.5}{4}\SELECTFONT TOBESIZE}
 
-
-
-%% \title{The Title}
-%% \subtitle{The Subtitle}
-%% \author{The Author}
-%% \supervisor{David Hilbert}
-%% \institute{The Institute}
-
-
-
-%%To select specific font
-%{\fontsize{2.5}{4}\selectfont tobesize}
-
-%Biola seal
-%\setbeamertemplate{background}{\tikz[overlay, remember picture]\node[xshift=-2.3cm, yshift=1.50cm, opacity=0.4]at (current page.south east){\includegraphics[width=4cm]{images}};}
-
-
-\title[Decontamination Factors for Nuclear Forensics]{Experimental Characterization of Pu Separation by PUREX Process on a Low-Burnup, Pseudo-Fast-Neutron Irradiated DUO\tsbs{2} for Product Decontamination Factors and Nuclear Forensics}
-\institute{Ph.D. Preliminary Examination}
-\author{Paul Mendoza}
-\date{02/27/2017}
+%BIOLA SEAL
+%\SETBEAMERTEMPLATE{BACKGROUND}{\TIKZ[OVERLAY, REMEMBER PICTURE]\NODE[XSHIFT=-2.3CM, YSHIFT=1.50CM, OPACITY=0.4]AT (CURRENT PAGE.SOUTH EAST){\INCLUDEGRAPHICS[WIDTH=4CM]{IMAGES}};}
 
 \begin{document}
 
@@ -123,6 +122,7 @@
     %% \begin{tikzpicture}[remember picture,overlay]
     %% \node[anchor=north west,yshift=2pt] at (current page.north west) {\includegraphics[height=0.8cm]{NUENlogo}};
     %% \end{tikzpicture}
+
     \titlepage
     %\vspace{-1.8cm}
     %\begin{center}
@@ -148,8 +148,39 @@
 \tableofcontents
 \end{frame}
 
-\section{Motivation}
-\begin{frame}{Big Picture}
+\section{Introduction}
+
+\subsection{Motivation}
+\begin{frame}{Motivation}
+  \begin{itemize}
+  \item{Current Events}
+    \begin{itemize}
+    \item{Joint Comprehensive Plan of Action}
+    \note{Example note}
+    \item{Non-safeguarded reactors}
+    \item{Islamic State of Iraq and Syria}
+    \end{itemize}
+  \item{Past Events}
+    \begin{itemize}
+    \item{Septemer 11, 2001}
+    \end{itemize}
+  \item{Limited scope of IAEA safeguards}
+  \item{``the awful arithmetic of the atomic bomb''}
+  \item{Need for improved forensic capabilities}
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Background}
+  Weapons\\
+  Types\\
+  Pu\\
+  Where it comes from\\
+\end{frame}
+
+
+
+\begin{frame}{Motivation}
   %\vspace{-1cm}
   \begin{itemize}
   \item{Weapons-grade Pu can be extracted from reactor discharged fuel
