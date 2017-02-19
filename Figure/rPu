@@ -1,0 +1,4 @@
+#!/bin/bash
+pdflatex PuProduction.tex
+firefox PuProduction.pdf &
+

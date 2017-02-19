@@ -2,14 +2,12 @@
 \select@language {english}
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Motivation}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Background}{7}{0}{1}
-\beamer@sectionintoc {2}{Background}{13}{0}{2}
-\beamer@subsectionintoc {2}{1}{The PUREX Process}{14}{0}{2}
-\beamer@subsectionintoc {2}{2}{Distribution Coefficients}{19}{0}{2}
-\beamer@subsectionintoc {2}{3}{Decontamination Factors}{21}{0}{2}
-\beamer@sectionintoc {3}{Previous Work}{22}{0}{3}
-\beamer@subsectionintoc {3}{1}{Experiment}{23}{0}{3}
-\beamer@subsectionintoc {3}{2}{Recovery of Pu and U}{27}{0}{3}
-\beamer@subsectionintoc {3}{3}{Experimental Decontamination Factors}{28}{0}{3}
-\beamer@sectionintoc {4}{Future Work}{30}{0}{4}
-\beamer@sectionintoc {5}{Questions?}{32}{1}{5}
+\beamer@subsectionintoc {1}{2}{Contexts}{5}{0}{1}
+\beamer@subsectionintoc {1}{3}{Background}{10}{0}{1}
+\beamer@sectionintoc {2}{Objectives}{14}{0}{2}
+\beamer@sectionintoc {3}{Previous Work}{14}{0}{3}
+\beamer@subsectionintoc {3}{1}{Experiment}{15}{0}{3}
+\beamer@subsectionintoc {3}{2}{Recovery of Pu and U}{19}{0}{3}
+\beamer@subsectionintoc {3}{3}{Experimental Decontamination Factors}{20}{0}{3}
+\beamer@sectionintoc {4}{Future Work}{22}{0}{4}
+\beamer@sectionintoc {5}{Questions?}{24}{1}{5}

@@ -1,0 +1,4 @@
+#!/bin/bash
+pdflatex labeled-chain.tex
+firefox labeled-chain.pdf &
+

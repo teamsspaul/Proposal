@@ -3,7 +3,7 @@
 %%% -------------- CREATE HANDOUTS -----------------------------------
 %\documentclass[12pt, handout]{beamer}
 %\usepackage{pgfpages}
-%\pgfpagesuselayout{4 on 1}[letterpaper, landscape, border shrink=5mm]
+%\pgfpagesuselayout{4 on 1}[letterpaper, landscape, border shrink=1mm]
 %%% ------------------------------------------------------------------
 
 \usepackage{ragged2e}
@@ -21,6 +21,7 @@
 \usepackage{pifont}
 \usepackage{bbding}
 \usepackage{fontenc}
+\usepackage{mathtools}
 
 \mode<presentation>
   \usepackage{ru}
@@ -82,8 +83,8 @@
 %% ]{biblatex}
 \setbeamerfont{caption}{size=\tiny}
 
-\setbeameroption{show notes}
-\setbeamertemplate{note page}[plain]
+%\setbeameroption{show notes}
+%\setbeamertemplate{note page}[plain]
 \newcommand{\tss}{\textsuperscript}
 \newcommand{\tsbs}{\textsubscript}
 
@@ -102,6 +103,9 @@
 
 \begin{document}
 
+%Uncomment for handouts
+%\setbeamertemplate{headline}{}
+
 \setbeamertemplate{caption}{\raggedright\insertcaption\par}
 \begin{frame}
 	%% background
@@ -114,10 +118,12 @@
   \begin{tikzpicture}[remember picture, overlay]
   \node [xshift = -3cm, yshift=1.2cm] at (current page.south east){\includegraphics[width=5cm]{figures/TEES_NSSPI_logo_HMaroon}};
   \end{tikzpicture}
-  %% Upper logo right
+  
+  %% Upper logo right (comment for handouts)
     \begin{tikzpicture}[remember picture,overlay]
     \node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=0.8cm]{figures/NUENlogo}};
     \end{tikzpicture}
+  
   %% Upper logo left
     %% \begin{tikzpicture}[remember picture,overlay]
     %% \node[anchor=north west,yshift=2pt] at (current page.north west) {\includegraphics[height=0.8cm]{NUENlogo}};
@@ -133,7 +139,7 @@
 %Add Biola Seal
 \setbeamertemplate{background}{\tikz[overlay, remember picture]\node[xshift=-2.5cm, yshift=2.5cm, opacity=0.05]at (current page.south east){\includegraphics[width=6cm]{figures/imageedit_2_7317234434}};}
 
-%Add NSSPI to upper right
+%Add NSSPI to upper right (comment for handouts)
 \addtobeamertemplate{frametitle}{}{%
   \begin{tikzpicture}[remember picture,overlay]
     \node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=0.8cm]{figures/NUENlogo}};
@@ -207,7 +213,16 @@
     \item{Indicators or clues for SNM origin attribution. Examples include burnup, fluence rate,
     initial fuel enrichment, fuel age, and fast-to-thermal irradiation ratios}
     \end{itemize}
+  \item{Decontamination Factors (DF)}
+    \begin{itemize}
+    \item{A measure of the effectiveness with which a product is decontaminated from a
+      contaminant}
+    \end{itemize}
   \end{itemize}
+  \vspace{1mm}
+    \begin{equation*}
+      DF_j=\frac{\frac{c_j}{c_{Pu}}|_{\text{initial}}}{\frac{c_j}{c_{Pu}}|_{\text{final}}}
+    \end{equation*}
 \end{frame}
 
 \note{At this point I wanted to take a moment to define some terms. To help narrow our
@@ -228,8 +243,9 @@
   \end{itemize}
 }
 
-\subsection{Background}
-\begin{frame}{Forensic Context}
+
+\subsection{Contexts}
+\begin{frame}{National Context}
   \vspace{-1cm}
   \begin{center}
     ``The United States has developed a nuclear forensics capability that has been demonstrated
@@ -269,7 +285,44 @@
   about in a moment.}
 
 
-\begin{frame}{Nuclear and Reprocessing Context}
+\begin{frame}{Forensic Context}
+  \begin{itemize}
+  \item{Nature of inverse problems}
+  \item{Plutonium purification necessary for weapons production}
+    \begin{align*}
+      ^{238}U+n\rightarrow ^{239}U \xrightarrow[T_{1/2}=23\text{ min}]{\beta^-} ^{239}Np
+      \xrightarrow[T_{1/2}=2\text{ d}]{\beta^-}^{239}Pu
+    \end{align*}
+  \item{Attribution for unpurified Pu has been previously studied
+    \tss{\cite{chirayath2015trace,scott2005nuclear,glaser2009isotopic}}}
+  \end{itemize}
+  \begin{figure}[H]
+    \vspace{-3mm}
+      \begin{center}
+        \includegraphics[scale = 0.7]{figures/purpose}
+      \end{center}
+    \end{figure}
+\end{frame}
+\note{
+  \begin{itemize}
+  \item{Inverse problems, naturally have many solutions. Where many paths could be taken to arrive
+    at an end state}
+  \item{our study will analyze plutonium production, which muddies waters more in its production than
+  uranium}
+  \item{Purification necessariy because there is a chance for fission along any point of production}
+  \item{This complicates attribution by a considerable amount due to unknown DF values}
+  \item{Studies have looked at isotopic compositions of irradiated fuel and came to conclusions about
+    origins}
+  \item{Describe the picture, and how it shows your project, also talk about the assumption...}
+  \item{This requires that the specifics of the PUREX process used for plutonium separation are known,
+    so that DFs are applied appropriately.}
+  \item{If this information were not readily available, this same analysis would have to ensue with
+    best estimate PUREX processes and experimentally determined Distribution Coefficients}
+  \end{itemize}
+}
+
+
+\begin{frame}{Nuclear Context}
   %\vspace{-1cm}
   \begin{itemize}
   \item{Weapons-grade Pu can be extracted from reactor discharged fuel
@@ -278,19 +331,17 @@
   \item{Two examples of reactors which can intentionally
   discharge low burned fuel for extracting weapon-grade Pu are:}
   \begin{itemize}
-  \item{Fast Breeder Reactor}
-
-  \item{CANDU Reactor}
-    \begin{figure}[H]
-      \begin{flushright}
-        \includegraphics[scale = 0.24]{figures/BurnPuComp_grams}
-      \end{flushright}
-    \end{figure}
-  \item{Decontaminated plutonium may be used to give indication of material origins\tss{\cite{}}}
+  \item{Fast Breeder Reactor, CANDU Reactor}
   \end{itemize}
+  \end{itemize}
+  \begin{figure}[H]
+    \vspace{-3mm}
+      \begin{center}
+        \includegraphics[scale = 0.26]{figures/BurnPuComp_grams}
+      \end{center}
+    \end{figure}
 %\item{In accord with the Indo-US 123 agreement, these reactors were not
 %      required to be kept under IAEA safeguards}
-  \end{itemize}
   %% \begin{tikzpicture}[remember picture, overlay]
   %%   \node [xshift = -3cm, yshift=1.2cm] at (current page.south east){\includegraphics[width=5cm]{nuclear-weapons-free-zone}};
   %% \end{tikzpicture}
@@ -319,11 +370,63 @@
   \end{itemize}
 }
 
+\begin{frame}{Chemical Context}
+  \begin{itemize}
+  \item Plutonium Uranium Redox EXtraction 
+    \begin{itemize}
+    \item Liquid-liquid solvent extraction
+    \item Many stages:
+    \end{itemize}
+  \end{itemize}
+  \begin{itemize}
+  \item{Distribution Coefficient (D): The ratio between the organic
+  and aqueous phases (aka: D-values)}
+    \begin{equation*}
+      D=\frac{c_{o}}{c_{aq}}
+    \end{equation*}
+    \note[item]{Distribution coefficients can be reported
+      in terms of volume basis (weight per unit volume), or a
+      mass basis (mass of solute per unit mass of solute free
+      solvent)- usually reported on volume basis}
+  \item{Specific element to element}
+  \item{Vary widely with:\tss{\cite{stoller1961reactor}}}
+    \begin{itemize}
+    \item{Composition of phases}
+    \item{Solution saturation}
+    \item{Temperature of the solvent}
+    \end{itemize}
+  \item{The fraction of mass, $f_o$ deposited in the organic
+    phase, assuming a volume ratio between
+    the aqueous and organic phases, $V_R$, is:}
+    \begin{equation*}
+      f_o=(1+D^{-1}V^{-1}_R)^{-1}
+    \end{equation*}
+    \note[item]{Note not a function of density, even though
+      the two solutions have different densities, when solving for
+      this value it cancels out}
+    \note[item]{Solved this way to show, volume matters, and to give
+      me a more intuitive sense of where things are going}
+  \end{itemize}
+
+  
+\end{frame}
+
+\note{
+      \begin{enumerate}
+      \item{Preparation for Dissolution}
+      \item{Dissolution}
+      \item{Preparation of Dissolved Feed}
+      \item{Primary Decontamination - Extraction to
+        organic\textsuperscript{\tiny{\AsteriskThin}}}
+      \item{Scrubbing}
+      \item{Plutonium Partition - Back-Extraction to
+        aqueous\textsuperscript{\tiny{\AsteriskThin}}}
+      \item{Plutonium Purification}
+      \end{enumerate}
+}
 
 
-
-
-\begin{frame}{Smaller Picture}
+\begin{frame}{Chemical Context}
   \begin{columns}
     \begin{column}{0.5\textwidth}
       \vspace{-10mm}
@@ -350,35 +453,8 @@
 \end{frame}
 
 
-\section{Background}
-\begin{frame}
-\sectionpage
-\end{frame}
+\subsection{Background}
 
-\subsection{The PUREX Process}
-\begin{frame}{What is PUREX - A type of laundry detergent?}
-  \vspace{0.5cm}
-  \begin{itemize}
-  \item Plutonium Uranium Redox EXtraction 
-    \begin{itemize}
-    \item Liquid-liquid solvent extraction
-    \item Many stages:
-      \begin{enumerate}
-      \item{Preparation for Dissolution}
-      \item{Dissolution}
-      \item{Preparation of Dissolved Feed}
-      \item{Primary Decontamination - Extraction to
-        organic\textsuperscript{\tiny{\AsteriskThin}}}
-      \item{Scrubbing}
-      \item{Plutonium Partition - Back-Extraction to
-        aqueous\textsuperscript{\tiny{\AsteriskThin}}}
-      \item{Plutonium Purification}
-      \end{enumerate}
-    \end{itemize}
-  \end{itemize}
-  \vspace{1.5cm}
-  \textsuperscript{\tiny{\AsteriskThin\hspace{1mm}- Discussing Next}}
-\end{frame}
 
 
 \begin{frame}{Extraction}
@@ -433,40 +509,10 @@
 %%   \end{columns}  
 %% \end{frame}
 
-\subsection{Distribution Coefficients}
 \begin{frame}{Distribution Coefficients - The Missing link}
-  \begin{itemize}
-  \item{Distribution Coefficient (D): The ratio between the organic
-  and aqueous phases (aka: D-values)}
-    \begin{equation*}
-      D=\frac{c_{o}}{c_{aq}}
-    \end{equation*}
-    \note[item]{Distribution coefficients can be reported
-      in terms of volume basis (weight per unit volume), or a
-      mass basis (mass of solute per unit mass of solute free
-      solvent)- usually reported on volume basis}
-  \item{Specific element to element}
-  \item{Vary widely with:\tss{\cite{stoller1961reactor}}}
-    \begin{itemize}
-    \item{Composition of phases}
-    \item{Solution saturation}
-    \item{Temperature of the solvent}
-    \end{itemize}
-  \item{The fraction of mass, $f_o$ deposited in the organic
-    phase, assuming a volume ratio between
-    the aqueous and organic phases, $V_R$, is:}
-    \begin{equation*}
-      f_o=(1+D^{-1}V^{-1}_R)^{-1}
-    \end{equation*}
-    \note[item]{Note not a function of density, even though
-      the two solutions have different densities, when solving for
-      this value it cancels out}
-    \note[item]{Solved this way to show, volume matters, and to give
-      me a more intuitive sense of where things are going}
-  \end{itemize}
+
 \end{frame}
 
-\subsection{Decontamination Factors}
 \begin{frame}{Decontamination Factors - The Pot of gold}
   \begin{itemize}
   \item{After several cycles of Pu extraction/scrubbing/back-extraction
@@ -533,6 +579,11 @@
 %%     \end{center}
 %%   \end{figure}
 %% \end{frame}
+
+\section{Objectives}
+
+
+
 
 \section{Previous Work}
 \begin{frame}
