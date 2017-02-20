@@ -1,0 +1,12 @@
+﻿@article{RN123,
+   author = {Zabunoglu, Okan H and Özdemir, Levent},
+   title = {Purex co-processing of spent LWR fuels: flow sheet},
+   journal = {Annals of Nuclear Energy},
+   volume = {32},
+   number = {2},
+   pages = {151-162},
+   ISSN = {0306-4549},
+   year = {2005},
+   type = {Journal Article}
+}
+
