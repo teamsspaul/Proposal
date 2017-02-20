@@ -1,0 +1,8 @@
+﻿@article{RN167,
+   author = {Arker, A. J.},
+   title = {Terminal report on PUREX program in KAPL separations pilot plant},
+   journal = {Knolls Atomic Power Laboratory},
+   year = {1954},
+   type = {Journal Article}
+}
+

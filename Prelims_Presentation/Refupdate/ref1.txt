@@ -1,0 +1,9 @@
+﻿@article{RN169,
+   author = {Lanham, W. B. and Gresky, A. T.},
+   title = {Purex process laboratory development},
+   journal = {Oak Ridge National Laboratory},
+   volume = {USAEC Report ORNL-717},
+   year = {1950},
+   type = {Journal Article}
+}
+

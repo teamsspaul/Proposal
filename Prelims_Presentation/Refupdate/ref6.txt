@@ -1,0 +1,96 @@
+﻿@article{RN181,
+   author = {Alcock, K and Bedford, FC and Hardwick, WH and McKay, HAC},
+   title = {Tri-n-butyl phosphate as an extracting solvent for inorganic nitrates-I: Zirconium nitrate},
+   journal = {Journal of Inorganic and Nuclear Chemistry},
+   volume = {4},
+   number = {2},
+   pages = {100-105},
+   ISSN = {0022-1902},
+   year = {1957},
+   type = {Journal Article}
+}
+
+@article{RN182,
+   author = {Alcock, K and Bedford, FC and Hardwick, WH and McKay, HAC},
+   title = {Tri-n-butyl phosphate as an extracting solvent for inorganic nitrates-I: Zirconium nitrate},
+   journal = {Journal of Inorganic and Nuclear Chemistry},
+   volume = {4},
+   number = {2},
+   pages = {100-105},
+   ISSN = {0022-1902},
+   year = {1957},
+   type = {Journal Article}
+}
+
+@article{RN186,
+   author = {Alcock, K and Best, GF and Hesford, E and McKay, HAC},
+   title = {Tri-n-butyl phosphate as an extracting solvent for inorganic nitrates-V: Further results for the tetra-and hexavalent actinide nitrates},
+   journal = {Journal of Inorganic and Nuclear Chemistry},
+   volume = {6},
+   number = {4},
+   pages = {328-333},
+   ISSN = {0022-1902},
+   year = {1958},
+   type = {Journal Article}
+}
+
+@article{RN179,
+   author = {Best, GF and Hesford, E and McKay, HAC},
+   title = {Tri-n-butyl phosphate as an extracting agent for inorganic nitrates-VII: The trivalent actinide nitrates},
+   journal = {Journal of Inorganic and Nuclear Chemistry},
+   volume = {12},
+   number = {1},
+   pages = {136-140},
+   ISSN = {0022-1902},
+   year = {1959},
+   type = {Journal Article}
+}
+
+@article{RN180,
+   author = {Best, GF and McKay, HAC and Woodgate, PR},
+   title = {Tri-n-butyl phosphate as an extracting solvent for inorganic nitrates—III The plutonium nitrates},
+   journal = {Journal of Inorganic and Nuclear Chemistry},
+   volume = {4},
+   number = {5},
+   pages = {315-320},
+   ISSN = {0022-1902},
+   year = {1957},
+   type = {Journal Article}
+}
+
+@article{RN187,
+   author = {Hesford, E and Jackson, EE and McKay, HAC},
+   title = {Tri-n-butyl phosphate as an extracting agent for inorganic nitrates—VI Further results for the rare earth nitrates},
+   journal = {Journal of Inorganic and Nuclear Chemistry},
+   volume = {9},
+   number = {3-4},
+   pages = {279-289},
+   ISSN = {0022-1902},
+   year = {1959},
+   type = {Journal Article}
+}
+
+@article{RN185,
+   author = {Hesford, E and McKay, HAC and Scargill, D},
+   title = {Tri-n-butyl phosphate as an extracting solvent for inorganic nitrates—IV Thorium nitrate},
+   journal = {Journal of Inorganic and Nuclear Chemistry},
+   volume = {4},
+   number = {5},
+   pages = {321-325},
+   ISSN = {0022-1902},
+   year = {1957},
+   type = {Journal Article}
+}
+
+@article{RN183,
+   author = {Scargill, D and Alcock, K and Fletcher, JM and Hesford, E and McKay, HAC},
+   title = {Tri-n-butyl phosphate as an extracting solvent for inorganic nitrates-II Yttrium and the lower lanthanide nitrates},
+   journal = {Journal of Inorganic and Nuclear Chemistry},
+   volume = {4},
+   number = {5},
+   pages = {304-314},
+   ISSN = {0022-1902},
+   year = {1957},
+   type = {Journal Article}
+}
+

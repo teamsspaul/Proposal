@@ -1,0 +1,9 @@
+﻿@article{RN168,
+   author = {Darby, D. O. and Chandler, J. M.},
+   title = {Terminal report for the ORNL pilot plant investigation of the PUREX process},
+   journal = {Oak Ridge National Laboratory},
+   volume = {USAEC Report ORNL -1519},
+   year = {1954},
+   type = {Journal Article}
+}
+
