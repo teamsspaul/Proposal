@@ -661,7 +661,8 @@
 \item[\notdone]{Collect D-values for each step}
   \begin{itemize}
   \item[\tiny\done]{\tiny \tss{144}Ce,\tss{155}Eu\tss{*},\tss{154}Eu\tss{*},\tss{125}Sb,
-    \tss{106}Ru, \tss{134}Cs, \tss{137}Cs (Measured Gamma in triplicate)}
+    \tss{106}Ru, \tss{134}Cs, \tss{137}Cs
+    (Measured Gamma in triplicate)\tss{\cite{chirayath2015trace}}}
   \item[\tiny\done]{\tiny Convert Gamma Spectrum to D-values}
   \item[\tiny\done]{\tiny \tss{85}Rb\tss{*},\tss{90}Sr\tss{*},\tss{97,98,100}Mo,\tss{101,102,104}Ru,
     \tss{110}Pd,\tss{112}Cd,\tss{133}Cs\tss{*},\tss{140,142}Ce,\tss{143}Nd\tss{*},
@@ -723,11 +724,21 @@
 \end{frame}
 
 
-\begin{frame}{Forensic Status}
+\begin{frame}
   \begin{itemize}
   \item{Stable noble fission gases as burnup verification\tss{\cite{RN114}}}
   \item{Determine burnup, enrichment, and fuel age from used fuel in a RDD\tss{\cite{RN118}}}
-  \item{Analysis of purified plutonium isotopics for reactor type\tss{\cite{}}}
+  \item{Analysis of purified plutonium isotopics for reactor type\tss{\cite{RN109}}}
+  \item{PUREX co-processing DF values for U and Pu\tss{\cite{RN123}}}
+  \item{PUREX D-values and DF values under numerous
+    circumstances\tss{\cite{benedict1982nuclear,RN169,RN167,RN168,RN177,stoller1961reactor}}}
+    \begin{itemize}
+    \item{DF values for \tss{106}Ru and \tss{95}Zr\tss{\cite{stoller1961reactor}}}
+    \item{Compilation of D-values for U, Th, and Pu\tss{\cite{RN208}}}
+    \item{D-values for rare earths, Pu,
+      Th\tss{\cite{RN168,RN181,RN182,RN186,RN179,RN180,RN187,RN185,RN183,RN189}}}
+    \item{Ga D-values\tss{\cite{RN189}}}
+    \end{itemize}
   \end{itemize}
 \end{frame}
 \note{
@@ -737,13 +748,12 @@
   \item{RDD not purified, no chemical processing}
   \item{Chem processing, had some difficulty, but some sucess, only looked at differences
     between fast and thermal (not burnup)}
+  \item{limited in isotopes solved for}
+  \item{Not the isotopes we want}
+  \item{Work unique in that elemental DFs used for forensics}
   \end{enumerate}
 }
 
-
-\begin{frame}{D-values and DF values}
-
-\end{frame}
 
 
 \section{Procedure}
@@ -752,35 +762,49 @@
 \end{frame}
 
 \begin{frame}{Analytical Procedure - Burnup}
-
+  \begin{align*}
+    BU=&\frac{\text{Power[MW]}\cdot\text{days}}{m[HM]}\\
+    =&\left[\frac{N^B}{N_0^{HM}}\right]\frac{N_AE_R}{\gamma_B}\cdot\frac{1}{M_0^{HM}}
+  \end{align*}
 \end{frame}
 
 \begin{frame}{Analytical Procedure - Fluence Rate}
-
+  \begin{equation*}
+    \phi\approx\frac{\lambda_7}{\sigma_7\left(\frac{\gamma_7}{\gamma_8^*-\gamma_8}-1\right)}
+  \end{equation*}
 \end{frame}
 
 \begin{frame}{Analytical Procedure - Initial Enrichment}
-
+  \begin{align*}
+    \epsilon_0=\frac{N^{U238}(T)}{N_0^U}
+    \left[\frac{N^{U235}(T)}{N^{U238}(T)}+\frac{N^{U236}(T)}{N^{U238}(T)}\right]+
+    \frac{M_0^U}{N_AE_R}BU(T)-G^{238}\\-G^{239}-G^{240}-G^{241}
+  \end{align*}
 \end{frame}
 
 \begin{frame}{Analytical Procedure - Fuel Age}
-
+  \begin{equation*}
+    t_d=-\frac{1}{\lambda}ln\left(\frac{N_\text{measured}}{N_{EOI}}\right)
+  \end{equation*}
 \end{frame}
 
 \begin{frame}{Analytical Procedure - Fast-to-thermal ratio}
-
+  \begin{itemize}
+  \item{Iterative scheme}
+  \item{Recalculate the above with new x-sections}
+  \item{Cut off for thermal 0.5 ev, 100kev, 20MeV}
+  \end{itemize}
 \end{frame}
-
-
-
 
 
 \begin{frame}{Experimental Procedure - Chemistry Procedure}
-
+  \begin{itemize}
+  \item{Grab part of procedure from lab notebook, or grab a picture}
+  \end{itemize}
 \end{frame}
 
 \begin{frame}{Experimental Procedure - Mass Spectrometry}
-
+  
 \end{frame}
 
 \begin{frame}{Experimental Procedure - Gamma Spectrometry}
@@ -1028,7 +1052,8 @@
 \item[\notdone]{Collect D-values for each step}
   \begin{itemize}
   \item[\tiny\done]{\tiny \tss{144}Ce,\tss{155}Eu\tss{*},\tss{154}Eu\tss{*},\tss{125}Sb,
-    \tss{106}Ru, \tss{134}Cs, \tss{137}Cs (Measured Gamma in triplicate)}
+    \tss{106}Ru, \tss{134}Cs, \tss{137}Cs
+    (Measured Gamma in triplicate)\tss{\cite{chirayath2015trace}}}
   \item[\tiny\done]{\tiny Convert Gamma Spectrum to D-values}
   \item[\tiny\done]{\tiny \tss{85}Rb\tss{*},\tss{90}Sr\tss{*},\tss{97,98,100}Mo,\tss{101,102,104}Ru,
     \tss{110}Pd,\tss{112}Cd,\tss{133}Cs\tss{*},\tss{140,142}Ce,\tss{143}Nd\tss{*},
