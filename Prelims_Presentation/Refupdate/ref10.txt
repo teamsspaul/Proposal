@@ -1,0 +1,7 @@
+﻿@misc{RN177,
+   author = {Irish, E.R. and Reas W.H.},
+   title = {The PUREX process-a solvent extraction reprocessing method for irradiated uranium},
+   publisher = {Hanford Atomic Products Operation},
+   year = {1957},
+}
+
