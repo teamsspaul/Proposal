@@ -1,0 +1,11 @@
+﻿@article{RN109,
+   author = {Glaser, Alexander},
+   title = {Isotopic Signatures of Weapon-Grade Plutonium from Dedicated Natural Uranium-Fueled Production Reactors and Their Relevance for Nuclear Forensic Analysis},
+   journal = {Nuclear Science and Engineering},
+   volume = {163},
+   number = {1},
+   pages = {26-33},
+   year = {2009},
+   type = {Journal Article}
+}
+
