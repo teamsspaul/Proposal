@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.12)  18 FEB 2017 23:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.12)  19 FEB 2017 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2126,22 +2126,19 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
  <./figures/BurnPuComp_grams.pdf>]
 File: figures/NUENlogo.JPG Graphic file (type jpg)
  <use figures/NUENlogo.JPG>
-Package pdftex.def Info: figures/NUENlogo.JPG used on input line 412.
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 398.
 (pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
 File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
 
 <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
 Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
-line 412.
+line 398.
 (pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-
-Overfull \vbox (30.02142pt too high) detected at line 412
- []
-
 File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
+
 <use figures/imageedit_2_7317234434.jpg>
 Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-412.
+398.
 (pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
 
 Overfull \hbox (1.30325pt too wide) has occurred while \output is active
@@ -2154,26 +2151,26 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
 File: figures/Stoller.JPG Graphic file (type jpg)
 
 <use figures/Stoller.JPG>
-Package pdftex.def Info: figures/Stoller.JPG used on input line 453.
+Package pdftex.def Info: figures/Stoller.JPG used on input line 450.
 (pdftex.def)             Requested size: 147.92729pt x 197.6128pt.
 File: figures/NUENlogo.JPG Graphic file (type jpg)
  <use figures/NUENlogo.JPG>
-Package pdftex.def Info: figures/NUENlogo.JPG used on input line 453.
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 450.
 (pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
 File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
 
 <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
 Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
-line 453.
+line 450.
 (pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
 
-Overfull \vbox (1.1578pt too high) detected at line 453
+Overfull \vbox (1.1578pt too high) detected at line 450
  []
 
 File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
 <use figures/imageedit_2_7317234434.jpg>
 Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-453.
+450.
 (pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
 
 Overfull \hbox (1.30325pt too wide) has occurred while \output is active
@@ -2187,26 +2184,40 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
 File: figures/Extraction.png Graphic file (type png)
 
 <use figures/Extraction.png>
-Package pdftex.def Info: figures/Extraction.png used on input line 475.
+Package pdftex.def Info: figures/Extraction.png used on input line 496.
 (pdftex.def)             Requested size: 289.07928pt x 158.46664pt.
+
+<figures/Extraction1.pdf, id=259, 197.91641pt x 253.481pt>
+File: figures/Extraction1.pdf Graphic file (type pdf)
+
+<use figures/Extraction1.pdf>
+Package pdftex.def Info: figures/Extraction1.pdf used on input line 496.
+(pdftex.def)             Requested size: 118.75075pt x 152.08977pt.
+
+<figures/Extraction2.pdf, id=260, 201.91637pt x 205.85707pt>
+File: figures/Extraction2.pdf Graphic file (type pdf)
+
+<use figures/Extraction2.pdf>
+Package pdftex.def Info: figures/Extraction2.pdf used on input line 496.
+(pdftex.def)             Requested size: 121.15074pt x 123.51518pt.
 File: figures/NUENlogo.JPG Graphic file (type jpg)
  <use figures/NUENlogo.JPG>
-Package pdftex.def Info: figures/NUENlogo.JPG used on input line 475.
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 496.
 (pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
 File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
 
 <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
 Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
-line 475.
+line 496.
 (pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
 
-Overfull \vbox (5.65251pt too high) detected at line 475
+Overfull \vbox (42.26859pt too high) detected at line 496
  []
 
 File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
 <use figures/imageedit_2_7317234434.jpg>
 Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-475.
+496.
 (pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
 
 Overfull \hbox (1.30325pt too wide) has occurred while \output is active
@@ -2215,28 +2226,39 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
 
 [10
 
- <./figures/Extraction.png>]
-<figures/Back_Extraction.png, id=269, 578.16pt x 316.93407pt>
-File: figures/Back_Extraction.png Graphic file (type png)
-
-<use figures/Back_Extraction.png>
-Package pdftex.def Info: figures/Back_Extraction.png used on input line 489.
+ <./figures/Extraction.png> <./figures/Extraction1.pdf> <./figures/Extraction2.
+pdf>]
+File: figures/Extraction.png Graphic file (type png)
+ <use figures/Extraction.png>
+Package pdftex.def Info: figures/Extraction.png used on input line 496.
 (pdftex.def)             Requested size: 289.07928pt x 158.46664pt.
+File: figures/Extraction1.pdf Graphic file (type pdf)
+ <use figures/Extraction1.pdf>
+Package pdftex.def Info: figures/Extraction1.pdf used on input line 496.
+(pdftex.def)             Requested size: 118.75075pt x 152.08977pt.
+File: figures/Extraction2.pdf Graphic file (type pdf)
+
+<use figures/Extraction2.pdf>
+Package pdftex.def Info: figures/Extraction2.pdf used on input line 496.
+(pdftex.def)             Requested size: 121.15074pt x 123.51518pt.
 File: figures/NUENlogo.JPG Graphic file (type jpg)
  <use figures/NUENlogo.JPG>
-Package pdftex.def Info: figures/NUENlogo.JPG used on input line 489.
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 496.
 (pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
 File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
 
 <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
 Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
-line 489.
+line 496.
 (pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
 
+Overfull \vbox (42.26859pt too high) detected at line 496
+ []
+
+File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
 <use figures/imageedit_2_7317234434.jpg>
 Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-489.
+496.
 (pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
 
 Overfull \hbox (1.30325pt too wide) has occurred while \output is active
@@ -2245,22 +2267,38 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
 
 [11
 
- <./figures/Back_Extraction.png>]
+]
+File: figures/Extraction.png Graphic file (type png)
+ <use figures/Extraction.png>
+Package pdftex.def Info: figures/Extraction.png used on input line 496.
+(pdftex.def)             Requested size: 289.07928pt x 158.46664pt.
+File: figures/Extraction1.pdf Graphic file (type pdf)
+ <use figures/Extraction1.pdf>
+Package pdftex.def Info: figures/Extraction1.pdf used on input line 496.
+(pdftex.def)             Requested size: 118.75075pt x 152.08977pt.
+File: figures/Extraction2.pdf Graphic file (type pdf)
+
+<use figures/Extraction2.pdf>
+Package pdftex.def Info: figures/Extraction2.pdf used on input line 496.
+(pdftex.def)             Requested size: 121.15074pt x 123.51518pt.
 File: figures/NUENlogo.JPG Graphic file (type jpg)
  <use figures/NUENlogo.JPG>
-Package pdftex.def Info: figures/NUENlogo.JPG used on input line 514.
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 496.
 (pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
 File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
 
 <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
 Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
-line 514.
+line 496.
 (pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
 
+Overfull \vbox (42.26859pt too high) detected at line 496
+ []
+
+File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
 <use figures/imageedit_2_7317234434.jpg>
 Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-514.
+496.
 (pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
 
 Overfull \hbox (1.30325pt too wide) has occurred while \output is active
@@ -2269,21 +2307,44 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
 
 [12
 
-]
+] <figures/Back_Extraction.png, id=337, 578.16pt x 316.93407pt>
+File: figures/Back_Extraction.png Graphic file (type png)
+
+<use figures/Back_Extraction.png>
+Package pdftex.def Info: figures/Back_Extraction.png used on input line 531.
+(pdftex.def)             Requested size: 289.07928pt x 158.46664pt.
+
+<figures/BackExtraction1.pdf, id=338, 197.91641pt x 258.9645pt>
+File: figures/BackExtraction1.pdf Graphic file (type pdf)
+
+<use figures/BackExtraction1.pdf>
+Package pdftex.def Info: figures/BackExtraction1.pdf used on input line 531.
+(pdftex.def)             Requested size: 118.75075pt x 155.37988pt.
+
+<figures/BackExtraction2.pdf, id=339, 201.91637pt x 206.79057pt>
+File: figures/BackExtraction2.pdf Graphic file (type pdf)
+
+<use figures/BackExtraction2.pdf>
+Package pdftex.def Info: figures/BackExtraction2.pdf used on input line 531.
+(pdftex.def)             Requested size: 121.15074pt x 124.07529pt.
 File: figures/NUENlogo.JPG Graphic file (type jpg)
  <use figures/NUENlogo.JPG>
-Package pdftex.def Info: figures/NUENlogo.JPG used on input line 529.
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 531.
 (pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
 File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
-line 529.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
 
+<use figures/TEES_NSSPI_Acronym_logo_WHT.png>
+Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
+line 531.
+(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
+
+Overfull \vbox (37.27739pt too high) detected at line 531
+ []
+
+File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
 <use figures/imageedit_2_7317234434.jpg>
 Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-529.
+531.
 (pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
 
 Overfull \hbox (1.30325pt too wide) has occurred while \output is active
@@ -2292,11 +2353,39 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
 
 [13
 
-]
+ <./figures/Back_Extraction.png> <./figures/BackExtraction1.pdf> <./figures/Bac
+kExtraction2.pdf>]
+File: figures/Back_Extraction.png Graphic file (type png)
+ <use figures/Back_Extraction.png>
+Package pdftex.def Info: figures/Back_Extraction.png used on input line 531.
+(pdftex.def)             Requested size: 289.07928pt x 158.46664pt.
+File: figures/BackExtraction1.pdf Graphic file (type pdf)
+
+<use figures/BackExtraction1.pdf>
+Package pdftex.def Info: figures/BackExtraction1.pdf used on input line 531.
+(pdftex.def)             Requested size: 118.75075pt x 155.37988pt.
+File: figures/BackExtraction2.pdf Graphic file (type pdf)
+ <use figures/BackExtraction2.pdf>
+Package pdftex.def Info: figures/BackExtraction2.pdf used on input line 531.
+(pdftex.def)             Requested size: 121.15074pt x 124.07529pt.
+File: figures/NUENlogo.JPG Graphic file (type jpg)
+
+<use figures/NUENlogo.JPG>
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 531.
+(pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
+File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
+ <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
+Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
+line 531.
+(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
+
+Overfull \vbox (37.27739pt too high) detected at line 531
+ []
+
 File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
- <use figures/imageedit_2_7317234434.jpg>
+<use figures/imageedit_2_7317234434.jpg>
 Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-591.
+531.
 (pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
 
 Overfull \hbox (1.30325pt too wide) has occurred while \output is active
@@ -2305,27 +2394,38 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
 
 [14
 
-] <figures/irradiated.JPG, id=315, 383.18156pt x 272.51813pt>
-File: figures/irradiated.JPG Graphic file (type jpg)
+]
+File: figures/Back_Extraction.png Graphic file (type png)
+ <use figures/Back_Extraction.png>
+Package pdftex.def Info: figures/Back_Extraction.png used on input line 531.
+(pdftex.def)             Requested size: 289.07928pt x 158.46664pt.
+File: figures/BackExtraction1.pdf Graphic file (type pdf)
+ <use figures/BackExtraction1.pdf>
+Package pdftex.def Info: figures/BackExtraction1.pdf used on input line 531.
+(pdftex.def)             Requested size: 118.75075pt x 155.37988pt.
+File: figures/BackExtraction2.pdf Graphic file (type pdf)
 
-<use figures/irradiated.JPG>
-Package pdftex.def Info: figures/irradiated.JPG used on input line 617.
-(pdftex.def)             Requested size: 153.2699pt x 109.00531pt.
+<use figures/BackExtraction2.pdf>
+Package pdftex.def Info: figures/BackExtraction2.pdf used on input line 531.
+(pdftex.def)             Requested size: 121.15074pt x 124.07529pt.
 File: figures/NUENlogo.JPG Graphic file (type jpg)
  <use figures/NUENlogo.JPG>
-Package pdftex.def Info: figures/NUENlogo.JPG used on input line 617.
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 531.
 (pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
 File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
 
 <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
 Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
-line 617.
+line 531.
 (pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
 
+Overfull \vbox (37.27739pt too high) detected at line 531
+ []
+
+File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
 <use figures/imageedit_2_7317234434.jpg>
 Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-617.
+531.
 (pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
 
 Overfull \hbox (1.30325pt too wide) has occurred while \output is active
@@ -2334,28 +2434,21 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
 
 [15
 
- <./figures/irradiated.JPG>]
-<figures/dissolution.JPG, id=325, 433.62pt x 297.36093pt>
-File: figures/dissolution.JPG Graphic file (type jpg)
-
-<use figures/dissolution.JPG>
-Package pdftex.def Info: figures/dissolution.JPG used on input line 626.
-(pdftex.def)             Requested size: 281.84966pt x 193.2823pt.
+]
 File: figures/NUENlogo.JPG Graphic file (type jpg)
  <use figures/NUENlogo.JPG>
-Package pdftex.def Info: figures/NUENlogo.JPG used on input line 626.
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 575.
 (pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
 File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
-
-<use figures/TEES_NSSPI_Acronym_logo_WHT.png>
+ <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
 Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
-line 626.
+line 575.
 (pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
 File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
 
 <use figures/imageedit_2_7317234434.jpg>
 Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-626.
+575.
 (pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
 
 Overfull \hbox (1.30325pt too wide) has occurred while \output is active
@@ -2364,28 +2457,11 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
 
 [16
 
- <./figures/dissolution.JPG>]
-<figures/glovebox.JPG, id=336, 600.74437pt x 355.3275pt>
-File: figures/glovebox.JPG Graphic file (type jpg)
-
-<use figures/glovebox.JPG>
-Package pdftex.def Info: figures/glovebox.JPG used on input line 635.
-(pdftex.def)             Requested size: 300.37144pt x 177.6633pt.
-File: figures/NUENlogo.JPG Graphic file (type jpg)
- <use figures/NUENlogo.JPG>
-Package pdftex.def Info: figures/NUENlogo.JPG used on input line 635.
-(pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
-File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
-
-<use figures/TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
-line 635.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
+]
 File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
-
-<use figures/imageedit_2_7317234434.jpg>
+ <use figures/imageedit_2_7317234434.jpg>
 Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-635.
+637.
 (pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
 
 Overfull \hbox (1.30325pt too wide) has occurred while \output is active
@@ -2394,106 +2470,27 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
 
 [17
 
- <./figures/glovebox.JPG>]
+] <figures/irradiated.JPG, id=443, 383.18156pt x 272.51813pt>
+File: figures/irradiated.JPG Graphic file (type jpg)
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <2.5> not available
-(Font)              size <5> substituted on input line 674.
-
-LaTeX Font Info:    Calculating math sizes for size <2.5> on input line 674.
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <1.74998> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <1.25> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <2.5> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <1.74998> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <1.25> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <2.5> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <1.74998> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <1.25> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `U/matha/m/n' in size <2.5> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `U/matha/m/n' in size <1.74998> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `U/matha/m/n' in size <1.25> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `U/mathb/m/n' in size <2.5> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `U/mathb/m/n' in size <1.74998> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `U/mathb/m/n' in size <1.25> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `U/mathx/m/n' in size <2.5> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `U/mathx/m/n' in size <1.74998> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `U/mathx/m/n' in size <1.25> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <2.5> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <1.74998> not available
-(Font)              size <5> substituted on input line 674.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <1.25> not available
-(Font)              size <5> substituted on input line 674.
-
+<use figures/irradiated.JPG>
+Package pdftex.def Info: figures/irradiated.JPG used on input line 663.
+(pdftex.def)             Requested size: 153.2699pt x 109.00531pt.
 File: figures/NUENlogo.JPG Graphic file (type jpg)
-<use figures/NUENlogo.JPG>
-Package pdftex.def Info: figures/NUENlogo.JPG used on input line 674.
+ <use figures/NUENlogo.JPG>
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 663.
 (pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
 File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
+
+<use figures/TEES_NSSPI_Acronym_logo_WHT.png>
 Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
-line 674.
+line 663.
 (pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
 File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
 
 <use figures/imageedit_2_7317234434.jpg>
 Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-674.
+663.
 (pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
 
 Overfull \hbox (1.30325pt too wide) has occurred while \output is active
@@ -2502,21 +2499,28 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
 
 [18
 
-]
+ <./figures/irradiated.JPG>]
+<figures/dissolution.JPG, id=453, 433.62pt x 297.36093pt>
+File: figures/dissolution.JPG Graphic file (type jpg)
+
+<use figures/dissolution.JPG>
+Package pdftex.def Info: figures/dissolution.JPG used on input line 672.
+(pdftex.def)             Requested size: 281.84966pt x 193.2823pt.
 File: figures/NUENlogo.JPG Graphic file (type jpg)
  <use figures/NUENlogo.JPG>
-Package pdftex.def Info: figures/NUENlogo.JPG used on input line 692.
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 672.
 (pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
 File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
+
+<use figures/TEES_NSSPI_Acronym_logo_WHT.png>
 Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
-line 692.
+line 672.
 (pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
 File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
 
 <use figures/imageedit_2_7317234434.jpg>
 Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-692.
+672.
 (pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
 
 Overfull \hbox (1.30325pt too wide) has occurred while \output is active
@@ -2525,9 +2529,124 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
 
 [19
 
-]
+ <./figures/dissolution.JPG>]
+<figures/glovebox.JPG, id=465, 600.74437pt x 355.3275pt>
+File: figures/glovebox.JPG Graphic file (type jpg)
+
+<use figures/glovebox.JPG>
+Package pdftex.def Info: figures/glovebox.JPG used on input line 681.
+(pdftex.def)             Requested size: 300.37144pt x 177.6633pt.
 File: figures/NUENlogo.JPG Graphic file (type jpg)
  <use figures/NUENlogo.JPG>
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 681.
+(pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
+File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
+
+<use figures/TEES_NSSPI_Acronym_logo_WHT.png>
+Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
+line 681.
+(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
+File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
+
+<use figures/imageedit_2_7317234434.jpg>
+Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
+681.
+(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
+
+Overfull \hbox (1.30325pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[20
+
+ <./figures/glovebox.JPG>]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <2.5> not available
+(Font)              size <5> substituted on input line 720.
+
+LaTeX Font Info:    Calculating math sizes for size <2.5> on input line 720.
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <1.74998> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <1.25> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <2.5> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <1.74998> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <1.25> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <2.5> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <1.74998> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <1.25> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `U/matha/m/n' in size <2.5> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `U/matha/m/n' in size <1.74998> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `U/matha/m/n' in size <1.25> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `U/mathb/m/n' in size <2.5> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `U/mathb/m/n' in size <1.74998> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `U/mathb/m/n' in size <1.25> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `U/mathx/m/n' in size <2.5> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `U/mathx/m/n' in size <1.74998> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `U/mathx/m/n' in size <1.25> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <2.5> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <1.74998> not available
+(Font)              size <5> substituted on input line 720.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <1.25> not available
+(Font)              size <5> substituted on input line 720.
+
+File: figures/NUENlogo.JPG Graphic file (type jpg)
+<use figures/NUENlogo.JPG>
 Package pdftex.def Info: figures/NUENlogo.JPG used on input line 720.
 (pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
 File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
@@ -2546,36 +2665,23 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
 [][] 
  []
 
-[20
+[21
 
 ]
 File: figures/NUENlogo.JPG Graphic file (type jpg)
  <use figures/NUENlogo.JPG>
-Package pdftex.def Info: figures/NUENlogo.JPG used on input line 737.
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 738.
 (pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
 File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
  <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
 Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
-line 737.
+line 738.
 (pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
 File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
 
 <use figures/imageedit_2_7317234434.jpg>
 Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-737.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[21
-
-]
-File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
- <use figures/imageedit_2_7317234434.jpg>
-Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-743.
+738.
 (pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
 
 Overfull \hbox (1.30325pt too wide) has occurred while \output is active
@@ -2587,18 +2693,18 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
 ]
 File: figures/NUENlogo.JPG Graphic file (type jpg)
  <use figures/NUENlogo.JPG>
-Package pdftex.def Info: figures/NUENlogo.JPG used on input line 758.
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 766.
 (pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
 File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
  <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
 Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
-line 758.
+line 766.
 (pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
 File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
 
 <use figures/imageedit_2_7317234434.jpg>
 Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-758.
+766.
 (pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
 
 Overfull \hbox (1.30325pt too wide) has occurred while \output is active
@@ -2608,54 +2714,12 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
 [23
 
 ]
-File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
- <use figures/imageedit_2_7317234434.jpg>
-Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-764.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[24
-
-] <figures/df.JPG, id=418, 409.53pt x 286.06876pt>
-File: figures/df.JPG Graphic file (type jpg)
- <use figures/df.JPG>
-Package pdftex.def Info: figures/df.JPG used on input line 775.
-(pdftex.def)             Requested size: 245.7199pt x 171.64258pt.
-File: figures/NUENlogo.JPG Graphic file (type jpg)
-
-<use figures/NUENlogo.JPG>
-Package pdftex.def Info: figures/NUENlogo.JPG used on input line 775.
-(pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
-File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
-line 775.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
-File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
-
-<use figures/imageedit_2_7317234434.jpg>
-Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-775.
-(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
-
-Overfull \hbox (1.30325pt too wide) has occurred while \output is active
-[][] 
- []
-
-[25
-
- <./figures/df.JPG>] (./main.bbl)
 File: figures/NUENlogo.JPG Graphic file (type jpg)
  <use figures/NUENlogo.JPG>
 Package pdftex.def Info: figures/NUENlogo.JPG used on input line 783.
 (pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
 File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
-
-<use figures/TEES_NSSPI_Acronym_logo_WHT.png>
+ <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
 Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
 line 783.
 (pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
@@ -2664,6 +2728,42 @@ File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
 <use figures/imageedit_2_7317234434.jpg>
 Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
 783.
+(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
+
+Overfull \hbox (1.30325pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[24
+
+]
+File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
+ <use figures/imageedit_2_7317234434.jpg>
+Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
+789.
+(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
+
+Overfull \hbox (1.30325pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[25
+
+]
+File: figures/NUENlogo.JPG Graphic file (type jpg)
+ <use figures/NUENlogo.JPG>
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 804.
+(pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
+File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
+ <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
+Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
+line 804.
+(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
+File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
+
+<use figures/imageedit_2_7317234434.jpg>
+Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
+804.
 (pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
 
 Overfull \hbox (1.30325pt too wide) has occurred while \output is active
@@ -2673,20 +2773,10 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
 [26
 
 ]
-File: figures/NUENlogo.JPG Graphic file (type jpg)
- <use figures/NUENlogo.JPG>
-Package pdftex.def Info: figures/NUENlogo.JPG used on input line 783.
-(pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
-File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
- <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
-Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
-line 783.
-(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
 File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
-
-<use figures/imageedit_2_7317234434.jpg>
+ <use figures/imageedit_2_7317234434.jpg>
 Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-783.
+810.
 (pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
 
 Overfull \hbox (1.30325pt too wide) has occurred while \output is active
@@ -2695,33 +2785,26 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
 
 [27
 
-
-] <figures/instrument_response.png, id=445, 430.60875pt x 235.63031pt>
-File: figures/instrument_response.png Graphic file (type png)
-
-<use figures/instrument_response.png>
-Package pdftex.def Info: figures/instrument_response.png used on input line 792
-.
-(pdftex.def)             Requested size: 322.95575pt x 176.72229pt.
-
-Overfull \hbox (15.66588pt too wide) in paragraph at lines 792--792
- [] 
- []
-
+] <figures/df.JPG, id=548, 409.53pt x 286.06876pt>
+File: figures/df.JPG Graphic file (type jpg)
+ <use figures/df.JPG>
+Package pdftex.def Info: figures/df.JPG used on input line 821.
+(pdftex.def)             Requested size: 245.7199pt x 171.64258pt.
 File: figures/NUENlogo.JPG Graphic file (type jpg)
+
 <use figures/NUENlogo.JPG>
-Package pdftex.def Info: figures/NUENlogo.JPG used on input line 792.
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 821.
 (pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
 File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
  <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
 Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
-line 792.
+line 821.
 (pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
 File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
 
 <use figures/imageedit_2_7317234434.jpg>
 Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
-792.
+821.
 (pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
 
 Overfull \hbox (1.30325pt too wide) has occurred while \output is active
@@ -2729,6 +2812,88 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
  []
 
 [28
+
+ <./figures/df.JPG>] (./main.bbl)
+File: figures/NUENlogo.JPG Graphic file (type jpg)
+ <use figures/NUENlogo.JPG>
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 829.
+(pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
+File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
+
+<use figures/TEES_NSSPI_Acronym_logo_WHT.png>
+Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
+line 829.
+(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
+File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
+
+<use figures/imageedit_2_7317234434.jpg>
+Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
+829.
+(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
+
+Overfull \hbox (1.30325pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[29
+
+]
+File: figures/NUENlogo.JPG Graphic file (type jpg)
+ <use figures/NUENlogo.JPG>
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 829.
+(pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
+File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
+ <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
+Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
+line 829.
+(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
+File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
+
+<use figures/imageedit_2_7317234434.jpg>
+Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
+829.
+(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
+
+Overfull \hbox (1.30325pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[30
+
+
+] <figures/instrument_response.png, id=573, 430.60875pt x 235.63031pt>
+File: figures/instrument_response.png Graphic file (type png)
+
+<use figures/instrument_response.png>
+Package pdftex.def Info: figures/instrument_response.png used on input line 838
+.
+(pdftex.def)             Requested size: 322.95575pt x 176.72229pt.
+
+Overfull \hbox (15.66588pt too wide) in paragraph at lines 838--838
+ [] 
+ []
+
+File: figures/NUENlogo.JPG Graphic file (type jpg)
+<use figures/NUENlogo.JPG>
+Package pdftex.def Info: figures/NUENlogo.JPG used on input line 838.
+(pdftex.def)             Requested size: 115.92006pt x 22.76228pt.
+File: figures/TEES_NSSPI_Acronym_logo_WHT.png Graphic file (type png)
+ <use figures/TEES_NSSPI_Acronym_logo_WHT.png>
+Package pdftex.def Info: figures/TEES_NSSPI_Acronym_logo_WHT.png used on input 
+line 838.
+(pdftex.def)             Requested size: 63.98102pt x 22.76228pt.
+File: figures/imageedit_2_7317234434.jpg Graphic file (type jpg)
+
+<use figures/imageedit_2_7317234434.jpg>
+Package pdftex.def Info: figures/imageedit_2_7317234434.jpg used on input line 
+838.
+(pdftex.def)             Requested size: 170.71652pt x 170.73323pt.
+
+Overfull \hbox (1.30325pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[31
 
  <./figures/instrument_response.png>]
 \tf@nav=\write6
@@ -2740,52 +2905,58 @@ Overfull \hbox (1.30325pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 794.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 794.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 840.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 840.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 794.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 794.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 840.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 840.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0B017F3B37AB52B2E004E0521D90B434;675.
+(rerunfilecheck)             Checksum: C50C0434BF02749EB8B60BA555D325DE;675.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.75pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 794.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 840.
  ) 
 Here is how much of TeX's memory you used:
- 23256 strings out of 494953
- 441127 string characters out of 6180977
- 613014 words of memory out of 5000000
- 25877 multiletter control sequences out of 15000+600000
+ 23317 strings out of 494953
+ 442386 string characters out of 6180977
+ 613401 words of memory out of 5000000
+ 25928 multiletter control sequences out of 15000+600000
  23789 words of font info for 84 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 48i,19n,54p,384b,819s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,19n,70p,384b,819s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/paul/texmf/fonts/pk/ljfour/public/mathabx/mathx10.657pk> </home/paul/
 texmf/fonts/pk/ljfour/public/mathabx/matha8.600pk> </home/paul/texmf/fonts/pk/l
 jfour/public/mathabx/matha6.600pk> </home/paul/texmf/fonts/pk/ljfour/public/mat
 habx/matha10.657pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmbx6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (28 pages, 701181 bytes).
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uz
+dr.pfb>
+Output written on main.pdf (31 pages, 768187 bytes).
 PDF statistics:
- 543 PDF objects out of 1000 (max. 8388607)
- 430 compressed objects within 5 object streams
- 70 named destinations out of 1000 (max. 500000)
- 237 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 679 PDF objects out of 1000 (max. 8388607)
+ 552 compressed objects within 6 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 257 words of extra memory for PDF output out of 10000 (max. 10000000)
 

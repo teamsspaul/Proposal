@@ -1,0 +1,4 @@
+#!/bin/bash
+pdflatex Expic.tex
+firefox Expic.pdf &
+

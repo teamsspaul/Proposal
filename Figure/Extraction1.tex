@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning} 
+
+%%%<
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\usepackage{amsmath}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{3pt}%
+%%%>
+\usetikzlibrary{arrows, decorations.markings}
+
+
+\tikzstyle{block} = [rectangle, draw, text width=6em, text centered, rounded corners, minimum height=3em]
+\tikzstyle{line} = [draw, -latex',thick,shorten >= 1pt]
+
+
+\begin{comment}
+:TItle: PUREX
+\end{comment}
+
+\begin{document}
+
+\begin{figure}
+\centering
+
+
+%\begin{tikzpicture}[node distance=3cm, auto]
+\begin{tikzpicture}[every node/.style={rectangle,draw}]
+  \node (init) {};
+
+  \tikzset{
+    mynode/.style={rectangle,rounded corners,draw=black,fill=green!25,%top color=white,bottom color=white,
+      very thick, inner sep=1em, minimum size=3em, text centered, text width=6cm} 
+  }
+
+  \node[mynode] (B)
+       {%
+         \vspace{-4mm}
+         \begin{flushleft}
+           Initial:
+         \end{flushleft}
+          $\begin{aligned}
+            M_{tot}=c_{A,i}V_{A}
+          \end{aligned}$
+          \vspace{5mm}
+
+         \begin{flushleft}
+           Final ($D=\frac{c_{o,f}}{c_{A,f}}$):
+         \end{flushleft}
+          $\begin{aligned}
+            M_{tot}=c_{A,f}V_{A}+c_{o,f}V_{o}
+          \end{aligned}$
+          \vspace{5mm}
+
+          \begin{flushleft}
+            Solving for $c_{o,f}$ in terms of $D$:
+          \end{flushleft}
+          $\begin{aligned}
+            c_{o,f}=\frac{M_{tot}}{\frac{V_A}{D}+V_o}
+          \end{aligned}$
+
+
+          \begin{flushleft}
+            Solving for $\frac{c_{A,i}}{c_{o,f}}$:
+          \end{flushleft}
+          $\begin{aligned}
+            \frac{c_{A,i}}{c_{o,f}}
+            %=&\frac{M_{tot}/V_A}{\frac{M_{tot}}{\frac{V_A}{D}+V_o}}\\
+            =&\frac{\frac{V_A}{D}+V_o}{V_A}=
+            \frac{1}{D}+\frac{V_o}{V_A}
+          \end{aligned}$
+          
+        };
+
+    
+\end{tikzpicture}
+
+\medskip
+\caption{Figure} 
+\end{figure}
+
+\end{document}

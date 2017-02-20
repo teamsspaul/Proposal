@@ -1,0 +1,4 @@
+#!/bin/bash
+pdflatex Extraction.tex
+firefox Extraction.pdf &
+

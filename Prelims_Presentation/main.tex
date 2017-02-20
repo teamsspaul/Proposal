@@ -372,7 +372,7 @@
 
 \begin{frame}{Chemical Context}
   \begin{itemize}
-  \item Plutonium Uranium Redox EXtraction 
+  \item Plutonium Uranium Redox EXtraction (PUREX)
     \begin{itemize}
     \item Liquid-liquid solvent extraction
     \item Many stages:
@@ -384,45 +384,43 @@
     \begin{equation*}
       D=\frac{c_{o}}{c_{aq}}
     \end{equation*}
-    \note[item]{Distribution coefficients can be reported
-      in terms of volume basis (weight per unit volume), or a
-      mass basis (mass of solute per unit mass of solute free
-      solvent)- usually reported on volume basis}
-  \item{Specific element to element}
-  \item{Vary widely with:\tss{\cite{stoller1961reactor}}}
     \begin{itemize}
-    \item{Composition of phases}
-    \item{Solution saturation}
-    \item{Temperature of the solvent}
+    \item{Specific element to element}
+    \item{Vary widely\tss{\cite{stoller1961reactor}}}
+    \item{The fraction of mass, $f_o$ deposited in the organic
+      phase, assuming a volume ratio between
+      the aqueous and organic phases, $V_R$, is:}
     \end{itemize}
-  \item{The fraction of mass, $f_o$ deposited in the organic
-    phase, assuming a volume ratio between
-    the aqueous and organic phases, $V_R$, is:}
     \begin{equation*}
       f_o=(1+D^{-1}V^{-1}_R)^{-1}
     \end{equation*}
-    \note[item]{Note not a function of density, even though
-      the two solutions have different densities, when solving for
-      this value it cancels out}
-    \note[item]{Solved this way to show, volume matters, and to give
-      me a more intuitive sense of where things are going}
   \end{itemize}
-
-  
 \end{frame}
 
 \note{
-      \begin{enumerate}
-      \item{Preparation for Dissolution}
-      \item{Dissolution}
-      \item{Preparation of Dissolved Feed}
-      \item{Primary Decontamination - Extraction to
-        organic\textsuperscript{\tiny{\AsteriskThin}}}
-      \item{Scrubbing}
-      \item{Plutonium Partition - Back-Extraction to
-        aqueous\textsuperscript{\tiny{\AsteriskThin}}}
-      \item{Plutonium Purification}
-      \end{enumerate}
+  \textbf{PUREX Process}
+  \begin{enumerate}
+  \item{Preparation for Dissolution}
+  \item{Dissolution}
+  \item{Preparation of Dissolved Feed}
+  \item{Primary Decontamination - Extraction to
+    organic\textsuperscript{\tiny{\AsteriskThin}}}
+  \item{Scrubbing}
+  \item{Plutonium Partition - Back-Extraction to
+    aqueous\textsuperscript{\tiny{\AsteriskThin}}}
+  \item{Plutonium Purification}
+  \end{enumerate}
+  \textbf{Distribution Coefficients (process depends on this)}
+  \begin{enumerate}
+  \item{Distribution coefficients can be reported
+      in terms of volume basis (weight per unit volume), or a
+      mass basis (mass of solute per unit mass of solute free
+      solvent)- usually reported on volume basis}
+  \item{Vary Widely with: Composition of phases, solution saturation, temperature of the solvent}
+  \item{Note: Not a function of desnity, even though the two solutions have different densities,
+    when solving for this value, it cancels out}
+  \item{Volume matters, Barnwell process has different volumes, more intuitive sense of things}
+  \end{enumerate}
 }
 
 
@@ -431,12 +429,11 @@
     \begin{column}{0.5\textwidth}
       \vspace{-10mm}
       \begin{itemize}
-      \item{Attribution for unpurified Pu has been previously studied
-        \tss{\cite{chirayath2015trace,scott2005nuclear,glaser2009isotopic}}}
-      \item{Interdicted Pu would likely have been processed}
       \item{Lack of literature on decontamination factors and
         distribution coefficients for useful forensic elements (Cs, Sb,
-        Eu, Rb, Sr, Nd, Pm, and Sm)} 
+        Eu, Rb, Sr, Nd, Pm, and Sm)}
+      \item{With a known process and D-values, DF values for individual elements can
+        be determined}
       \end{itemize}
     \end{column}
     \begin{column}{0.5\textwidth}
@@ -462,32 +459,84 @@
   \leftrightarrow UO_2(NO_3)_2\cdot2TBP_{(o)}$\tss{\cite{benedict1982nuclear}}
   $Pu^{4+}_{(aq)}+4NO^{-}_{3(aq)}+2TBP_{(o)}
   \leftrightarrow Pu(NO_3)_4\cdot 2TBP_{(o)}$
-  \note[item]{Most of the fission products are
+  \vspace{-3mm}
+  %% \begin{center}
+  %% \begin{tikzpicture}
+  %%   \node (img1) {\includegraphics[scale=0.5]{figures/Extraction}};
+  %%   \pause
+  %%   \node (img2) at (img1.north west) {\includegraphics[height=3cm]{figures/Extraction1}};
+  %%   \pause
+  %%   \node (img3) at (img1.north west) [yshift=1cm] {\includegraphics[height=3cm]{figures/Extraction2}};
+  %% \end{tikzpicture}
+  %% \end{center}
+  \begin{figure} \centering
+    \vspace*{0.1cm}
+    \begin{tikzpicture}[
+        every node/.style={anchor=south west,inner sep=0pt},
+        x=1mm, y=1mm,
+      ]
+      \node (fig1) at (0,0)
+            {\includegraphics[scale=0.5]{figures/Extraction}};
+      \pause
+      \node (fig2) at (30,5)
+            {\includegraphics[scale=0.6]{figures/Extraction1}};
+      \pause
+      \node (fig3) at (30,15)
+            {\includegraphics[scale=0.6]{figures/Extraction2}};      
+            
+    \end{tikzpicture}
+    \caption{Using Tikz Overlay}
+  \end{figure}
+  %% \begin{figure}[H]
+  %%   \vspace*{0.1cm}
+  %%   \begin{center}
+  %%     \includegraphics[scale = 0.5]{figures/Extraction}
+  %%   \end{center}
+  %% \end{figure}
+\end{frame}
+\note{
+  \begin{itemize}
+  \item{Most of the fission products are
     left in the aqueous solution
     at valence III and V states\tss{\cite{kok2009nuclear}}}
-  \vspace{-3mm}
-  \begin{figure}[H]
-    \vspace*{0.1cm}
-    \begin{center}
-      \includegraphics[scale = 0.5]{figures/Extraction}
-    \end{center}
-  \end{figure}
-\end{frame}
+  \end{itemize}
+}
 
 \begin{frame}{Back-Extraction}
   $Pu(NO_3)_4(TBP)_{2(o)}+Fe^{2+}_{(aq)}\leftrightarrow Pu^{3+}_{(aq)}+4NO^{-}_{3(aq)}+2TBP_{(o)}$\tss{\cite{konings2006chemistry}}
-  \note[item]{The fission products that contribute mostly
+  %% \begin{figure}[H]
+  %%   \vspace*{0.1cm}
+  %%   \begin{center}
+  %%     \includegraphics[scale = 0.5]{figures/Back_Extraction}
+  %%   \end{center}
+  %% \end{figure}
+  \begin{figure} \centering
+    \vspace*{0.1cm}
+    \begin{tikzpicture}[
+        every node/.style={anchor=south west,inner sep=0pt},
+        x=1mm, y=1mm,
+      ]
+      \node (fig1) at (0,0)
+            {\includegraphics[scale=0.5]{figures/Back_Extraction}};
+      \pause
+      \node (fig2) at (30,5)
+            {\includegraphics[scale=0.6]{figures/BackExtraction1}};
+      \pause
+      \node (fig3) at (30,15)
+            {\includegraphics[scale=0.6]{figures/BackExtraction2}};      
+            
+    \end{tikzpicture}
+    \caption{Using Tikz Overlay}
+  \end{figure} 
+\end{frame}
+\note{
+  \begin{itemize}
+  \item{The fission products that contribute mostly
     to the radioactive contamination of product in PUREX
     are zirconium, niobium, and ruthenium - with multiple
     oxidation states.}
-  \begin{figure}[H]
-    \vspace*{0.1cm}
-    \begin{center}
-      \includegraphics[scale = 0.5]{figures/Back_Extraction}
-    \end{center}
-  \end{figure}
-\end{frame}
-
+  \end{itemize}
+}
 
 %% \begin{frame}{Extraction and Back-extraction}
 %%   \begin{columns}
@@ -509,9 +558,6 @@
 %%   \end{columns}  
 %% \end{frame}
 
-\begin{frame}{Distribution Coefficients - The Missing link}
-
-\end{frame}
 
 \begin{frame}{Decontamination Factors - The Pot of gold}
   \begin{itemize}

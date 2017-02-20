@@ -1,0 +1,4 @@
+#!/bin/bash
+pdflatex BackExtraction1.tex
+firefox BackExtraction1.pdf &
+

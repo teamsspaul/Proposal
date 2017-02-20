@@ -1,4 +1,4 @@
 #!/bin/bash
-pdflatex FO.tex
-firefox FO.pdf &
+pdflatex BackExtraction2.tex
+firefox BackExtraction2.pdf &
 
