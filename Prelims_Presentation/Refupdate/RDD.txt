@@ -1,0 +1,8 @@
+﻿@phdthesis{RN118,
+   author = {Scott, Mark Robert},
+   title = {Nuclear forensics: attributing the source of spent fuel used in an RDD event},
+   university = {Texas A&M University},
+   year = {2005},
+   type = {Thesis}
+}
+
