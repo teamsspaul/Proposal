@@ -1,0 +1,12 @@
+﻿@book{RN208,
+   author = {Siddall, Thomas H. and Prout, W. E. and Parker, Sidney G. and Commission, U. S. Atomic Energy and Savannah River, Laboratory and Nemours, E. I. du Pont de and Company},
+   title = {Equilibrium distribution data for purex and similar extraction processes},
+   publisher = {E.I. du Pont de Nemours & Co., Explosives Dept., Atomic Energy Division, Technical Division, Savannah River Laboratory},
+   series = {DP ; 53},
+   pages = {27 p.},
+   url = {//catalog.hathitrust.org/Record/100392461
+http://hdl.handle.net/2027/mdp.39015086424887},
+   year = {1957},
+   type = {Book}
+}
+

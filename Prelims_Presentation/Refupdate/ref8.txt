@@ -1,0 +1,7 @@
+﻿@misc{RN177,
+   DOI= {10.2172/4341712},
+   url = {http://lib-ezproxy.tamu.edu:2048/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=edsstc&AN=4341712&site=eds-live},
+   year = {1957},
+   type = {Generic}
+}
+
