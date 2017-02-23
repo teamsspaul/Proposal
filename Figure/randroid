@@ -1,0 +1,4 @@
+#!/bin/bash
+pdflatex android.tex
+firefox android.pdf &
+

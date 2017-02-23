@@ -22,7 +22,7 @@
 \usepackage{bbding}
 \usepackage{fontenc}
 \usepackage{mathtools}
-
+\usepackage{bm}
 
 
 
@@ -76,7 +76,15 @@
   \end{centering}
 }
 
+%Without headline environment
+\makeatletter
+\newenvironment{withoutheadline}{
+  \setbeamertemplate{headline}[default]
+  \def\beamer@entrycode{\vspace*{-\headheight}}
+}{}
+\makeatother
 
+\usebackgroundtemplate{}
 
 %\let\Sun\undefined   %to undefine something
 %\usepackage{marvosym}
@@ -761,8 +769,70 @@
   \sectionpage
 \end{frame}
 
+
+%Frame wihout header (if you add the commented out part, the header comes back)
+{
+  \usebackgroundtemplate{}
+  \begin{withoutheadline}
+    \begin{frame}%{Analytical Procedure}
+      \begin{figure}[H]
+        \vspace{-3mm}
+        \begin{center}
+          \hspace*{-3mm}
+          \includegraphics[scale = 0.7]{figures/android.pdf}
+        \end{center}
+      \end{figure}    
+    \end{frame}      
+  \end{withoutheadline}
+}
+
+
+\begin{frame}{Analytical Procedure}
+  \begin{itemize}
+  \item{12.9$\pm$0.1 mg of DUO\tsbs{2} irradiated at HFIR}
+  \end{itemize}
+  \begin{equation*}
+    \frac{dn_i}{dt}=-\lambda_i^{eff}n_i+
+    \sum_{j=1}^{N}b_{j\rightarrow i}^{eff}n_j
+  \end{equation*}
+  \begin{equation*}
+    \lambda_i^{eff}=\lambda_i+\phi\sum_{j=1}^N\sigma_{i\rightarrow j}
+  \end{equation*}
+  \begin{equation*}
+    b_{j\rightarrow i}^{eff}=b_{j\rightarrow i}\lambda_j+
+      \sigma_{j\rightarrow i}\phi+\gamma_{j\rightarrow i}\sigma_{j,f}\phi
+  \end{equation*}
+  \begin{equation*}
+    \frac{d\vec{n}}{dt}=\bm{A}\vec{n}(t)\rightarrow\vec{n}=e^{\bm{A}t}\vec{n}_0
+  \end{equation*}
+  %% %The solution to this system is so obvious, I won't even write it down.
+  %% \begin{equation*}
+  %%   \vec{n}=e^{\bm{A}t}\vec{n}_0
+  %% \end{equation*}
+\end{frame}
+\note{
+  Production and loss depend on
+  \begin{itemize}
+  \item{Neutron Spectra}
+  \item{Fluence Rate}
+  \item{Cross Section Data}
+  \end{itemize}
+  Where $N$ is the number of nuclides and blah
+  $\gamma_{j\rightarrow i}\ \text{is the fission yield for isotope i from fission of isotope j}$.
+  $b_{j\rightarrow i}$ is the fraction of radioactive disintegration by nuclide $j$, which
+  leads to nuclide $i$. In the case of spontaneous fission $b_{j\rightarrow i}$ is the product
+  of spontenous fission fraction for nuclide $j$ and the yield for fission from nuclide $j$
+  producing nuclide $i$.
+    Where $\bm{A}$ is a matrix whose diagonal elements are
+  $[-\lambda_1^{eff},-\lambda_2^{eff},...,-\lambda_N^{eff}]$,
+  all off diagonal elements are
+  $b_{j\rightarrow i}^{eff}$ (i for the row, and j is
+  for the column) and $\vec{n}(t)=[n_1,n_2,...,n_N]$.
+  \textbf{Single Group Cross Section and flux}
+}
+
 \begin{frame}{Analytical Procedure - Burnup}
-  \begin{align*}
+  \begin{align*}    
     BU=&\frac{\text{Power[MW]}\cdot\text{days}}{m[HM]}\\
     =&\left[\frac{N^B}{N_0^{HM}}\right]\frac{N_AE_R}{\gamma_B}\cdot\frac{1}{M_0^{HM}}
   \end{align*}
