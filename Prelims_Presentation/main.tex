@@ -832,19 +832,35 @@
 }
 
 \begin{frame}{Analytical Procedure - Burnup}
-  \begin{align*}    
+  \begin{align*}
+    \begin{itemize}
+    \item{Burnup depends on}
+    \item{Calculated three ways}
+    \end{itemize}
     BU=&\frac{\text{Power[MW]}\cdot\text{days}}{m[HM]}\\
     =&\left[\frac{N^B}{N_0^{HM}}\right]\frac{N_AE_R}{\gamma_B}\cdot\frac{1}{M_0^{HM}}
   \end{align*}
+  \begin{itemize}
+  \item{Show plot of Cs137 and Nd148?}
+  \end{itemize}
 \end{frame}
 
 \begin{frame}{Analytical Procedure - Fluence Rate}
+  \begin{itemize}
+  \item{Flow to make Nd, maybe assumptions into Cs calculation}
+  \item{Show Nd Cross section}
+  \item{Assumptions before below calculation}
+  \end{itemize}
   \begin{equation*}
     \phi\approx\frac{\lambda_7}{\sigma_7\left(\frac{\gamma_7}{\gamma_8^*-\gamma_8}-1\right)}
   \end{equation*}
 \end{frame}
 
 \begin{frame}{Analytical Procedure - Initial Enrichment}
+  \begin{itemize}
+  \item{Heavy metal converts to heavier metal and to Fission products}
+  \item{Account for in Burnup, and mass in heavy metals}
+  \end{itemize}
   \begin{align*}
     \epsilon_0=\frac{N^{U238}(T)}{N_0^U}
     \left[\frac{N^{U235}(T)}{N^{U238}(T)}+\frac{N^{U236}(T)}{N^{U238}(T)}\right]+
@@ -853,6 +869,10 @@
 \end{frame}
 
 \begin{frame}{Analytical Procedure - Fuel Age}
+  \begin{itemize}
+  \item{Depends on solving bateman, with previous assumptions on burnup, $\phi$,
+    initial enrichment, fast to thermal ratios (calculate new 1000 x-sections)}
+  \end{itemize}
   \begin{equation*}
     t_d=-\frac{1}{\lambda}ln\left(\frac{N_\text{measured}}{N_{EOI}}\right)
   \end{equation*}
