@@ -7,10 +7,10 @@
 \beamer@sectionintoc {2}{Objectives}{17}{0}{2}
 \beamer@sectionintoc {3}{Present Status of the Question}{19}{0}{3}
 \beamer@sectionintoc {4}{Procedure}{21}{0}{4}
-\beamer@sectionintoc {5}{Current and Expected Results}{35}{0}{5}
-\beamer@subsectionintoc {5}{1}{Experiment}{36}{0}{5}
-\beamer@subsectionintoc {5}{2}{Mass Spectrometry}{40}{0}{5}
-\beamer@subsectionintoc {5}{3}{Gamma Spectroscopy Results}{42}{0}{5}
-\beamer@subsectionintoc {5}{4}{Gamma Spectroscopy Results}{43}{0}{5}
-\beamer@subsectionintoc {5}{5}{Future Work}{44}{0}{5}
-\beamer@sectionintoc {6}{Questions?}{47}{1}{6}
+\beamer@sectionintoc {5}{Current and Expected Results}{33}{0}{5}
+\beamer@subsectionintoc {5}{1}{Experiment}{34}{0}{5}
+\beamer@subsectionintoc {5}{2}{Mass Spectrometry}{38}{0}{5}
+\beamer@subsectionintoc {5}{3}{Gamma Spectroscopy Results}{40}{0}{5}
+\beamer@subsectionintoc {5}{4}{Gamma Spectroscopy Results}{41}{0}{5}
+\beamer@subsectionintoc {5}{5}{Future Work}{42}{0}{5}
+\beamer@sectionintoc {6}{Questions?}{45}{1}{6}
