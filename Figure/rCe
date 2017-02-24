@@ -1,0 +1,4 @@
+#!/bin/bash
+pdflatex CS.tex
+firefox CS.pdf &
+

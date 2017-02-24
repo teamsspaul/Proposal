@@ -776,10 +776,9 @@
   \begin{withoutheadline}
     \begin{frame}%{Analytical Procedure}
       \begin{figure}[H]
-        \vspace{-3mm}
+        %\vspace{-3mm}
         \begin{center}
-          \hspace*{-3mm}
-          \includegraphics[scale = 0.7]{figures/android.pdf}
+          \hbox{\hspace{2.5cm}\includegraphics[scale = 0.7]{figures/android.pdf}}
         \end{center}
       \end{figure}    
     \end{frame}      
@@ -832,66 +831,125 @@
 }
 
 \begin{frame}{Analytical Procedure - Burnup}
-  \begin{align*}
     \begin{itemize}
-    \item{Burnup depends on}
-    \item{Calculated three ways}
+    \item{Operational Parameter}
+    \item{Calculated:}
+      \begin{itemize}
+      \item{Specific heat calculation on working fluid}
+      \item{Number and isotopes that fission in the system}
+      \item{\textbf{burnup isotope indicator}}
+      \end{itemize}
     \end{itemize}
-    BU=&\frac{\text{Power[MW]}\cdot\text{days}}{m[HM]}\\
-    =&\left[\frac{N^B}{N_0^{HM}}\right]\frac{N_AE_R}{\gamma_B}\cdot\frac{1}{M_0^{HM}}
-  \end{align*}
-  \begin{itemize}
-  \item{Show plot of Cs137 and Nd148?}
-  \end{itemize}
+    \begin{align*}
+      BU=&\frac{\text{Power[MW]}\cdot\text{days}}{m[HM]}\\[10pt]
+      =&\left[\frac{N^B}{N_0^{HM}}\right]\frac{N_AE_R}{\gamma_B}\cdot\frac{1}{M_0^{HM}}
+    \end{align*}
+  %% \begin{itemize}
+  %% \item{Show plot of Cs137 and Nd148?}
+  %% \end{itemize}
 \end{frame}
+
+
+
+\begin{frame}{Back-Extraction}
+  \begin{figure} \centering
+    \vspace*{0.1cm}
+    \begin{tikzpicture}[
+        every node/.style={anchor=south west,inner sep=0pt},
+        x=1mm, y=1mm,
+      ]
+      \node (fig1) at (0,0)
+            {\includegraphics[scale=1]{figures/CS}};
+      \pause
+      \node (fig2) at (0,0)
+            {\includegraphics[scale=1]{figures/FO}};
+    \end{tikzpicture}
+  \end{figure} 
+\end{frame}
+
+
 
 \begin{frame}{Analytical Procedure - Fluence Rate}
   \begin{itemize}
-  \item{Flow to make Nd, maybe assumptions into Cs calculation}
-  \item{Show Nd Cross section}
-  \item{Assumptions before below calculation}
+  \item{Burnup Indicator assumptions}
+    \begin{itemize}
+    \item{Short lived precursors of same mass bin with small cross sections}
+    \item{\textbf{Small contributions from other mass bins}}
+    \item{\textit{Stable}}
+    \end{itemize}
   \end{itemize}
   \begin{equation*}
     \phi\approx\frac{\lambda_7}{\sigma_7\left(\frac{\gamma_7}{\gamma_8^*-\gamma_8}-1\right)}
   \end{equation*}
+  \begin{itemize}
+  \item{Assumptions:}
+    \begin{itemize}
+    \item{Build in can be described by constant $\phi$, single group x-sections}
+    \item{Constant fissionable material, $\sigma_a$ for \tss{148}Nd$\approx0$}
+    \item{Cumulative yeild instantly arrives at \tss{147}Nd}
+    \item{Utilizes a taylor series expansion}
+    \end{itemize}
+  \end{itemize}
 \end{frame}
 
-\begin{frame}{Analytical Procedure - Initial Enrichment}
+\begin{frame}{Analytical Procedure - Initial Enrichment and Fuel Age}
+  \textbf{Initial Enrichment}
   \begin{itemize}
   \item{Heavy metal converts to heavier metal and to Fission products}
   \item{Account for in Burnup, and mass in heavy metals}
+  \item{Solution assumes all higher actinides are built into the system from capture in \tss{238}U}
   \end{itemize}
   \begin{align*}
     \epsilon_0=\frac{N^{U238}(T)}{N_0^U}
     \left[\frac{N^{U235}(T)}{N^{U238}(T)}+\frac{N^{U236}(T)}{N^{U238}(T)}\right]+
     \frac{M_0^U}{N_AE_R}BU(T)-G^{238}\\-G^{239}-G^{240}-G^{241}
   \end{align*}
-\end{frame}
-
-\begin{frame}{Analytical Procedure - Fuel Age}
-  \begin{itemize}
-  \item{Depends on solving bateman, with previous assumptions on burnup, $\phi$,
-    initial enrichment, fast to thermal ratios (calculate new 1000 x-sections)}
-  \end{itemize}
+  \textbf{Fuel Age}
   \begin{equation*}
     t_d=-\frac{1}{\lambda}ln\left(\frac{N_\text{measured}}{N_{EOI}}\right)
   \end{equation*}
 \end{frame}
+\note{
+\textbf{Initial Enrichment}
+The first bracketed term corresponds to the final enrichment with reference to initial heavy metal – where initial heavy metal is previously solved for. The second term adds to the final enrichment the enrichment contribution from burn-up, where burn-up was previously solved for. The second term includes fissions from 238U, 239Pu, 240Pu, and 241Pu. In order to account for this, the additional  terms are added to subtract out their individual contribution.
+\textbf{Fuel Age}
+Solving bateman equations, with assumptions on burnup, $\phi$, initial enrichment, fast
+to thermal ratios (calculate 1000 x-sections)
+}
 
-\begin{frame}{Analytical Procedure - Fast-to-thermal ratio}
-  \begin{itemize}
-  \item{Iterative scheme}
-  \item{Recalculate the above with new x-sections}
-  \item{Cut off for thermal 0.5 ev, 100kev, 20MeV}
-  \end{itemize}
-\end{frame}
+
+%% \begin{frame}{Analytical Procedure - Fast-to-thermal ratio}
+%%   \begin{itemize}
+%%   \item{Iterative scheme}
+%%   \item{Recalculate the above with new x-sections}
+%%   \item{Cut off for thermal 0.5 ev, 100kev, 20MeV}
+%%   \end{itemize}
+%% \end{frame}
 
 
-\begin{frame}{Experimental Procedure - Chemistry Procedure}
-  \begin{itemize}
-  \item{Grab part of procedure from lab notebook, or grab a picture}
-  \end{itemize}
-\end{frame}
+%% \begin{frame}{Experimental Procedure - Chemistry Procedure}
+%%   \begin{itemize}
+%%   \item{Grab part of procedure from lab notebook, or grab a picture}
+%%   \end{itemize}
+%% \end{frame}
+
+{
+  \usebackgroundtemplate{}
+  \begin{withoutheadline}
+    \begin{frame}%{Analytical Procedure}
+      \begin{figure}[H]
+        %\vspace{-3mm}
+        \begin{center}
+          \includegraphics[scale = 0.22]{figures/Cycle_x3_round_2_extraction_2}
+        \end{center}
+      \end{figure}    
+    \end{frame}      
+  \end{withoutheadline}
+}
+
+
+
+
 
 \begin{frame}{Experimental Procedure - Mass Spectrometry}
   
