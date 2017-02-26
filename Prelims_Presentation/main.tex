@@ -409,7 +409,7 @@
 
 \begin{frame}{Chemical Context}
   %% background
-  \tikz[overlay, remember picture]\node[xshift=-1.7cm, yshift=6.5cm, opacity=1]at (current page.south east){\includegraphics[width=3cm]{figures/TBP2}};
+  \tikz[overlay, remember picture]\node[xshift=-3cm, yshift=3.4cm, opacity=1]at (current page.south east){\includegraphics[width=3.5cm]{figures/TBP2}};
   \begin{itemize}
   \item Plutonium Uranium Redox EXtraction (PUREX)
     \begin{itemize}
@@ -423,13 +423,13 @@
     \begin{equation*}
       D=\frac{c_{o}}{c_{aq}}
     \end{equation*}
-    \begin{itemize}
-    \item{Specific element to element}
-    \item{Vary widely\tss{\cite{stoller1961reactor}}}
-    \item{The fraction of mass, $f_o$ deposited in the organic
+    %\begin{itemize}
+    \item[\small\ding{226}]{\small Specific element to element}
+    \item[\small\ding{226}]{\small Vary widely\tss{\cite{stoller1961reactor}}}
+    \item[\small\ding{226}]{\small The fraction of mass, $f_o$ deposited in the organic
       phase, assuming a volume ratio between
       the aqueous and organic phases, $V_R$, is:}
-    \end{itemize}
+    %\end{itemize}
     \begin{equation*}
       f_o=(1+D^{-1}V^{-1}_R)^{-1}
     \end{equation*}
@@ -462,37 +462,6 @@
   \item{Volume matters, Barnwell process has different volumes, more intuitive sense of things}
   \end{enumerate}
 }
-
-
-\begin{frame}{Chemical Context}
-  \begin{columns}
-    \begin{column}{0.5\textwidth}
-      \vspace{-10mm}
-      \begin{itemize}
-      \item{Lack of literature on decontamination factors and
-        distribution coefficients for useful forensic elements (Cs, Sb,
-        Eu, Rb, Sr, Nd, Pm, and Sm)}
-      \item{With a known process and D-values, DF values for individual elements can
-        be determined}
-      \end{itemize}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-      \begin{figure}[H]
-        \vspace*{-1cm}
-        \begin{center}
-	  \includegraphics[scale = 0.5]{figures/Stoller}
-          \vspace{-0.5cm}
-           \caption{\tiny{Adapted from Stoller\tss{\cite{stoller1961reactor}}}}
-	\end{center}
-      \end{figure}
-    \end{column}
-  \end{columns}  
-\end{frame}
-
-
-\subsection{Background}
-
-
 
 \begin{frame}{Extraction}
   $UO_{2(aq)}^{2+}+2NO^{-}_{3(aq)}+2TBP_{(o)}
@@ -579,6 +548,94 @@
     oxidation states.}
   \end{itemize}
 }
+
+\begin{frame}{Chemical Context}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \vspace{-10mm}
+      \begin{itemize}
+      \item{Lack of literature on decontamination factors and
+        distribution coefficients for useful forensic elements (Cs, Sb,
+        Eu, Rb, Sr, Nd, Pm, and Sm)}
+      \item{With a known process and D-values, DF values for individual elements can
+        be determined}
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}[H]
+        \vspace*{-1cm}
+        \begin{center}
+          \includegraphics[scale = 0.5]{figures/Stoller}
+          \vspace{-0.5cm}
+           \caption{\tiny{Adapted from Stoller\tss{\cite{stoller1961reactor}}}}
+        \end{center}
+      \end{figure}
+      %% \begin{figure}[H]
+      %%   \vspace*{-1cm}
+      %%   \begin{center}
+      %%     \begin{tikzpicture}[
+      %%         every node/.style={anchor=south east,inner sep=0pt},
+      %%         x=1mm, y=1mm,
+      %%       ]
+      %%       \node (fig1) at (0,0)
+      %%             {\includegraphics[scale=0.5]{figures/Stoller}};
+      %%       \pause
+      %%       \node (fig2) at (0,0)
+      %%             {\includegraphics[scale=0.5]{figures/Stoller}};
+      %%     \end{tikzpicture}
+      %%     \vspace{-0.5cm}
+      %%     \caption{\tiny{Adapted from Stoller\tss{\cite{stoller1961reactor}}}}
+      %%   \end{center}
+      %% \end{figure}
+    \end{column}
+  \end{columns}  
+\end{frame}
+
+
+\begin{frame}{Chemical Context}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \vspace{-10mm}
+      \begin{itemize}
+      \item{Lack of literature on decontamination factors and
+        distribution coefficients for useful forensic elements (Cs, Sb,
+        Eu, Rb, Sr, Nd, Pm, and Sm)}
+      \item{With a known process and D-values, DF values for individual elements can
+        be determined}
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}[H]
+        \vspace*{-1cm}
+        \begin{center}
+          \includegraphics[scale = 0.55]{figures/Stoller2}
+          \vspace{-0.5cm}
+           \caption{\tiny{Adapted from Stoller\tss{\cite{stoller1961reactor}}}}
+        \end{center}
+      \end{figure}
+      %% \begin{figure}[H]
+      %%   \vspace*{-1cm}
+      %%   \begin{center}
+      %%     \begin{tikzpicture}[
+      %%         every node/.style={anchor=south east,inner sep=0pt},
+      %%         x=1mm, y=1mm,
+      %%       ]
+      %%       \node (fig1) at (0,0)
+      %%             {\includegraphics[scale=0.5]{figures/Stoller}};
+      %%       \pause
+      %%       \node (fig2) at (0,0)
+      %%             {\includegraphics[scale=0.5]{figures/Stoller}};
+      %%     \end{tikzpicture}
+      %%     \vspace{-0.5cm}
+      %%     \caption{\tiny{Adapted from Stoller\tss{\cite{stoller1961reactor}}}}
+      %%   \end{center}
+      %% \end{figure}
+    \end{column}
+  \end{columns}  
+\end{frame}
+
+\subsection{Background}
+
 
 %% \begin{frame}{Extraction and Back-extraction}
 %%   \begin{columns}
@@ -690,7 +747,7 @@
     \tss{147}Pm\tss{*},\tss{151}Sm\tss{*},\tss{154}Eu\tss{*},U\tss{*},Pu\tss{*} (Mass Spec)}
   \item[\tiny\notdone]{\tiny Convert all mass spec data to D-values}
   \end{itemize}
-\item[\notdone]{Collect DF-values for the process}
+\item[\notdone]{Collect DF-values for the process (and the two steps)}
   \begin{itemize}
   \item[\tiny\done]{\tiny Prepare alpha samples for each step (triplicate)}
   \item[\tiny\notdone]{\tiny Analyze alpha samples for each step}
@@ -713,7 +770,7 @@
   \item[\tiny\done]{\tiny Burnup}
   \item[\tiny\done]{\tiny Fluence Rate}
   \item[\tiny\done]{\tiny Initial Enrichment}
-  \item[\tiny\done]{\tiny Fuel Age}
+  \item[\tiny\done]{\tiny Decay Time}
   \item[\tiny\notdone]{\tiny Fast-to-thermal ratios (requires iteration)}
   \end{itemize}
 \item[\notdone]{\small Program a system to iteratively solve for these parameters
@@ -738,17 +795,10 @@
 \end{frame}
 
 
-
-\section{Present Status of the Question}
-\begin{frame}
-\sectionpage
-\end{frame}
-
-
-\begin{frame}
+\begin{frame}{Present Status of the Question}
   \begin{itemize}
   \item{Stable noble fission gases as burnup verification\tss{\cite{RN114}}}
-  \item{Determine burnup, enrichment, and fuel age from used fuel in a RDD\tss{\cite{RN118}}}
+  \item{Determine burnup, enrichment, and decay time from used fuel in a RDD\tss{\cite{RN118}}}
   \item{Analysis of purified plutonium isotopics for reactor type\tss{\cite{RN109}}}
   \item{PUREX co-processing DF values for U and Pu\tss{\cite{RN123}}}
   \item{PUREX D-values and DF values under numerous
@@ -758,7 +808,7 @@
     \item{Compilation of D-values for U, Th, and Pu\tss{\cite{RN208}}}
     \item{D-values for rare earths, Pu,
       Th\tss{\cite{RN168,RN181,RN182,RN186,RN179,RN180,RN187,RN185,RN183,RN189}}}
-    \item{Ga D-values\tss{\cite{RN189}}}
+    \item{Gd D-values\tss{\cite{RN189}}}
     \end{itemize}
   \end{itemize}
 \end{frame}
@@ -777,11 +827,16 @@
 
 
 
-%% \section{Procedure}
+\section{Methodology}
 %% \begin{frame}
 %%   \sectionpage
+%%   \subsectionpage
 %% \end{frame}
 
+\subsection{Mathematical methodology}
+\begin{frame}
+\subsectionpage
+\end{frame}
 
 %Frame wihout header (if you add the commented out part, the header comes back)
 {
@@ -861,10 +916,14 @@
   %% \item{Show plot of Cs137 and Nd148?}
   %% \end{itemize}
 \end{frame}
+\note{
+  \textbf{Prepare to defend equation}
+  \textbf{How do you know what the initial HM concentration is?}
+  \textbf{How do you know Mo for the HM?}
+  }
 
 
-
-\begin{frame}{Back-Extraction}
+\begin{frame}{Analytical Procedure - Burnup}
   \begin{figure} \centering
     \vspace*{0.1cm}
     \begin{tikzpicture}[
@@ -905,7 +964,7 @@
   \end{itemize}
 \end{frame}
 
-\begin{frame}{Analytical Procedure - Initial Enrichment and Fuel Age}
+\begin{frame}{Analytical Procedure - Initial Enrichment and Decay Time}
   \textbf{Initial Enrichment}
   \begin{itemize}
   \item{Heavy metal converts to heavier metal and to Fission products}
@@ -917,7 +976,7 @@
     \left[\frac{N^{U235}(T)}{N^{U238}(T)}+\frac{N^{U236}(T)}{N^{U238}(T)}\right]+
     \frac{M_0^U}{N_AE_R}BU(T)-G^{238}\\-G^{239}-G^{240}-G^{241}
   \end{align*}
-  \textbf{Fuel Age}
+  \textbf{Decay Time}
   \begin{equation*}
     t_d=-\frac{1}{\lambda}ln\left(\frac{N_\text{measured}}{N_{EOI}}\right)
   \end{equation*}
@@ -925,10 +984,15 @@
 \note{
 \textbf{Initial Enrichment}
 The first bracketed term corresponds to the final enrichment with reference to initial heavy metal – where initial heavy metal is previously solved for. The second term adds to the final enrichment the enrichment contribution from burn-up, where burn-up was previously solved for. The second term includes fissions from 238U, 239Pu, 240Pu, and 241Pu. In order to account for this, the additional  terms are added to subtract out their individual contribution.
-\textbf{Fuel Age}
+\textbf{Decay Time}
 Solving bateman equations, with assumptions on burnup, $\phi$, initial enrichment, fast
 to thermal ratios (calculate 1000 x-sections)
 }
+
+\subsection{Experimental Procedure}
+\begin{frame}
+\subsectionpage
+\end{frame}
 
 
 %% \begin{frame}{Analytical Procedure - Fast-to-thermal ratio}
@@ -982,6 +1046,11 @@ to thermal ratios (calculate 1000 x-sections)
     \end{column}
   \end{columns}  
 \end{frame}
+\note{
+  Talk about how we prepared samples, and analyzed data, they just ran it through the machine
+  we conditioned the samples
+}
+
 
 \begin{frame}{Experimental Procedure - Gamma Spectrometry}
   \begin{columns}
@@ -1080,11 +1149,12 @@ to thermal ratios (calculate 1000 x-sections)
 \end{frame}
 
 \begin{frame}{Experiments}
+  \textbf{Conditioned solutions with sodium nitrite (Pu\tss{6+}$\rightarrow$Pu\tss{4+})}
   \begin{itemize}
-  \item{Single stage extraction and back-extraction}
+  \item{Single contact extraction and back-extraction}
     \begin{itemize}
     \item{Purpose: quantify product recovery, D-values and DF values
-      for single stage extraction and back extraction}
+      for single contact extraction and back extraction}
     \item{Conditions:}
     \end{itemize}
   \end{itemize}
@@ -1126,15 +1196,16 @@ to thermal ratios (calculate 1000 x-sections)
    %{\fontsize{2.5}{4}\selectfont
   \begin{tabular}{l  c  c}\toprule
                 & Pu Recovery & U Recovery \\ \midrule \vspace{0.1cm}
-   Single stage         & (83.4$\pm$9.5)\% & (11.2$\pm$1.3)\% \\
-   Multi-contact Cycle 1 & (99.7$\pm$4.2)\% & (6.8$\pm$0.3)\% \\
-   Multi-contact Cycle 2 & (93.0$\pm$4.6)\% & (6.6$\pm$0.3)\% \\
+   Single contact        & (83.4$\pm$9.5)\% & (11.2$\pm$1.3)\% \\
+   Multi-contact Process 1 & (99.7$\pm$4.2)\% & (6.8$\pm$0.3)\% \\
+   Multi-contact Process 2 & (93.0$\pm$4.6)\% & (6.6$\pm$0.3)\% \\
    Overall Experiment 2 & (92.7$\pm$6.0)\% & (0.45$\pm$0.03)\% \\ \bottomrule
   \end{tabular}
   %}
   \end{center}
   \end{block}
 \end{frame}
+\note{Contact: One Extraction, one back-extraction}
 
 \begin{frame}{Mass Spectrometry Results}
   \vspace{-0.6cm}
@@ -1162,7 +1233,7 @@ to thermal ratios (calculate 1000 x-sections)
   \end{center}
   \end{block}
 \end{frame}
-
+\note{Why 177 to 52.9 on board}
 
 \begin{frame}{Previous Experiment Results}
   \begin{figure}[H]
@@ -1176,7 +1247,7 @@ to thermal ratios (calculate 1000 x-sections)
 \end{frame}
 
 \subsection{Gamma Spectroscopy Results}
-\begin{frame}{\small Gamma Spectroscopy Results: 4M HNO\tsbs{3}, 2mM U, 30\%vol.}
+\begin{frame}{\small Gamma Spectroscopy Results: 4M HNO\tsbs{3}, 2mM U, 30\%vol TBP}
 
   \begin{columns}
     \begin{column}{0.4\textwidth}
@@ -1186,7 +1257,7 @@ to thermal ratios (calculate 1000 x-sections)
       \vskip -0.2cm
   {\fontsize{7}{11.2}\selectfont
   \begin{tabular}{l  c  c}\toprule
-   Element (Z)  & D-value & Error\\ \midrule 
+   Element (Z)  & D-value & STD\\ \midrule 
    Ce & 0.04 & 0.01  \\
    Eu & 0.08  & 0.02   \\
    Ru & 0.04  & 0.02  \\
@@ -1209,7 +1280,6 @@ to thermal ratios (calculate 1000 x-sections)
   \end{columns}
 \end{frame}
 
-\subsection{Gamma Spectroscopy Results}
 \begin{frame}{\small Initial vs Final solutions (process)}
   \vspace{-0.6cm}
   \begin{block}{$c_{A,i}/c_{A,f}$ (Fission Products)}
@@ -1284,7 +1354,7 @@ to thermal ratios (calculate 1000 x-sections)
     \tss{147}Pm\tss{*},\tss{151}Sm\tss{*},\tss{154}Eu\tss{*},U\tss{*},Pu\tss{*} (Mass Spec)}
   \item[\tiny\notdone]{\tiny Convert all mass spec data to D-values}
   \end{itemize}
-\item[\notdone]{Collect DF-values for the process}
+\item[\notdone]{Collect DF-values for the process (and the two steps)}
   \begin{itemize}
   \item[\tiny\done]{\tiny Prepare alpha samples for each step (triplicate)}
   \item[\tiny\notdone]{\tiny Analyze alpha samples for each step}
@@ -1307,7 +1377,7 @@ to thermal ratios (calculate 1000 x-sections)
   \item[\tiny\done]{\tiny Burnup}
   \item[\tiny\done]{\tiny Fluence Rate}
   \item[\tiny\done]{\tiny Initial Enrichment}
-  \item[\tiny\done]{\tiny Fuel Age}
+  \item[\tiny\done]{\tiny Decay Time}
   \item[\tiny\notdone]{\tiny Fast-to-thermal ratios (requires iteration)}
   \end{itemize}
 \item[\notdone]{\small Program a system to iteratively solve for these parameters
