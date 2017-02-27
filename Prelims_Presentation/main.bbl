@@ -49,6 +49,11 @@ M~Benedict, H~Levi, and T~Pigford.
 \newblock Nuclear chemical engineering.
 \newblock {\em Nucl. Sci. Eng.;(United States)}, 82(4), 1982.
 
+\bibitem{kok2009nuclear}
+Kenneth~D Kok.
+\newblock {\em Nuclear engineering handbook}, volume~60.
+\newblock CRC Press, 2009.
+
 \bibitem{konings2006chemistry}
 RJM Konings, LR~Morss, J~Fuger, LR~Morss, NM~Edelstein, and J~Fuger.
 \newblock The chemistry of the actinide and transactinide elements.
@@ -178,10 +183,5 @@ Mathew~Wayne Swinney.
 \newblock {\em Experimental and Computational Assessment of Trace Nuclide
   Ratios in Weapons Grade Plutonium for Nuclear Forensics Analysis}.
 \newblock PhD thesis, 2015.
-
-\bibitem{kok2009nuclear}
-Kenneth~D Kok.
-\newblock {\em Nuclear engineering handbook}, volume~60.
-\newblock CRC Press, 2009.
 
 \end{thebibliography}
