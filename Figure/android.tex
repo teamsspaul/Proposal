@@ -36,7 +36,7 @@ It uses basic nodes and arrows and defines node styles.
     every node/.style={fill=white, font=\sffamily}, align=center]
   % Specification of nodes (position, etc.)
   \node (burnup)    [activityStarts]                {Determine Burnup};
-  \node (Fast)      [process, below of=burnup]      {Loop over Fast-to-Thermal Ratios and Determine};
+  \node (Fast)      [process, below of=burnup]      {Loop over Fast-to-Thermal Ratios and Determine:};
   \node (phi)       [process, below of=Fast]        {Determine $\phi$ (\tss{148}Nd)};
   \node (rich)      [process, below of=phi]         {Enrichment (Doyle)};
   \node (age)       [activityRuns, below of=rich]   {Fuel Age (\tss{154}Eu, \tss{106}Ru, \tss{144}Ce)};
@@ -66,8 +66,8 @@ It uses basic nodes and arrows and defines node styles.
   %\draw[->]     (ActivityEnds)  |- node [yshift=-2cm, text width=3.1cm]
   %                                  {User navigates back to the activity}
   %                                  (onCreateBlock);
-  \draw[->] (unity.east) -- ++(2,0) -- ++(0,5) -- ++(0,2) -- ++ (-1,0) --              
-     node[xshift=1.15cm,yshift=-2.7cm, text width=2cm]
-     {Perform Calculation again} (Fast.east);
+  \draw[->] (unity.east) -- ++(0.3,0) -- ++(0,5) -- ++(0,0.5) -- ++ (-1,0) --              
+     node[xshift=1.5cm,yshift=-2.7cm, text width=2cm]
+     {Calculate with next Fast-to-Thermal Ratio} (phi.east);
   \end{tikzpicture}
 \end{document}
