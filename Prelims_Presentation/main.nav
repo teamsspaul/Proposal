@@ -9,126 +9,126 @@
 \headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Motivation}}\headcommand {\beamer@subsectionpages {3}{2}}
 \headcommand {\slideentry {1}{1}{1}{3/3}{Motivation}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\slideentry {1}{1}{2}{5/5}{Motivation}{0}}
+\headcommand {\slideentry {1}{1}{2}{4/4}{Motivation}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{5}{Context}}\headcommand {\beamer@subsectionpages {3}{4}}
+\headcommand {\slideentry {1}{2}{1}{5/5}{Context}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{7}{Context}}\headcommand {\beamer@subsectionpages {3}{6}}
-\headcommand {\slideentry {1}{2}{1}{7/7}{Context}{0}}
+\headcommand {\slideentry {1}{2}{2}{6/6}{Context}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\slideentry {1}{2}{3}{7/7}{Context}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\slideentry {1}{2}{2}{10/10}{Context}{0}}
-\headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {1}{2}{3}{12/12}{Context}{0}}
-\headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {1}{2}{4}{14/14}{Context}{0}}
-\headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {1}{2}{5}{16/18}{Context}{0}}
-\headcommand {\beamer@framepages {16}{18}}
-\headcommand {\slideentry {1}{2}{6}{20/22}{Context}{0}}
-\headcommand {\beamer@framepages {20}{22}}
-\headcommand {\slideentry {1}{2}{7}{24/24}{Context}{0}}
+\headcommand {\slideentry {1}{2}{4}{8/8}{Context}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {1}{2}{5}{9/11}{Context}{0}}
+\headcommand {\beamer@framepages {9}{11}}
+\headcommand {\slideentry {1}{2}{6}{12/14}{Context}{0}}
+\headcommand {\beamer@framepages {12}{14}}
+\headcommand {\slideentry {1}{2}{7}{15/15}{Context}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {1}{2}{8}{16/16}{Context}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{17}{Background}}\headcommand {\beamer@subsectionpages {5}{16}}
+\headcommand {\slideentry {1}{3}{1}{17/17}{Background}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\sectionentry {2}{Objectives}{18}{Objectives}{0}}
+\headcommand {\beamer@sectionpages {3}{17}}
+\headcommand {\beamer@subsectionpages {17}{17}}
+\headcommand {\slideentry {2}{0}{1}{18/18}{}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\slideentry {2}{0}{1}{18/19}{}{0}}
+\headcommand {\beamer@framepages {18}{19}}
+\headcommand {\slideentry {2}{0}{2}{20/20}{}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\sectionentry {3}{Methodology}{21}{Methodology}{0}}
+\headcommand {\beamer@sectionpages {18}{20}}
+\headcommand {\beamer@subsectionpages {18}{20}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{21}{Mathematical methodology}}\headcommand {\beamer@subsectionpages {21}{20}}
+\headcommand {\slideentry {3}{1}{1}{21/21}{Mathematical methodology}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {3}{1}{2}{22/22}{Mathematical methodology}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\slideentry {3}{1}{3}{23/23}{Mathematical methodology}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\slideentry {3}{1}{4}{24/24}{Mathematical methodology}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\slideentry {1}{2}{8}{26/26}{Context}{0}}
-\headcommand {\beamer@framepages {26}{26}}
-\headcommand {\beamer@subsectionentry {0}{1}{3}{27}{Background}}\headcommand {\beamer@subsectionpages {7}{26}}
-\headcommand {\slideentry {1}{3}{1}{27/27}{Background}{0}}
+\headcommand {\slideentry {3}{1}{5}{25/26}{Mathematical methodology}{0}}
+\headcommand {\beamer@framepages {25}{26}}
+\headcommand {\slideentry {3}{1}{6}{27/27}{Mathematical methodology}{0}}
 \headcommand {\beamer@framepages {27}{27}}
-\headcommand {\sectionentry {2}{Objectives}{28}{Objectives}{0}}
-\headcommand {\beamer@sectionpages {3}{27}}
-\headcommand {\beamer@subsectionpages {27}{27}}
-\headcommand {\slideentry {2}{0}{1}{28/28}{}{0}}
+\headcommand {\slideentry {3}{1}{7}{28/28}{Mathematical methodology}{0}}
 \headcommand {\beamer@framepages {28}{28}}
-\headcommand {\slideentry {2}{0}{1}{28/29}{}{0}}
-\headcommand {\beamer@framepages {28}{29}}
-\headcommand {\slideentry {2}{0}{2}{30/30}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{29}{Experimental Procedure}}\headcommand {\beamer@subsectionpages {21}{28}}
+\headcommand {\slideentry {3}{2}{1}{29/29}{Experimental Procedure}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\slideentry {3}{2}{2}{30/30}{Experimental Procedure}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\sectionentry {3}{Methodology}{32}{Methodology}{0}}
-\headcommand {\beamer@sectionpages {28}{31}}
-\headcommand {\beamer@subsectionpages {28}{31}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{32}{Mathematical methodology}}\headcommand {\beamer@subsectionpages {32}{31}}
-\headcommand {\slideentry {3}{1}{1}{32/32}{Mathematical methodology}{0}}
+\headcommand {\slideentry {3}{2}{3}{31/31}{Experimental Procedure}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\slideentry {3}{2}{4}{32/32}{Experimental Procedure}{0}}
 \headcommand {\beamer@framepages {32}{32}}
-\headcommand {\slideentry {3}{1}{2}{33/33}{Mathematical methodology}{0}}
+\headcommand {\slideentry {3}{2}{5}{33/33}{Experimental Procedure}{0}}
 \headcommand {\beamer@framepages {33}{33}}
-\headcommand {\slideentry {3}{1}{3}{34/34}{Mathematical methodology}{0}}
+\headcommand {\sectionentry {4}{Current and Expected Results}{34}{Current and Expected Results}{0}}
+\headcommand {\beamer@sectionpages {21}{33}}
+\headcommand {\beamer@subsectionpages {29}{33}}
+\headcommand {\slideentry {4}{0}{1}{34/34}{}{0}}
 \headcommand {\beamer@framepages {34}{34}}
-\headcommand {\slideentry {3}{1}{4}{36/36}{Mathematical methodology}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{35}{Experiment}}\headcommand {\beamer@subsectionpages {34}{34}}
+\headcommand {\slideentry {4}{1}{1}{35/35}{Experiment}{0}}
+\headcommand {\beamer@framepages {35}{35}}
+\headcommand {\slideentry {4}{1}{2}{36/36}{Experiment}{0}}
 \headcommand {\beamer@framepages {36}{36}}
-\headcommand {\slideentry {3}{1}{5}{38/39}{Mathematical methodology}{0}}
-\headcommand {\beamer@framepages {38}{39}}
-\headcommand {\slideentry {3}{1}{6}{40/40}{Mathematical methodology}{0}}
+\headcommand {\slideentry {4}{1}{3}{37/37}{Experiment}{0}}
+\headcommand {\beamer@framepages {37}{37}}
+\headcommand {\slideentry {4}{1}{4}{38/38}{Experiment}{0}}
+\headcommand {\beamer@framepages {38}{38}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{39}{Mass Spectrometry}}\headcommand {\beamer@subsectionpages {35}{38}}
+\headcommand {\slideentry {4}{2}{1}{39/39}{Mass Spectrometry}{0}}
+\headcommand {\beamer@framepages {39}{39}}
+\headcommand {\slideentry {4}{2}{2}{40/40}{Mass Spectrometry}{0}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {3}{1}{7}{41/41}{Mathematical methodology}{0}}
+\headcommand {\slideentry {4}{2}{3}{41/41}{Mass Spectrometry}{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{43}{Experimental Procedure}}\headcommand {\beamer@subsectionpages {32}{42}}
-\headcommand {\slideentry {3}{2}{1}{43/43}{Experimental Procedure}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{42}{Gamma Spectroscopy Results}}\headcommand {\beamer@subsectionpages {39}{41}}
+\headcommand {\slideentry {4}{3}{1}{42/42}{Gamma Spectroscopy Results}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\slideentry {4}{3}{2}{43/43}{Gamma Spectroscopy Results}{0}}
 \headcommand {\beamer@framepages {43}{43}}
-\headcommand {\slideentry {3}{2}{2}{44/44}{Experimental Procedure}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{4}{44}{Future Work}}\headcommand {\beamer@subsectionpages {42}{43}}
+\headcommand {\slideentry {4}{4}{1}{44/44}{Future Work}{0}}
 \headcommand {\beamer@framepages {44}{44}}
-\headcommand {\slideentry {3}{2}{3}{45/45}{Experimental Procedure}{0}}
+\headcommand {\slideentry {4}{4}{2}{45/45}{Future Work}{0}}
 \headcommand {\beamer@framepages {45}{45}}
-\headcommand {\slideentry {3}{2}{4}{47/47}{Experimental Procedure}{0}}
-\headcommand {\beamer@framepages {47}{47}}
-\headcommand {\slideentry {3}{2}{5}{48/48}{Experimental Procedure}{0}}
-\headcommand {\beamer@framepages {48}{48}}
-\headcommand {\sectionentry {4}{Current and Expected Results}{49}{Current and Expected Results}{0}}
-\headcommand {\beamer@sectionpages {32}{48}}
-\headcommand {\beamer@subsectionpages {43}{48}}
-\headcommand {\slideentry {4}{0}{1}{49/49}{}{0}}
-\headcommand {\beamer@framepages {49}{49}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{50}{Experiment}}\headcommand {\beamer@subsectionpages {49}{49}}
-\headcommand {\slideentry {4}{1}{1}{50/50}{Experiment}{0}}
-\headcommand {\beamer@framepages {50}{50}}
-\headcommand {\slideentry {4}{1}{2}{51/51}{Experiment}{0}}
-\headcommand {\beamer@framepages {51}{51}}
-\headcommand {\slideentry {4}{1}{3}{52/52}{Experiment}{0}}
-\headcommand {\beamer@framepages {52}{52}}
-\headcommand {\slideentry {4}{1}{4}{53/53}{Experiment}{0}}
-\headcommand {\beamer@framepages {53}{53}}
-\headcommand {\beamer@subsectionentry {0}{4}{2}{54}{Mass Spectrometry}}\headcommand {\beamer@subsectionpages {50}{53}}
-\headcommand {\slideentry {4}{2}{1}{54/54}{Mass Spectrometry}{0}}
-\headcommand {\beamer@framepages {54}{54}}
-\headcommand {\slideentry {4}{2}{2}{56/56}{Mass Spectrometry}{0}}
-\headcommand {\beamer@framepages {56}{56}}
-\headcommand {\slideentry {4}{2}{3}{58/58}{Mass Spectrometry}{0}}
-\headcommand {\beamer@framepages {58}{58}}
-\headcommand {\beamer@subsectionentry {0}{4}{3}{59}{Gamma Spectroscopy Results}}\headcommand {\beamer@subsectionpages {54}{58}}
-\headcommand {\slideentry {4}{3}{1}{59/59}{Gamma Spectroscopy Results}{0}}
-\headcommand {\beamer@framepages {59}{59}}
-\headcommand {\slideentry {4}{3}{2}{60/60}{Gamma Spectroscopy Results}{0}}
-\headcommand {\beamer@framepages {60}{60}}
-\headcommand {\beamer@subsectionentry {0}{4}{4}{62}{Future Work}}\headcommand {\beamer@subsectionpages {59}{61}}
-\headcommand {\slideentry {4}{4}{1}{62/62}{Future Work}{0}}
-\headcommand {\beamer@framepages {62}{62}}
-\headcommand {\slideentry {4}{4}{2}{63/63}{Future Work}{0}}
-\headcommand {\beamer@framepages {63}{63}}
-\headcommand {\slideentry {4}{4}{2}{63/64}{Future Work}{0}}
-\headcommand {\beamer@framepages {63}{64}}
+\headcommand {\slideentry {4}{4}{2}{45/46}{Future Work}{0}}
+\headcommand {\beamer@framepages {45}{46}}
 \headcommand {\partentry {Appendix}{1}}
-\headcommand {\beamer@partpages {1}{64}}
-\headcommand {\beamer@sectionpages {49}{64}}
-\headcommand {\beamer@subsectionpages {62}{64}}
-\headcommand {\beamer@appendixpages {65}}
-\headcommand {\sectionentry {5}{Questions?}{65}{Questions?}{1}}
-\headcommand {\beamer@sectionpages {65}{64}}
-\headcommand {\beamer@subsectionpages {65}{64}}
-\headcommand {\slideentry {5}{0}{1}{65/65}{}{1}}
-\headcommand {\beamer@framepages {65}{65}}
-\headcommand {\sectionentry {6}{References}{66}{References}{1}}
-\headcommand {\beamer@sectionpages {65}{65}}
-\headcommand {\beamer@subsectionpages {65}{65}}
-\headcommand {\slideentry {6}{0}{0}{66/66}{}{1}}
-\headcommand {\beamer@framepages {66}{66}}
-\headcommand {\slideentry {6}{0}{0}{66/67}{}{1}}
-\headcommand {\beamer@framepages {66}{67}}
-\headcommand {\slideentry {6}{0}{0}{66/68}{}{1}}
-\headcommand {\beamer@framepages {66}{68}}
-\headcommand {\slideentry {6}{0}{0}{66/69}{}{1}}
-\headcommand {\beamer@framepages {66}{69}}
-\headcommand {\slideentry {6}{0}{0}{66/70}{}{1}}
-\headcommand {\beamer@framepages {66}{70}}
-\headcommand {\beamer@partpages {65}{70}}
-\headcommand {\beamer@subsectionpages {65}{70}}
-\headcommand {\beamer@sectionpages {65}{70}}
-\headcommand {\beamer@documentpages {70}}
+\headcommand {\beamer@partpages {1}{46}}
+\headcommand {\beamer@sectionpages {34}{46}}
+\headcommand {\beamer@subsectionpages {44}{46}}
+\headcommand {\beamer@appendixpages {47}}
+\headcommand {\sectionentry {5}{Questions?}{47}{Questions?}{1}}
+\headcommand {\beamer@sectionpages {47}{46}}
+\headcommand {\beamer@subsectionpages {47}{46}}
+\headcommand {\slideentry {5}{0}{1}{47/47}{}{1}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\sectionentry {6}{References}{48}{References}{1}}
+\headcommand {\beamer@sectionpages {47}{47}}
+\headcommand {\beamer@subsectionpages {47}{47}}
+\headcommand {\slideentry {6}{0}{0}{48/48}{}{1}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\slideentry {6}{0}{0}{48/49}{}{1}}
+\headcommand {\beamer@framepages {48}{49}}
+\headcommand {\slideentry {6}{0}{0}{48/50}{}{1}}
+\headcommand {\beamer@framepages {48}{50}}
+\headcommand {\slideentry {6}{0}{0}{48/51}{}{1}}
+\headcommand {\beamer@framepages {48}{51}}
+\headcommand {\slideentry {6}{0}{0}{48/52}{}{1}}
+\headcommand {\beamer@framepages {48}{52}}
+\headcommand {\beamer@partpages {47}{52}}
+\headcommand {\beamer@subsectionpages {47}{52}}
+\headcommand {\beamer@sectionpages {47}{52}}
+\headcommand {\beamer@documentpages {52}}
 \headcommand {\def \inserttotalframenumber {6}}
 \headcommand {\def \inserttotalframenumber {41}}
 \headcommand {\def \appendixtotalframenumber {6}}
