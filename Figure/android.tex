@@ -36,7 +36,8 @@ It uses basic nodes and arrows and defines node styles.
     every node/.style={fill=white, font=\sffamily}, align=center]
   % Specification of nodes (position, etc.)
   \node (burnup)    [activityStarts]                {Determine Burnup};
-  \node (Fast)      [process, below of=burnup]      {Loop over Fluence Ratios and Determine:};
+  \node (Fast)      [process, below of=burnup]      {Loop over normalized energy-dependent\\
+    neutron scalar fluxes and Determine:};
   \node (phi)       [process, below of=Fast]        {Determine $\phi$ (\tss{148}Nd)};
   \node (rich)      [process, below of=phi]         {Enrichment (Doyle)};
   \node (age)       [activityRuns, below of=rich]   {Fuel Age (\tss{154}Eu, \tss{106}Ru, \tss{144}Ce)};

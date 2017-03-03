@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.12)  27 FEB 2017 16:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.12)  2 MAR 2017 22:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -445,9 +445,9 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 40.
+(Font)              <7> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 40.
+(Font)              <5> on input line 41.
 
 [1
 
@@ -466,7 +466,7 @@ live/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on android.pdf (1 page, 43990 bytes).
+Output written on android.pdf (1 page, 44059 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
